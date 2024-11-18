@@ -1,0 +1,2283 @@
+"animal_id","species","sex","birth_type","litter_size","mother_father_same","age","month_born"
+"0002","Northern greater galago","M","wild",NA,NA,3.92876712328767,1
+"0003","Northern greater galago","M","captive",1,1,0.0164383561643836,7
+"0004","Northern greater galago","M","captive",1,1,5.93972602739726,4
+"0005","Northern greater galago","M","captive",1,1,15.4657534246575,8
+"0006","Northern greater galago","F","captive",1,1,13.5890410958904,3
+"0007","Northern greater galago","M","wild",NA,NA,7.54794520547945,1
+"0008","Northern greater galago","F","captive",1,1,5.37808219178082,7
+"0009","Northern greater galago","M","captive",1,1,10.3808219178082,9
+"0010","Northern greater galago","M","captive",1,1,13.4630136986301,5
+"0011","Northern greater galago","M","captive",1,1,4.62191780821918,10
+"0012","Northern greater galago","M","captive",1,1,3.59452054794521,5
+"0013","Northern greater galago","M","captive",1,1,6.17260273972603,12
+"0015","Northern greater galago","F","captive",1,1,6.3972602739726,6
+"0016","Northern greater galago","F","captive",1,1,3.21095890410959,5
+"0019","Northern greater galago","F","captive",1,NA,1.69315068493151,7
+"0020","Northern greater galago","M","captive",1,NA,0.120547945205479,7
+"0022","Northern greater galago","M","captive",1,NA,0.0191780821917808,5
+"0026","Northern greater galago","M","captive",1,NA,1.66575342465753,6
+"0027","Northern greater galago","M","captive",1,1,0.482191780821918,7
+"0028","Northern greater galago","F","captive",1,1,0.684931506849315,10
+"0030","Collared brown lemur","F","wild",NA,NA,5.55068493150685,10
+"0031","Collared brown lemur","M","captive",1,1,0,2
+"0033","Collared brown lemur","M","captive",1,1,0,2
+"0035","Eulemur hybrid","M","captive",1,0,0,4
+"0036","Eulemur hybrid","F","captive",1,0,0,3
+"0037","Eulemur hybrid","F","captive",1,0,0.172602739726027,4
+"0040","Eulemur hybrid","F","captive",1,0,0.241095890410959,5
+"0041","Eulemur hybrid","F","captive",1,0,0,5
+"0042","Eulemur hybrid","F","captive",1,0,0,2
+"0044","Red-fronted brown lemur","M","captive",2,1,0,3
+"0045","Red-fronted brown lemur","F","captive",2,1,0,3
+"0046","Eastern lesser bamboo lemur","M","wild",NA,NA,1.5013698630137,12
+"0063","Northern greater galago","M","captive",1,1,0,8
+"0064","Northern greater galago","F","captive",1,1,0,5
+"0066","Northern greater galago","M","captive",1,1,0,3
+"0069","Northern greater galago","M","captive",1,1,0,10
+"0074","Northern greater galago","M","captive",1,1,0,12
+"0202","Northern greater galago","M","wild",NA,NA,3.92876712328767,1
+"0203","Northern greater galago","M","captive",1,1,4.26849315068493,7
+"0251","Northern greater galago","F","wild",NA,NA,2.90684931506849,8
+"0252","Northern greater galago","F","wild",NA,NA,2.67945205479452,8
+"0259","Northern greater galago","M","wild",NA,NA,9.94520547945205,10
+"0265","Northern greater galago","M","captive",1,1,0.010958904109589,8
+"0270","Northern greater galago","F","captive",1,1,0.808219178082192,9
+"0276","Northern greater galago","M","captive",2,1,0.00273972602739726,5
+"0277","Northern greater galago","M","captive",2,1,3.61917808219178,5
+"0278","Northern greater galago","F","captive",1,1,0.178082191780822,7
+"0402","Northern greater galago","M","captive",NA,1,5.19452054794521,9
+"0404","Northern greater galago","F","captive",NA,1,1.85205479452055,9
+"0405","Northern greater galago","M","wild",NA,NA,4.67945205479452,7
+"0406","Northern greater galago","F","wild",NA,NA,4.81095890410959,9
+"0408","Northern greater galago","F","wild",NA,NA,6.21643835616438,9
+"0411","Northern greater galago","F","captive",1,1,4.39452054794521,3
+"0412","Northern greater galago","F","captive",1,1,2.93424657534247,4
+"0416","Northern greater galago","M","captive",1,1,3.40547945205479,6
+"0417","Northern greater galago","M","captive",1,1,0.70958904109589,9
+"0418","Northern greater galago","M","captive",1,1,2.81095890410959,6
+"0421","Northern greater galago","M","captive",1,NA,1.44109589041096,6
+"0424","Northern greater galago","M","captive",1,1,0.0191780821917808,1
+"0428","Northern greater galago","M","captive",1,1,0.189041095890411,5
+"0432","Northern greater galago","M","captive",1,1,0,1
+"0437","Northern greater galago","M","captive",2,1,0,8
+"0438","Northern greater galago","F","captive",2,1,0,8
+"0440","Northern greater galago","M","captive",2,1,0,10
+"0442","Northern greater galago","M","captive",2,1,0,7
+"0443","Northern greater galago","M","captive",2,1,0.00273972602739726,7
+"0446","Northern greater galago","F","captive",NA,NA,6.30684931506849,12
+"0448","Northern greater galago","F","captive",NA,NA,5.8,1
+"0461","Northern greater galago","F","captive",NA,NA,3.63013698630137,8
+"0463","Northern greater galago","M","captive",1,1,0.00273972602739726,6
+"0464","Northern greater galago","M","wild",NA,NA,15.1260273972603,6
+"0466","Northern greater galago","F","captive",1,1,0,6
+"0477","Northern greater galago","M","captive",1,1,0.0986301369863014,5
+"0478","Northern greater galago","F","captive",1,1,13.0109589041096,6
+"0481","Northern greater galago","M","captive",1,1,0.345205479452055,9
+"0483","Northern greater galago","M","captive",1,1,0.0684931506849315,5
+"0490","Northern greater galago","M","captive",1,1,0.00273972602739726,9
+"0494","Northern greater galago","M","captive",1,1,0,12
+"0495","Northern greater galago","M","captive",2,1,0.00821917808219178,5
+"0496","Northern greater galago","F","captive",2,1,0.123287671232877,5
+"0497","Northern greater galago","F","captive",1,1,0,5
+"1056","Mohol bushbaby","M","captive",NA,NA,10.6602739726027,2
+"1057","Mohol bushbaby","F","captive",NA,NA,10.5041095890411,3
+"1064","Mohol bushbaby","M","captive",1,1,0.0273972602739726,4
+"1068","Mohol bushbaby","M","captive",NA,NA,5.1041095890411,1
+"1070","Mohol bushbaby","F","captive",NA,NA,2.97808219178082,10
+"1072","Mohol bushbaby","F","captive",NA,NA,4.45753424657534,10
+"1073","Mohol bushbaby","M","captive",2,NA,5.04109589041096,9
+"1075","Mohol bushbaby","F","captive",2,1,0,1
+"1076","Mohol bushbaby","M","captive",1,1,0,1
+"1077","Mohol bushbaby","F","wild",NA,NA,2.0027397260274,3
+"1078","Mohol bushbaby","M","wild",NA,NA,7.09315068493151,3
+"1079","Mohol bushbaby","F","wild",NA,NA,8.46575342465753,3
+"1080","Mohol bushbaby","M","wild",NA,NA,5.18904109589041,3
+"1081","Mohol bushbaby","F","wild",NA,NA,4.5972602739726,3
+"1082","Mohol bushbaby","M","wild",NA,NA,4.91506849315068,3
+"1083","Mohol bushbaby","F","wild",NA,NA,4.82191780821918,3
+"1084","Mohol bushbaby","M","wild",NA,NA,4.82191780821918,3
+"1089","Mohol bushbaby","M","wild",NA,NA,6.21095890410959,3
+"1091","Mohol bushbaby","M","wild",NA,NA,7.04657534246575,3
+"1195","Mongoose lemur","F","wild",NA,NA,15.4630136986301,10
+"1300","Eastern lesser bamboo lemur","M","wild",NA,NA,9.86575342465753,12
+"1301","Eastern lesser bamboo lemur","F","wild",NA,NA,6.07397260273973,12
+"1302","Eastern lesser bamboo lemur","F","wild",NA,NA,9.99178082191781,12
+"1303","Eastern lesser bamboo lemur","M","captive",2,1,3.05753424657534,10
+"1304","Eastern lesser bamboo lemur","F","captive",2,1,0.00547945205479452,10
+"1305","Eastern lesser bamboo lemur","M","captive",1,NA,0.00273972602739726,10
+"1306","Eastern lesser bamboo lemur","M","captive",1,1,3.45753424657534,6
+"1307","Eastern lesser bamboo lemur","F","captive",1,1,23.3972602739726,6
+"1308","Eastern lesser bamboo lemur","M","captive",1,NA,0.00547945205479452,6
+"1309","Eastern lesser bamboo lemur","M","captive",NA,NA,10.1780821917808,4
+"1310","Eastern lesser bamboo lemur","M","captive",1,1,9.15890410958904,5
+"1311","Eastern lesser bamboo lemur","M","captive",1,1,14.7452054794521,6
+"1312","Eastern lesser bamboo lemur","M","wild",NA,NA,18.5205479452055,12
+"1313","Eastern lesser bamboo lemur","F","wild",NA,NA,20.7123287671233,12
+"1314","Eastern lesser bamboo lemur","F","wild",NA,NA,3.3041095890411,12
+"1315","Eastern lesser bamboo lemur","F","wild",NA,NA,13.1780821917808,12
+"1316","Eastern lesser bamboo lemur","M","captive",1,1,12.5616438356164,11
+"1317","Eastern lesser bamboo lemur","F","wild",NA,NA,1.95342465753425,12
+"1318","Eastern lesser bamboo lemur","M","wild",NA,NA,13.0493150684932,12
+"1319","Eastern lesser bamboo lemur","F","captive",1,1,0,11
+"1320","Eastern lesser bamboo lemur","F","captive",1,1,0.00273972602739726,2
+"1322","Eastern lesser bamboo lemur","F","wild",NA,NA,9.77534246575343,12
+"1323","Eastern lesser bamboo lemur","F","wild",NA,NA,1.75342465753425,12
+"1324","Eastern lesser bamboo lemur","M","wild",NA,NA,23.0301369863014,12
+"1325","Eastern lesser bamboo lemur","M","captive",1,1,0.010958904109589,11
+"1326","Eastern lesser bamboo lemur","F","captive",1,1,1.11232876712329,6
+"1327","Eastern lesser bamboo lemur","M","captive",1,1,10.2821917808219,4
+"1328","Eastern lesser bamboo lemur","F","captive",1,1,12.013698630137,4
+"1329","Eastern lesser bamboo lemur","F","captive",1,1,6.0958904109589,5
+"1330","Eastern lesser bamboo lemur","F","captive",1,1,15.6657534246575,4
+"1331","Eastern lesser bamboo lemur","F","captive",1,1,13.7616438356164,5
+"1336","Eastern lesser bamboo lemur","M","captive",1,1,7.13424657534247,5
+"1337","Eastern lesser bamboo lemur","F","captive",1,1,11.9835616438356,7
+"1338","Eastern lesser bamboo lemur","F","captive",1,1,10.9945205479452,5
+"1339","Eastern lesser bamboo lemur","F","captive",1,1,0.0273972602739726,7
+"1340","Eastern lesser bamboo lemur","F","captive",1,1,0.0246575342465753,8
+"1342","Eastern lesser bamboo lemur","F","captive",1,1,1.46575342465753,3
+"1343","Eastern lesser bamboo lemur","F","captive",2,1,0.00273972602739726,4
+"1344","Eastern lesser bamboo lemur","M","captive",2,1,0.00273972602739726,4
+"1345","Eastern lesser bamboo lemur","M","captive",1,1,9.9972602739726,5
+"1346","Eastern lesser bamboo lemur","M","captive",1,1,0.0136986301369863,5
+"1347","Eastern lesser bamboo lemur","M","captive",1,1,8.14794520547945,5
+"1352","Eastern lesser bamboo lemur","F","captive",1,1,18.5123287671233,3
+"1353","Eastern lesser bamboo lemur","F","captive",1,1,7.8,4
+"1354","Eastern lesser bamboo lemur","M","captive",1,1,10.8438356164384,5
+"1355","Eastern lesser bamboo lemur","M","captive",1,1,0.167123287671233,7
+"1358","Eastern lesser bamboo lemur","F","captive",1,1,16.241095890411,5
+"1359","Eastern lesser bamboo lemur","M","captive",1,1,12.9260273972603,3
+"1360","Eastern lesser bamboo lemur","F","captive",1,1,12.5479452054795,4
+"1362","Eastern lesser bamboo lemur","F","captive",2,1,0,5
+"1363","Eastern lesser bamboo lemur","F","captive",2,1,2.63561643835616,5
+"1364","Eastern lesser bamboo lemur","M","captive",2,1,0.00273972602739726,4
+"1365","Eastern lesser bamboo lemur","M","captive",2,1,0,4
+"1367","Eastern lesser bamboo lemur","F","captive",1,1,14.2958904109589,5
+"1368","Eastern lesser bamboo lemur","F","captive",1,1,0,8
+"1369","Eastern lesser bamboo lemur","F","captive",1,1,15.3205479452055,9
+"1370","Eastern lesser bamboo lemur","F","captive",1,1,18.8602739726027,10
+"1371","Eastern lesser bamboo lemur","M","captive",NA,1,11.4767123287671,1
+"1404","Northern greater galago","M","captive",1,1,0,10
+"1406","Northern greater galago","F","captive",2,1,0.641095890410959,11
+"1407","Northern greater galago","M","captive",1,1,0.00273972602739726,11
+"1409","Northern greater galago","M","captive",NA,NA,12.9917808219178,4
+"1412","Northern greater galago","F","captive",1,1,0.00821917808219178,3
+"1413","Northern greater galago","M","captive",1,1,7.2,3
+"1415","Northern greater galago","F","captive",2,1,0.0164383561643836,6
+"1419","Northern greater galago","F","captive",2,1,0,10
+"1420","Northern greater galago","F","captive",2,1,0.00273972602739726,10
+"1422","Northern greater galago","M","captive",1,1,0.00273972602739726,11
+"1423","Northern greater galago","M","captive",1,1,0.334246575342466,12
+"1424","Northern greater galago","M","captive",1,1,0.00273972602739726,1
+"1427","Northern greater galago","M","captive",1,1,0.0164383561643836,3
+"1428","Northern greater galago","M","captive",1,1,0,4
+"1436","Northern greater galago","F","captive",1,1,0,12
+"1444","Northern greater galago","F","captive",1,1,0.120547945205479,3
+"1445","Northern greater galago","F","captive",1,1,0.106849315068493,4
+"1459","Northern greater galago","F","captive",1,1,0,6
+"1471","Northern greater galago","F","captive",NA,NA,18.9068493150685,1
+"1478","Northern greater galago","F","captive",1,NA,0,7
+"1479","Northern greater galago","M","captive",1,1,0.0136986301369863,7
+"1501","Black-and-white ruffed lemur","M","wild",NA,NA,39.386301369863,10
+"1502","Eulemur hybrid","F","captive",1,0,7.74794520547945,5
+"1504","Red ruffed lemur","M","wild",NA,NA,7.86027397260274,10
+"1506","Black lemur","F","captive",1,1,0.0575342465753425,8
+"1507","Eulemur hybrid","M","captive",1,0,0.276712328767123,9
+"1508","Eulemur hybrid","M","captive",1,0,18.041095890411,10
+"1510","Ring-tailed lemur","F","captive",1,NA,17.9753424657534,1
+"1512","Red-fronted brown lemur","F","captive",1,1,20.4082191780822,3
+"1514","Eulemur hybrid","F","captive",2,0,11.6438356164384,3
+"1515","Black lemur","M","captive",1,1,0.526027397260274,3
+"1517","Black lemur","M","captive",1,1,5.59452054794521,3
+"1519","Eulemur hybrid","M","captive",2,NA,17.3780821917808,4
+"1521","Common brown lemur","M","captive",1,1,7.29041095890411,4
+"1523","Common brown lemur","M","captive",1,1,1.22191780821918,6
+"1524","Eulemur hybrid","F","captive",1,NA,0,8
+"1525","Red-fronted brown lemur","M","captive",1,1,12.372602739726,12
+"1527","Eulemur hybrid","M","captive",2,0,5.8986301369863,12
+"1528","Red-fronted brown lemur","F","captive",1,1,24.1123287671233,1
+"1529","Collared brown lemur","M","captive",2,1,0,1
+"1530","Collared brown lemur","M","captive",2,1,0,1
+"1531","Red-fronted brown lemur","F","captive",1,1,0,2
+"1534","Ring-tailed lemur","M","captive",1,1,0.0164383561643836,3
+"1536","Eulemur hybrid","M","captive",1,NA,1.74246575342466,4
+"1538","White-fronted brown lemur","F","captive",2,NA,0.00273972602739726,5
+"1539","White-fronted brown lemur","F","captive",2,NA,0.00273972602739726,5
+"1540","Varecia hybrid","F","captive",3,NA,0,5
+"1541","Varecia hybrid","F","captive",3,NA,0,5
+"1543","Varecia hybrid","F","captive",2,NA,0.00547945205479452,5
+"1544","Varecia hybrid","M","captive",2,NA,0.00547945205479452,5
+"1545","Eulemur hybrid","F","captive",2,NA,2.12328767123288,5
+"1546","Eulemur hybrid","M","captive",2,NA,0.202739726027397,5
+"1547","Black lemur","F","captive",1,1,0.0301369863013699,5
+"1550","Eulemur hybrid","F","captive",1,NA,9.02191780821918,2
+"1551","Eulemur hybrid","F","captive",1,NA,9.35342465753425,2
+"1553","Ring-tailed lemur","F","captive",1,NA,0.0575342465753425,3
+"1554","Eulemur hybrid","F","captive",1,NA,0,3
+"1555","Red-fronted brown lemur","M","captive",1,NA,0,3
+"1557","Red-fronted brown lemur","F","captive",1,NA,0.0986301369863014,3
+"1558","Eulemur hybrid","F","captive",1,NA,0,3
+"1559","Eulemur hybrid","F","captive",1,NA,29.3780821917808,3
+"1560","Common brown lemur","M","captive",1,1,0.235616438356164,3
+"1562","Eulemur hybrid","M","captive",1,NA,11.0246575342466,4
+"1566","Red-fronted brown lemur","M","captive",1,1,0,4
+"1567","Red-fronted brown lemur","M","captive",1,1,0,4
+"1571","Common brown lemur","F","captive",1,1,0.00547945205479452,4
+"1572","Eulemur hybrid","F","captive",1,NA,11.441095890411,4
+"1573","Collared brown lemur","F","captive",1,1,0.00547945205479452,4
+"1574","Eulemur hybrid","M","captive",1,NA,0.364383561643836,4
+"1578","Varecia hybrid","F","captive",3,0,12.4082191780822,5
+"1580","Eulemur hybrid","M","captive",1,1,4.27945205479452,5
+"1581","Black-and-white ruffed lemur","F","captive",2,1,12.6684931506849,5
+"1582","Black-and-white ruffed lemur","F","captive",2,1,11.9315068493151,5
+"1583","Eulemur hybrid","F","captive",1,NA,15.8630136986301,5
+"1584","Eulemur hybrid","M","captive",1,0,11.8767123287671,6
+"1587","Black lemur","M","captive",2,NA,4.55890410958904,7
+"1588","Eulemur hybrid","F","captive",1,0,0.00547945205479452,2
+"1589","Red-fronted brown lemur","F","captive",1,1,1.46027397260274,3
+"1591","Coquerel's sifaka","F","captive",1,1,1.88493150684932,12
+"1592","Coquerel's sifaka","M","captive",1,1,0.805479452054795,1
+"1593","Coquerel's sifaka","F","captive",1,1,0.452054794520548,2
+"1600","Fat-tailed dwarf lemur","F","captive",2,1,0.00273972602739726,7
+"1601","Fat-tailed dwarf lemur","M","captive",4,1,17.7041095890411,7
+"1602","Fat-tailed dwarf lemur","M","captive",4,1,13.7424657534247,7
+"1603","Fat-tailed dwarf lemur","M","captive",4,1,17.2164383561644,7
+"1604","Fat-tailed dwarf lemur","F","captive",4,1,20.5534246575342,7
+"1605","Fat-tailed dwarf lemur","M","captive",2,1,18.8465753424658,7
+"1606","Fat-tailed dwarf lemur","M","captive",2,1,10.7260273972603,7
+"1607","Fat-tailed dwarf lemur","M","captive",3,1,20.2465753424658,7
+"1609","Fat-tailed dwarf lemur","F","captive",3,1,22.6986301369863,7
+"1610","Fat-tailed dwarf lemur","F","captive",2,1,16.827397260274,8
+"1611","Fat-tailed dwarf lemur","M","captive",2,1,0,8
+"1612","Fat-tailed dwarf lemur","M","captive",2,1,20.4931506849315,6
+"1614","Fat-tailed dwarf lemur","M","captive",2,1,13.7369863013699,6
+"1615","Fat-tailed dwarf lemur","F","captive",2,1,17.9945205479452,6
+"1619","Fat-tailed dwarf lemur","F","captive",1,1,0,7
+"1620","Fat-tailed dwarf lemur","M","captive",4,1,1.29041095890411,7
+"1621","Fat-tailed dwarf lemur","M","captive",4,1,11.9780821917808,7
+"1622","Fat-tailed dwarf lemur","F","captive",4,1,11.4328767123288,7
+"1623","Fat-tailed dwarf lemur","F","captive",4,1,17.1671232876712,7
+"1626","Fat-tailed dwarf lemur","M","captive",1,1,17.9150684931507,7
+"1629","Fat-tailed dwarf lemur","F","captive",2,1,19.7397260273973,8
+"1630","Fat-tailed dwarf lemur","M","captive",3,1,8.32602739726027,9
+"1633","Fat-tailed dwarf lemur","M","captive",3,1,0,9
+"1634","Fat-tailed dwarf lemur","M","captive",3,1,15.1150684931507,9
+"1635","Fat-tailed dwarf lemur","F","captive",3,1,0.00821917808219178,9
+"1636","Fat-tailed dwarf lemur","M","captive",3,1,29.6219178082192,6
+"1637","Fat-tailed dwarf lemur","M","captive",3,1,9.54794520547945,6
+"1638","Fat-tailed dwarf lemur","F","captive",3,1,0.00273972602739726,6
+"1639","Fat-tailed dwarf lemur","M","captive",2,1,3.06301369863014,7
+"1641","Fat-tailed dwarf lemur","M","captive",3,1,21.3452054794521,7
+"1642","Fat-tailed dwarf lemur","M","captive",3,1,13.0191780821918,7
+"1643","Fat-tailed dwarf lemur","F","captive",3,1,9.5013698630137,7
+"1644","Fat-tailed dwarf lemur","F","captive",2,1,0.00547945205479452,7
+"1646","Fat-tailed dwarf lemur","M","captive",4,1,0.284931506849315,7
+"1647","Fat-tailed dwarf lemur","M","captive",4,1,16.8,7
+"1648","Fat-tailed dwarf lemur","M","captive",4,1,19.7397260273973,7
+"1653","Fat-tailed dwarf lemur","F","captive",4,1,21.4821917808219,7
+"1654","Fat-tailed dwarf lemur","F","captive",3,NA,13.0958904109589,7
+"1655","Fat-tailed dwarf lemur","F","captive",3,NA,19.7342465753425,7
+"1656","Fat-tailed dwarf lemur","F","captive",3,NA,24.0219178082192,7
+"1657","Fat-tailed dwarf lemur","M","captive",1,1,11.4739726027397,7
+"1661","Fat-tailed dwarf lemur","F","captive",3,1,18.4821917808219,7
+"1662","Fat-tailed dwarf lemur","F","captive",3,1,23.0356164383562,7
+"1663","Fat-tailed dwarf lemur","M","captive",3,NA,15.0438356164384,7
+"1666","Fat-tailed dwarf lemur","M","captive",2,1,20.1698630136986,8
+"1667","Fat-tailed dwarf lemur","M","captive",2,1,12.7369863013699,8
+"1669","Fat-tailed dwarf lemur","F","captive",4,1,9.78904109589041,8
+"1670","Fat-tailed dwarf lemur","F","captive",4,1,20.5506849315069,8
+"1671","Fat-tailed dwarf lemur","F","captive",4,1,13.1342465753425,8
+"1673","Fat-tailed dwarf lemur","F","captive",2,1,6.95616438356164,8
+"1675","Fat-tailed dwarf lemur","F","captive",NA,1,4.09315068493151,7
+"1678","Fat-tailed dwarf lemur","F","captive",NA,1,13.5534246575342,8
+"1679","Fat-tailed dwarf lemur","M","captive",1,1,20.4904109589041,5
+"1680","Fat-tailed dwarf lemur","M","captive",2,1,0.0547945205479452,6
+"1681","Fat-tailed dwarf lemur","F","captive",2,1,0.0219178082191781,6
+"1683","Fat-tailed dwarf lemur","M","captive",2,1,0.0438356164383562,7
+"1685","Fat-tailed dwarf lemur","M","captive",2,1,8.28219178082192,7
+"1690","Fat-tailed dwarf lemur","M","captive",3,1,0,7
+"1691","Fat-tailed dwarf lemur","M","captive",3,1,0,7
+"1692","Fat-tailed dwarf lemur","F","captive",3,1,0,7
+"1693","Fat-tailed dwarf lemur","M","captive",2,1,18.5972602739726,7
+"1694","Fat-tailed dwarf lemur","M","captive",2,1,0.00273972602739726,7
+"1695","Fat-tailed dwarf lemur","M","captive",2,1,2.9945205479452,7
+"1696","Fat-tailed dwarf lemur","M","captive",2,1,15.6547945205479,7
+"1697","Fat-tailed dwarf lemur","M","captive",3,1,7.72054794520548,7
+"1800","Gray mouse lemur","F","captive",3,1,9.77260273972603,6
+"1801","Gray mouse lemur","F","captive",3,NA,5.03561643835616,6
+"1802","Gray mouse lemur","F","captive",3,NA,4.3013698630137,6
+"1803","Gray mouse lemur","M","captive",3,NA,12.0164383561644,6
+"1804","Gray mouse lemur","F","captive",4,1,0.0602739726027397,7
+"1805","Gray mouse lemur","M","captive",4,1,13.3753424657534,7
+"1806","Gray mouse lemur","M","captive",4,1,5.95342465753425,7
+"1807","Gray mouse lemur","M","captive",4,1,0.0328767123287671,7
+"1809","Gray mouse lemur","F","captive",2,1,8.29041095890411,7
+"1810","Gray mouse lemur","M","captive",3,1,12.172602739726,7
+"1811","Gray mouse lemur","F","captive",3,1,10.7561643835616,7
+"1812","Gray mouse lemur","F","captive",3,1,10.0109589041096,7
+"1813","Gray mouse lemur","F","captive",3,1,8.7972602739726,7
+"1814","Gray mouse lemur","M","captive",3,1,10.4931506849315,7
+"1815","Gray mouse lemur","F","captive",3,1,6.35616438356164,7
+"1816","Gray mouse lemur","F","captive",1,1,4.76438356164384,7
+"1818","Gray mouse lemur","F","captive",2,1,7.5013698630137,8
+"1819","Gray mouse lemur","M","captive",3,NA,5.04109589041096,8
+"1820","Gray mouse lemur","M","captive",3,NA,5.00821917808219,8
+"1821","Gray mouse lemur","M","captive",3,NA,6.28767123287671,8
+"1822","Gray mouse lemur","M","captive",NA,NA,10.6767123287671,12
+"1823","Gray mouse lemur","M","captive",NA,NA,7.42739726027397,9
+"1824","Gray mouse lemur","M","captive",3,NA,9.26849315068493,5
+"1825","Gray mouse lemur","F","captive",3,NA,1.1041095890411,5
+"1826","Gray mouse lemur","F","captive",3,NA,8.36712328767123,5
+"1827","Gray mouse lemur","F","captive",1,1,0.0410958904109589,6
+"1828","Gray mouse lemur","M","captive",1,1,5.74246575342466,6
+"1829","Gray mouse lemur","M","captive",2,1,4.17808219178082,6
+"1830","Gray mouse lemur","F","captive",2,1,13.572602739726,6
+"1832","Gray mouse lemur","M","captive",3,1,10.8520547945205,7
+"1833","Gray mouse lemur","F","captive",3,1,8.90958904109589,7
+"1834","Gray mouse lemur","M","captive",2,1,9.43835616438356,7
+"1837","Gray mouse lemur","F","captive",3,1,12.986301369863,8
+"1839","Gray mouse lemur","M","captive",3,1,3.62739726027397,9
+"1840","Gray mouse lemur","M","captive",3,1,3.67397260273973,9
+"1841","Gray mouse lemur","F","captive",3,1,7.95342465753425,9
+"1842","Gray mouse lemur","M","captive",NA,NA,8.43013698630137,12
+"1843","Gray mouse lemur","M","captive",NA,NA,10.1369863013699,5
+"1844","Gray mouse lemur","M","captive",NA,NA,7.84109589041096,12
+"1845","Gray mouse lemur","M","captive",NA,NA,4.57260273972603,12
+"1846","Gray mouse lemur","M","captive",NA,1,0.832876712328767,9
+"1847","Gray mouse lemur","M","captive",2,1,0,6
+"1848","Gray mouse lemur","M","captive",2,1,0.671232876712329,6
+"1849","Gray mouse lemur","F","captive",1,NA,10.5424657534247,6
+"1851","Gray mouse lemur","F","captive",4,1,0.117808219178082,6
+"1852","Gray mouse lemur","F","captive",4,1,0.216438356164384,6
+"1853","Gray mouse lemur","F","captive",4,1,0.0164383561643836,6
+"1854","Gray mouse lemur","F","captive",1,1,11.1479452054795,6
+"1855","Gray mouse lemur","M","captive",3,1,0.175342465753425,7
+"1856","Gray mouse lemur","F","captive",3,1,10.2575342465753,7
+"1857","Gray mouse lemur","F","captive",3,1,10.2575342465753,7
+"1859","Gray mouse lemur","F","captive",2,1,8.17808219178082,7
+"1860","Gray mouse lemur","M","captive",3,1,15.1753424657534,7
+"1863","Gray mouse lemur","M","captive",3,NA,15.6054794520548,9
+"1864","Gray mouse lemur","M","captive",3,NA,6.58356164383562,9
+"1865","Gray mouse lemur","M","captive",3,NA,3.9013698630137,9
+"1868","Gray mouse lemur","F","captive",3,1,10.6301369863014,9
+"1869","Gray mouse lemur","M","captive",3,1,8.11232876712329,9
+"1870","Gray mouse lemur","M","captive",3,1,2.34520547945205,9
+"1871","Gray mouse lemur","F","captive",3,1,7.92602739726027,9
+"1874","Gray mouse lemur","M","captive",3,1,11.1260273972603,9
+"1875","Gray mouse lemur","F","captive",1,1,8.64383561643836,6
+"1876","Gray mouse lemur","M","captive",2,NA,11.4821917808219,6
+"1877","Gray mouse lemur","F","captive",2,NA,10.7150684931507,6
+"1878","Gray mouse lemur","M","captive",2,NA,8.08767123287671,6
+"1879","Gray mouse lemur","F","captive",2,NA,9.55068493150685,6
+"1880","Gray mouse lemur","M","captive",2,NA,9.42465753424658,6
+"1881","Gray mouse lemur","F","captive",2,NA,8.23287671232877,6
+"1882","Gray mouse lemur","M","captive",1,1,0.0246575342465753,6
+"1884","Gray mouse lemur","F","captive",3,1,12.5205479452055,7
+"1885","Gray mouse lemur","F","captive",3,1,1.90958904109589,7
+"1886","Gray mouse lemur","F","captive",2,1,4.7013698630137,8
+"1887","Gray mouse lemur","F","captive",2,1,10.5041095890411,8
+"1888","Gray mouse lemur","M","captive",4,1,6.77260273972603,8
+"1889","Gray mouse lemur","M","captive",4,1,8.23013698630137,8
+"1890","Gray mouse lemur","M","captive",4,1,5.79178082191781,8
+"1892","Gray mouse lemur","M","captive",1,NA,6.17808219178082,9
+"1894","Gray mouse lemur","M","captive",3,1,8.14520547945206,10
+"1895","Gray mouse lemur","F","captive",3,1,6.06849315068493,10
+"1896","Gray mouse lemur","M","captive",2,1,0.010958904109589,9
+"1897","Gray mouse lemur","F","captive",2,1,6.52328767123288,9
+"1901","Slow loris","F","captive",1,1,17.8054794520548,3
+"1902","Slender loris","F","captive",1,1,11.0602739726027,4
+"1903","Slow loris","F","captive",1,1,7.78356164383562,4
+"1904","Slender loris","M","captive",1,1,8.97808219178082,5
+"1905","Slender loris","M","captive",1,1,9.87123287671233,8
+"1906","Slender loris","M","captive",2,1,16.3534246575342,8
+"1907","Slender loris","F","captive",2,1,0.00547945205479452,8
+"1908","Slow loris","M","captive",NA,NA,6.64383561643836,2
+"1909","Slender loris","M","captive",1,1,19.8876712328767,1
+"1910","Slow loris","F","captive",1,1,0,2
+"1911","Slow loris","F","captive",1,1,7.19178082191781,3
+"1912","Slender loris","M","captive",1,1,15.6438356164384,4
+"1917","Slender loris","F","captive",1,1,12.3506849315068,7
+"1918","Slender loris","M","captive",1,1,15.841095890411,7
+"1920","Slow loris","M","captive",1,1,8.26575342465753,11
+"1921","Slender loris","F","captive",1,1,18.641095890411,12
+"1922","Slow loris","M","captive",1,1,0.0164383561643836,3
+"1923","Slender loris","M","captive",1,1,0.0575342465753425,3
+"1924","Slow loris","F","captive",NA,NA,18.0547945205479,4
+"1925","Pygmy slow loris","M","wild",NA,NA,6.48493150684931,4
+"1926","Pygmy slow loris","F","wild",NA,NA,7.10684931506849,4
+"1927","Pygmy slow loris","M","wild",NA,NA,15.0246575342466,4
+"1928","Pygmy slow loris","F","wild",NA,NA,9.04109589041096,4
+"1929","Pygmy slow loris","M","wild",NA,NA,11.1616438356164,4
+"1930","Pygmy slow loris","F","wild",NA,NA,15.5397260273973,4
+"1931","Pygmy slow loris","F","wild",NA,NA,5.12328767123288,4
+"1932","Pygmy slow loris","M","wild",NA,NA,14.3013698630137,4
+"1933","Pygmy slow loris","M","captive",NA,NA,11.4821917808219,2
+"1934","Slender loris","M","captive",1,1,0,4
+"1935","Slender loris","M","captive",1,1,0,5
+"1936","Slow loris","F","captive",1,1,14.4520547945205,6
+"1937","Slow loris","M","captive",1,1,19.2630136986301,7
+"1938","Pygmy slow loris","F","captive",2,1,2.72328767123288,1
+"1939","Pygmy slow loris","M","captive",2,1,0,1
+"1940","Slow loris","F","captive",1,1,13.558904109589,3
+"1942","Slow loris","F","captive",1,1,0.117808219178082,3
+"1943","Slender loris","F","captive",1,1,14.413698630137,4
+"1944","Slow loris","F","captive",1,1,0,6
+"1946","Slow loris","F","captive",1,1,18.1835616438356,6
+"1947","Slender loris","F","captive",1,1,13.4109589041096,6
+"1948","Slender loris","M","captive",1,1,21.5397260273973,6
+"1949","Slow loris","M","wild",NA,NA,15.8356164383562,1
+"1950","Slender loris","M","captive",1,1,4.35068493150685,7
+"1951","Pygmy slow loris","M","captive",2,1,4.36438356164384,11
+"1952","Pygmy slow loris","M","captive",2,1,12.0383561643836,11
+"1953","Slender loris","F","captive",1,1,3.32602739726027,2
+"1954","Slender loris","F","captive",1,1,0.00273972602739726,2
+"1955","Slow loris","M","captive",1,1,20.5150684931507,3
+"1956","Slow loris","M","captive",1,1,3.36986301369863,3
+"1958","Slow loris","F","captive",1,1,19.8301369863014,3
+"1959","Slow loris","M","captive",NA,NA,21.172602739726,4
+"1960","Slow loris","M","captive",NA,NA,22.1753424657534,4
+"1961","Slow loris","F","captive",1,1,7.38904109589041,4
+"1962","Slow loris","M","captive",1,1,10.6794520547945,6
+"1963","Slender loris","M","captive",1,1,6.02739726027397,7
+"1964","Slender loris","M","captive",1,1,9.86027397260274,8
+"1965","Slow loris","M","captive",1,1,0.0273972602739726,9
+"1966","Slender loris","M","captive",1,1,0.134246575342466,12
+"1968","Slow loris","M","captive",NA,1,0.00547945205479452,8
+"1969","Slow loris","M","captive",1,1,0.0849315068493151,2
+"1970","Slender loris","M","captive",1,1,8.83835616438356,2
+"1971","Slow loris","M","captive",1,1,13.8739726027397,4
+"1972","Slow loris","F","captive",1,1,10.013698630137,4
+"1973","Slender loris","F","captive",1,1,10.2739726027397,5
+"1974","Slender loris","F","captive",1,1,0,6
+"1975","Pygmy slow loris","M","captive",1,1,0.0136986301369863,6
+"1976","Slow loris","F","captive",1,1,4.36438356164384,7
+"1977","Slender loris","M","captive",1,1,13.4191780821918,8
+"1978","Slow loris","M","captive",1,1,17.2986301369863,8
+"1979","Pygmy slow loris","F","captive",1,1,0.00273972602739726,8
+"1980","Slender loris","F","captive",1,1,0.00273972602739726,8
+"1981","Slender loris","M","captive",1,1,18.4027397260274,1
+"1982","Slow loris","F","captive",1,1,9.87945205479452,2
+"1983","Pygmy slow loris","M","captive",2,1,11.5068493150685,3
+"1984","Pygmy slow loris","M","captive",2,1,1.71506849315068,3
+"1985","Slender loris","F","captive",1,1,0,5
+"1986","Slender loris","M","captive",1,1,1.34794520547945,6
+"1987","Slow loris","F","captive",1,1,15.0109589041096,7
+"1988","Slow loris","M","captive",NA,1,12.6301369863014,7
+"1989","Slender loris","F","captive",1,1,13.6493150684932,2
+"1991","Pygmy slow loris","F","wild",NA,NA,18.5506849315069,6
+"1992","Slender loris","M","captive",NA,1,17.8054794520548,3
+"1993","Slow loris","M","captive",1,1,18.6164383561644,12
+"1994","Slender loris","F","captive",1,1,1.57808219178082,3
+"1995","Slow loris","F","captive",1,1,11.3424657534247,3
+"1997","Slow loris","F","captive",1,1,1.53424657534247,5
+"1998","Slow loris","F","captive",1,1,20.213698630137,5
+"1999","Slender loris","F","captive",1,1,10.0465753424658,11
+"2000","Mohol bushbaby","M","wild",NA,NA,7.72328767123288,1
+"2001","Mohol bushbaby","F","wild",NA,NA,5.31506849315068,1
+"2003","Mohol bushbaby","F","wild",NA,NA,3.35068493150685,1
+"2006","Mohol bushbaby","F","wild",NA,NA,6.77808219178082,1
+"2007","Mohol bushbaby","M","wild",NA,NA,6.76164383561644,1
+"2010","Mohol bushbaby","F","wild",NA,NA,3.24383561643836,1
+"2013","Mohol bushbaby","F","wild",NA,NA,5.36438356164384,1
+"2014","Mohol bushbaby","F","wild",NA,NA,6.26575342465753,1
+"2015","Mohol bushbaby","F","wild",NA,NA,5.9013698630137,1
+"2016","Mohol bushbaby","F","wild",NA,NA,5.9013698630137,1
+"2018","Mohol bushbaby","F","wild",NA,NA,7.14794520547945,1
+"2023","Mohol bushbaby","F","captive",2,1,0.101369863013699,6
+"2024","Mohol bushbaby","F","captive",2,1,0.13972602739726,6
+"2025","Mohol bushbaby","F","captive",2,1,0,10
+"2026","Mohol bushbaby","M","captive",2,1,0,10
+"2027","Mohol bushbaby","F","captive",1,1,4.93424657534247,10
+"2028","Mohol bushbaby","M","captive",1,1,5.98630136986301,10
+"2031","Mohol bushbaby","F","captive",1,1,3.51506849315069,12
+"2039","Mohol bushbaby","M","captive",1,1,0.010958904109589,3
+"2045","Mohol bushbaby","M","captive",1,1,6.02465753424658,6
+"2046","Mohol bushbaby","M","captive",2,1,0.00273972602739726,6
+"2049","Mohol bushbaby","M","captive",1,1,0.0438356164383562,7
+"2051","Mohol bushbaby","M","captive",1,1,0,9
+"2054","Mohol bushbaby","F","captive",1,1,0.0164383561643836,10
+"2061","Mohol bushbaby","M","captive",2,1,4.64109589041096,12
+"2065","Mohol bushbaby","M","captive",2,1,0.00273972602739726,1
+"2066","Mohol bushbaby","M","captive",2,1,0.00273972602739726,1
+"2067","Mohol bushbaby","M","captive",2,1,3.05753424657534,2
+"2070","Mohol bushbaby","F","captive",2,1,3.03561643835616,2
+"2073","Mohol bushbaby","F","captive",1,1,0.0246575342465753,3
+"2074","Mohol bushbaby","M","captive",1,1,0.0438356164383562,3
+"2075","Mohol bushbaby","F","captive",1,1,0.0164383561643836,3
+"2076","Mohol bushbaby","F","captive",1,1,0.00547945205479452,4
+"2080","Mohol bushbaby","M","captive",2,1,0.0657534246575342,5
+"2081","Mohol bushbaby","M","captive",2,1,0.183561643835616,5
+"2086","Mohol bushbaby","F","captive",2,1,12.8849315068493,6
+"2087","Mohol bushbaby","M","captive",1,1,16.6383561643836,6
+"2089","Mohol bushbaby","F","captive",1,1,0.0383561643835616,7
+"2091","Mohol bushbaby","F","captive",1,1,3.9041095890411,8
+"2099","Mohol bushbaby","M","captive",2,1,0.0438356164383562,8
+"2300","Northern giant mouse lemur","M","captive",2,1,14.9068493150685,5
+"2301","Northern giant mouse lemur","F","captive",2,1,15.3178082191781,5
+"2302","Northern giant mouse lemur","F","captive",2,1,0,9
+"2303","Northern giant mouse lemur","F","captive",2,1,0.00273972602739726,9
+"2304","Northern giant mouse lemur","M","captive",NA,1,14.8630136986301,3
+"2305","Northern giant mouse lemur","F","captive",NA,NA,9.91232876712329,9
+"2306","Northern giant mouse lemur","F","captive",NA,1,16.3452054794521,4
+"2307","Northern giant mouse lemur","M","captive",2,1,13.172602739726,2
+"2308","Northern giant mouse lemur","F","captive",2,1,12.3424657534247,2
+"2309","Northern giant mouse lemur","F","captive",2,1,15.0684931506849,8
+"2310","Northern giant mouse lemur","M","captive",2,1,16.5178082191781,8
+"2313","Northern giant mouse lemur","F","captive",1,1,0.00273972602739726,3
+"2315","Northern giant mouse lemur","M","captive",NA,NA,12.6438356164384,10
+"2316","Northern giant mouse lemur","M","captive",NA,1,18.0575342465753,6
+"2317","Northern giant mouse lemur","M","captive",NA,1,8.85205479452055,8
+"2318","Northern giant mouse lemur","F","captive",NA,1,12.5780821917808,6
+"2319","Northern giant mouse lemur","M","captive",NA,1,13.8438356164384,9
+"2320","Northern giant mouse lemur","M","captive",2,1,0.00273972602739726,5
+"2321","Northern giant mouse lemur","M","captive",2,1,0.00547945205479452,5
+"2322","Northern giant mouse lemur","F","captive",NA,1,13.8876712328767,4
+"2323","Northern giant mouse lemur","M","captive",NA,1,12.8767123287671,8
+"2324","Northern giant mouse lemur","F","captive",NA,1,13.613698630137,2
+"2502","Ring-tailed lemur","M","captive",1,1,0.00273972602739726,3
+"2504","Ring-tailed lemur","F","captive",1,1,15.9041095890411,3
+"2506","Red-fronted brown lemur","F","captive",1,1,11.7808219178082,3
+"2508","Red-fronted brown lemur","M","captive",1,1,0.00547945205479452,3
+"2511","Eulemur hybrid","M","captive",1,1,14.3150684931507,4
+"2512","Eulemur hybrid","F","captive",1,NA,19.9890410958904,4
+"2513","Eulemur hybrid","M","captive",1,NA,0,4
+"2514","Collared brown lemur","M","captive",1,1,0,4
+"2515","Common brown lemur","M","captive",1,1,0.00547945205479452,4
+"2517","Eulemur hybrid","M","captive",1,1,28.827397260274,4
+"2518","Eulemur hybrid","F","captive",1,NA,19.4493150684931,4
+"2519","Eulemur hybrid","M","captive",1,NA,0,4
+"2521","Black-and-white ruffed lemur","M","captive",2,1,24.5972602739726,5
+"2522","Black-and-white ruffed lemur","M","captive",2,1,15.5205479452055,5
+"2523","Black lemur","F","captive",1,NA,12.813698630137,5
+"2524","Varecia hybrid","F","captive",2,NA,34.9287671232877,5
+"2526","Eulemur hybrid","M","captive",2,0,2.35068493150685,6
+"2528","Eulemur hybrid","M","captive",1,0,0,2
+"2529","Eulemur hybrid","F","captive",1,0,0,2
+"2530","Eulemur hybrid","M","captive",1,NA,3.02739726027397,2
+"2531","Eulemur hybrid","F","captive",1,NA,8.98356164383562,2
+"2533","Eulemur hybrid","F","captive",1,0,0,2
+"2534","Red-fronted brown lemur","F","captive",1,NA,5.73972602739726,3
+"2536","Red-fronted brown lemur","F","captive",1,1,0,3
+"2538","Red-fronted brown lemur","F","captive",1,NA,6.79178082191781,3
+"2540","Collared brown lemur","F","captive",1,1,19.5205479452055,3
+"2542","Ring-tailed lemur","F","captive",2,NA,13.8493150684932,3
+"2544","Ring-tailed lemur","M","captive",1,NA,18.2493150684931,4
+"2545","Eulemur hybrid","F","captive",2,1,0.00273972602739726,4
+"2546","Eulemur hybrid","M","captive",2,1,0.00273972602739726,4
+"2548","Black lemur","M","captive",2,1,18.6164383561644,4
+"2549","Black lemur","M","captive",2,1,13.5068493150685,4
+"2550","Eulemur hybrid","F","captive",2,NA,0,4
+"2551","Eulemur hybrid","F","captive",2,NA,0.00273972602739726,4
+"2552","Eulemur hybrid","M","captive",2,0,27.3232876712329,4
+"2555","Eulemur hybrid","M","captive",1,NA,2.19452054794521,4
+"2556","Varecia hybrid","F","captive",1,NA,0,4
+"2558","Eulemur hybrid","F","captive",2,NA,8.44383561643836,4
+"2559","Eulemur hybrid","F","captive",2,NA,3.40547945205479,4
+"2560","Black-and-white ruffed lemur","F","captive",2,1,32.1917808219178,5
+"2561","Black-and-white ruffed lemur","M","captive",2,1,25.7397260273973,5
+"2562","Varecia hybrid","F","captive",1,NA,0.00273972602739726,5
+"2563","Varecia hybrid","F","captive",2,NA,9.14794520547945,5
+"2564","Varecia hybrid","M","captive",2,NA,0.126027397260274,5
+"2565","Eulemur hybrid","M","captive",1,NA,14.9287671232877,5
+"2566","Eulemur hybrid","M","captive",1,NA,0,6
+"2567","Mongoose lemur","F","captive",NA,NA,23.4876712328767,4
+"2568","Mongoose lemur","M","captive",NA,NA,6.7013698630137,7
+"2570","Red-fronted brown lemur","F","captive",1,1,0.0356164383561644,7
+"2572","Mongoose lemur","M","captive",NA,NA,10.3534246575342,8
+"2573","Eulemur hybrid","M","captive",1,0,0.00273972602739726,8
+"2574","Common brown lemur","F","captive",NA,NA,35.9972602739726,4
+"2575","Common brown lemur","M","captive",1,1,0,2
+"2577","Eulemur hybrid","M","captive",1,0,0,3
+"2579","Eulemur hybrid","F","captive",1,NA,8.21369863013699,3
+"2580","Eulemur hybrid","M","captive",1,NA,0.167123287671233,3
+"2581","Black lemur","M","captive",2,1,0,3
+"2583","Ring-tailed lemur","F","captive",1,1,13.2794520547945,3
+"2584","Red-fronted brown lemur","M","captive",1,1,0,3
+"2585","Red-fronted brown lemur","F","captive",1,1,0.00273972602739726,3
+"2587","Eulemur hybrid","M","captive",2,1,0,3
+"2588","Eulemur hybrid","F","captive",2,1,0,3
+"26518","Northern greater galago","F","captive",NA,NA,4.02465753424658,11
+"2900","Slow loris","M","captive",1,1,13.2082191780822,2
+"2901","Pygmy slow loris","F","captive",1,1,19.2630136986301,3
+"2902","Slow loris","F","captive",1,1,11.1616438356164,3
+"2903","Pygmy slow loris","F","captive",2,1,0,4
+"2904","Pygmy slow loris","F","captive",2,1,0,4
+"2905","Pygmy slow loris","F","captive",NA,NA,13.3232876712329,2
+"2907","Pygmy slow loris","M","captive",2,1,14.5260273972603,2
+"2908","Pygmy slow loris","M","captive",2,1,15.5123287671233,2
+"2910","Slow loris","F","captive",NA,1,13.7534246575342,5
+"2912","Pygmy slow loris","M","captive",2,1,0.0136986301369863,4
+"2913","Pygmy slow loris","F","captive",2,1,3.37808219178082,4
+"2914","Slender loris","F","captive",1,1,17.2109589041096,10
+"2915","Pygmy slow loris","F","captive",NA,NA,14.5095890410959,6
+"2917","Pygmy slow loris","F","captive",1,1,0,9
+"2921","Pygmy slow loris","M","captive",2,1,10.186301369863,3
+"2922","Pygmy slow loris","M","captive",2,1,0.00273972602739726,3
+"2923","Pygmy slow loris","F","wild",NA,NA,19.8931506849315,12
+"2924","Pygmy slow loris","F","captive",NA,NA,6.67945205479452,12
+"2925","Slender loris","F","captive",NA,1,16.9315068493151,11
+"2926","Pygmy slow loris","M","wild",NA,NA,9.6958904109589,7
+"2927","Pygmy slow loris","F","captive",1,1,11.4109589041096,10
+"2928","Pygmy slow loris","M","captive",2,1,9.04931506849315,6
+"2929","Pygmy slow loris","F","captive",2,1,10.7643835616438,6
+"2930","Slender loris","M","captive",NA,NA,17.6739726027397,10
+"2934","Slender loris","F","captive",1,1,0,10
+"300","Mohol bushbaby","M","wild",NA,NA,3.4,8
+"300-A","Mohol bushbaby","F","wild",NA,NA,2.81369863013699,8
+"3001","Mohol bushbaby","M","captive",2,1,0.0465753424657534,8
+"3002","Mohol bushbaby","M","captive",1,1,0.175342465753425,9
+"3003","Mohol bushbaby","M","captive",1,1,0,9
+"3005","Mohol bushbaby","M","captive",2,1,0.147945205479452,10
+"3007","Mohol bushbaby","F","captive",2,1,0.898630136986301,11
+"3008","Mohol bushbaby","M","captive",2,1,0.0767123287671233,11
+"3009","Mohol bushbaby","M","captive",2,1,0.156164383561644,12
+"301","Mohol bushbaby","M","captive",1,1,6.88219178082192,11
+"3010","Mohol bushbaby","M","captive",2,1,0.0547945205479452,12
+"3011","Mohol bushbaby","F","captive",1,1,0.0164383561643836,12
+"3012","Mohol bushbaby","M","captive",1,1,2.82191780821918,1
+"3015","Mohol bushbaby","M","captive",1,1,0.271232876712329,3
+"3025","Mohol bushbaby","M","captive",2,1,0.0465753424657534,5
+"3026","Mohol bushbaby","M","captive",2,1,0.0246575342465753,5
+"3027","Mohol bushbaby","F","captive",2,1,0.010958904109589,5
+"3028","Mohol bushbaby","F","captive",1,1,0.0410958904109589,5
+"303","Mohol bushbaby","F","captive",1,1,3.36438356164384,5
+"3030","Mohol bushbaby","M","captive",2,1,0.0547945205479452,5
+"3037","Mohol bushbaby","M","captive",2,1,0.00821917808219178,8
+"3040","Mohol bushbaby","F","captive",1,1,0.0328767123287671,8
+"3042","Mohol bushbaby","M","captive",2,1,0,9
+"3043","Mohol bushbaby","M","captive",2,1,0,9
+"3054","Mohol bushbaby","M","captive",2,1,0.063013698630137,11
+"3060","Mohol bushbaby","F","captive",2,1,0.00273972602739726,2
+"3061","Mohol bushbaby","F","captive",2,1,0.00273972602739726,2
+"3069","Mohol bushbaby","F","captive",1,1,0.0246575342465753,3
+"307","Mohol bushbaby","F","captive",1,NA,0.665753424657534,8
+"3073","Mohol bushbaby","M","captive",1,1,0,4
+"3074","Mohol bushbaby","F","captive",1,1,0.0246575342465753,4
+"3075","Mohol bushbaby","F","captive",2,1,3.16438356164384,5
+"3077","Mohol bushbaby","M","captive",1,1,0.00821917808219178,5
+"308","Mohol bushbaby","M","captive",1,NA,0.0438356164383562,4
+"3080","Mohol bushbaby","M","captive",2,1,0.00273972602739726,5
+"3084","Mohol bushbaby","M","captive",1,1,8.30958904109589,7
+"3085","Mohol bushbaby","M","captive",1,1,0.0136986301369863,8
+"3090","Mohol bushbaby","M","captive",2,1,7.04383561643836,12
+"3092","Mohol bushbaby","F","captive",1,1,0.00547945205479452,1
+"3102","Mohol bushbaby","M","captive",2,1,0,5
+"3103","Mohol bushbaby","M","captive",2,1,0,5
+"3104","Mohol bushbaby","M","captive",2,NA,3.63835616438356,5
+"3107","Mohol bushbaby","F","captive",2,1,5.93972602739726,6
+"3108","Mohol bushbaby","M","captive",2,1,9.56164383561644,7
+"3109","Mohol bushbaby","M","captive",2,1,7.33424657534247,7
+"3112","Mohol bushbaby","F","captive",2,1,10.4493150684932,8
+"3113","Mohol bushbaby","F","captive",2,1,10.9123287671233,8
+"3115","Mohol bushbaby","M","captive",1,1,0.0219178082191781,9
+"3116","Mohol bushbaby","M","captive",1,1,0.0273972602739726,9
+"3118","Mohol bushbaby","M","captive",2,1,10.6301369863014,11
+"3119","Mohol bushbaby","F","captive",2,1,0.0164383561643836,12
+"312","Mohol bushbaby","M","captive",1,1,1.09041095890411,8
+"3120","Mohol bushbaby","F","captive",2,1,0.0383561643835616,12
+"3123","Mohol bushbaby","F","captive",1,1,0.819178082191781,2
+"3131","Mohol bushbaby","M","captive",2,1,5.23561643835616,5
+"3132","Mohol bushbaby","M","captive",2,1,0.0821917808219178,5
+"3133","Mohol bushbaby","F","captive",1,1,11.2383561643836,7
+"3135","Mohol bushbaby","F","captive",1,1,9.87123287671233,1
+"3138","Mohol bushbaby","F","captive",2,1,0.0356164383561644,1
+"3140","Mohol bushbaby","F","captive",2,1,1.67671232876712,2
+"3141","Mohol bushbaby","F","captive",2,1,9.64931506849315,2
+"3143","Mohol bushbaby","F","captive",2,1,14.0821917808219,2
+"3145","Mohol bushbaby","M","captive",2,NA,11.4328767123288,3
+"3146","Mohol bushbaby","F","captive",2,1,10.9534246575342,4
+"3147","Mohol bushbaby","F","captive",2,1,11.5013698630137,4
+"3148","Mohol bushbaby","F","captive",1,1,0,6
+"315","Northern giant mouse lemur","M","wild",NA,NA,17.9561643835616,8
+"3150","Mohol bushbaby","F","captive",2,1,0.715068493150685,10
+"3153","Mohol bushbaby","M","captive",1,1,10.6849315068493,3
+"3154","Mohol bushbaby","F","captive",2,1,8.58356164383562,7
+"3155","Mohol bushbaby","F","captive",2,1,7.70684931506849,7
+"3157","Mohol bushbaby","M","captive",2,1,0.00821917808219178,10
+"3158","Mohol bushbaby","F","captive",2,1,11.4219178082192,10
+"316","Northern giant mouse lemur","F","wild",NA,NA,5.61095890410959,8
+"3160","Mohol bushbaby","M","captive",1,1,0.402739726027397,4
+"3161","Mohol bushbaby","M","captive",1,1,10.3041095890411,5
+"3162","Mohol bushbaby","M","captive",2,1,7.68767123287671,9
+"3164","Mohol bushbaby","F","captive",2,1,1.0027397260274,10
+"3165","Mohol bushbaby","M","captive",2,1,0.504109589041096,10
+"3169","Mohol bushbaby","M","captive",1,1,0.00273972602739726,1
+"317","Northern giant mouse lemur","M","wild",NA,NA,7.09315068493151,8
+"3170","Mohol bushbaby","M","captive",2,1,6.81095890410959,5
+"3171","Mohol bushbaby","F","captive",2,1,14.4520547945205,5
+"3172","Mohol bushbaby","M","captive",1,1,10.441095890411,5
+"3173","Mohol bushbaby","F","captive",2,1,7.75890410958904,5
+"3174","Mohol bushbaby","M","captive",2,1,7.03013698630137,5
+"3175","Mohol bushbaby","M","captive",2,1,0,6
+"3176","Mohol bushbaby","M","captive",2,1,0,6
+"3177","Mohol bushbaby","F","captive",2,1,7.57534246575342,6
+"3178","Mohol bushbaby","M","captive",2,1,12.8438356164384,6
+"3179","Mohol bushbaby","M","captive",1,1,0,10
+"318","Northern giant mouse lemur","F","wild",NA,NA,19.972602739726,8
+"3181","Mohol bushbaby","M","captive",2,1,0,12
+"3182","Mohol bushbaby","F","captive",2,1,0,12
+"3183","Mohol bushbaby","F","captive",NA,NA,7.70958904109589,6
+"3184","Mohol bushbaby","M","captive",NA,NA,9.47945205479452,2
+"3185","Mohol bushbaby","M","captive",2,1,6.76164383561644,8
+"3186","Mohol bushbaby","F","captive",2,1,7.63561643835616,8
+"3187","Mohol bushbaby","M","captive",NA,NA,7.95616438356164,3
+"3188","Mohol bushbaby","M","captive",1,1,7.47123287671233,8
+"3189","Mohol bushbaby","F","captive",NA,NA,5.85479452054795,9
+"319","Northern giant mouse lemur","M","wild",NA,NA,16.0876712328767,8
+"3190","Mohol bushbaby","M","captive",NA,NA,4.9041095890411,2
+"320","Northern giant mouse lemur","F","wild",NA,NA,4.6027397260274,8
+"321","Northern giant mouse lemur","F","captive",2,NA,14.7315068493151,9
+"322","Northern giant mouse lemur","F","captive",2,NA,6.76712328767123,9
+"323","Northern giant mouse lemur","F","captive",2,1,14.9808219178082,3
+"325","Northern giant mouse lemur","M","captive",2,1,16.6027397260274,10
+"326","Northern giant mouse lemur","M","captive",2,1,17.5561643835616,10
+"327","Northern giant mouse lemur","F","captive",1,1,8.41917808219178,11
+"328","Northern giant mouse lemur","M","captive",2,1,9.04383561643836,6
+"329","Northern giant mouse lemur","F","captive",2,1,9.0958904109589,6
+"330","Northern giant mouse lemur","M","captive",2,1,9.45753424657534,7
+"331","Northern giant mouse lemur","M","captive",2,1,8.32876712328767,7
+"332","Northern giant mouse lemur","M","captive",2,1,0.00273972602739726,5
+"333","Northern giant mouse lemur","F","captive",2,1,13.0520547945205,5
+"334","Northern giant mouse lemur","M","captive",2,1,13.8054794520548,5
+"335","Northern giant mouse lemur","F","captive",2,1,6.91506849315068,5
+"336","Northern giant mouse lemur","M","captive",1,1,6.57808219178082,6
+"337","Northern giant mouse lemur","F","captive",2,1,15.4547945205479,6
+"338","Northern giant mouse lemur","F","captive",2,1,7.08493150684932,6
+"339","Northern giant mouse lemur","F","captive",1,1,10.9616438356164,6
+"340","Northern giant mouse lemur","M","captive",1,NA,5.02465753424658,4
+"343","Northern giant mouse lemur","F","captive",2,1,14.5479452054795,4
+"344","Northern giant mouse lemur","F","captive",2,1,16.3178082191781,4
+"345","Northern giant mouse lemur","F","captive",1,1,0,5
+"347","Northern giant mouse lemur","F","captive",2,1,8.44383561643836,7
+"348","Northern giant mouse lemur","F","captive",2,1,15.0767123287671,7
+"350","Northern giant mouse lemur","M","captive",2,1,12.0301369863014,8
+"3501","Red-fronted brown lemur","M","captive",1,1,0.00547945205479452,3
+"3502","Collared brown lemur","M","captive",1,1,0.00547945205479452,3
+"3503","Black lemur","M","captive",2,1,0.00821917808219178,3
+"3504","Black lemur","F","captive",2,1,16.758904109589,3
+"3508","Red-fronted brown lemur","M","captive",1,NA,15.3287671232877,4
+"351","Northern giant mouse lemur","F","captive",2,1,15.027397260274,8
+"3511","White-fronted brown lemur","M","captive",2,1,8.66849315068493,4
+"3513","Varecia hybrid","M","captive",3,NA,1.98630136986301,4
+"3515","Ring-tailed lemur","M","captive",2,1,12.6630136986301,4
+"3516","Ring-tailed lemur","M","captive",2,1,4.94246575342466,4
+"3518","Varecia hybrid","M","captive",2,NA,1.29041095890411,4
+"3519","Varecia hybrid","M","captive",2,NA,3.48767123287671,4
+"352","Northern giant mouse lemur","F","captive",2,1,13.0301369863014,8
+"3521","Black-and-white ruffed lemur","F","captive",2,NA,0,4
+"3522","Black-and-white ruffed lemur","F","captive",2,NA,0.00273972602739726,4
+"3523","Black-and-white ruffed lemur","M","captive",2,NA,23.1780821917808,4
+"3524","Black-and-white ruffed lemur","M","captive",2,NA,6.75342465753425,4
+"3526","Varecia hybrid","M","captive",1,NA,0,5
+"3527","Eulemur hybrid","M","captive",1,NA,0.00547945205479452,5
+"3528","Eulemur hybrid","M","captive",1,1,1.68767123287671,5
+"3529","Eulemur hybrid","M","captive",1,1,0,6
+"353","Northern giant mouse lemur","M","captive",2,1,7.93698630136986,9
+"3531","Collared brown lemur","M","wild",NA,NA,18.1260273972603,10
+"3533","Red-fronted brown lemur","M","captive",1,NA,17.7945205479452,8
+"3534","Eulemur hybrid","M","captive",1,1,0,1
+"3535","Ring-tailed lemur","M","captive",1,1,12.2876712328767,3
+"3536","Eulemur hybrid","F","captive",1,NA,0,3
+"3537","Red-fronted brown lemur","M","captive",1,1,0,3
+"354","Northern giant mouse lemur","F","captive",2,1,13.4630136986301,9
+"3541","Eulemur hybrid","F","captive",1,NA,0.265753424657534,3
+"3543","Collared brown lemur","F","captive",1,1,0.010958904109589,3
+"3544","Ring-tailed lemur","F","captive",2,1,26.1780821917808,3
+"3546","Ring-tailed lemur","M","captive",2,1,0.010958904109589,3
+"3548","Black lemur","M","captive",2,NA,0.405479452054795,3
+"3549","Black lemur","M","captive",2,NA,0.391780821917808,3
+"355","Northern giant mouse lemur","F","captive",1,1,0.00273972602739726,11
+"3552","Black lemur","F","captive",2,1,0,3
+"3553","Black lemur","M","captive",2,1,0,3
+"3554","Common brown lemur","M","captive",1,1,0.63013698630137,3
+"3555","Black lemur","M","captive",1,1,0.419178082191781,4
+"3556","Red-fronted brown lemur","M","captive",1,1,14.3835616438356,4
+"3557","Black-and-white ruffed lemur","F","captive",2,NA,11.2849315068493,4
+"3558","Black-and-white ruffed lemur","M","captive",2,NA,10.0191780821918,4
+"3559","Eulemur hybrid","F","captive",1,NA,2.2958904109589,4
+"3561","Eulemur hybrid","M","captive",1,NA,0.0136986301369863,4
+"3562","Red-fronted brown lemur","F","captive",1,NA,21.241095890411,4
+"3563","Black-and-white ruffed lemur","F","captive",2,1,29.358904109589,4
+"3564","Black-and-white ruffed lemur","M","captive",2,1,0.254794520547945,4
+"3565","Red-fronted brown lemur","M","captive",1,1,0.00547945205479452,4
+"3566","Eulemur hybrid","F","captive",1,NA,9.28493150684931,4
+"3567","Eulemur hybrid","F","captive",1,1,3.01095890410959,4
+"3568","Eulemur hybrid","M","captive",1,1,0,4
+"3569","Red ruffed lemur","M","captive",3,1,18.4739726027397,4
+"3570","Red ruffed lemur","F","captive",3,1,15.758904109589,4
+"3571","Red ruffed lemur","M","captive",3,1,10.4438356164384,4
+"3572","Varecia hybrid","F","captive",2,0,0,4
+"3574","Eulemur hybrid","M","captive",1,1,0.534246575342466,4
+"3577","Varecia hybrid","F","captive",3,NA,0.0164383561643836,4
+"3578","Eulemur hybrid","M","captive",1,0,16.0575342465753,4
+"358","Northern giant mouse lemur","M","captive",2,NA,10.3452054794521,4
+"3583","Varecia hybrid","F","captive",2,0,0.295890410958904,5
+"3586","Black-and-white ruffed lemur","F","captive",3,NA,28.8767123287671,5
+"3587","Black-and-white ruffed lemur","F","captive",3,NA,35.758904109589,5
+"3589","Eulemur hybrid","M","captive",2,NA,6.74520547945205,5
+"359","Northern giant mouse lemur","M","captive",2,1,11.6493150684932,4
+"3592","Ring-tailed lemur","F","captive",1,1,14.4301369863014,5
+"3593","Ring-tailed lemur","F","captive",1,1,0.0164383561643836,5
+"3595","Eulemur hybrid","F","captive",1,1,0.00821917808219178,6
+"3596","Black-and-white ruffed lemur","M","captive",NA,NA,1.72054794520548,4
+"3597","White-fronted brown lemur","M","captive",1,1,14.1753424657534,7
+"3599","Red-fronted brown lemur","F","captive",NA,NA,7.09041095890411,3
+"360","Northern giant mouse lemur","M","captive",2,1,15.5945205479452,4
+"3600","Fat-tailed dwarf lemur","M","captive",2,1,8.41643835616438,8
+"3601","Fat-tailed dwarf lemur","F","captive",2,1,0.00821917808219178,8
+"3605","Fat-tailed dwarf lemur","M","captive",3,1,0.345205479452055,7
+"3607","Fat-tailed dwarf lemur","F","captive",3,1,0.345205479452055,7
+"361","Northern giant mouse lemur","M","captive",1,1,0.00821917808219178,5
+"3611","Fat-tailed dwarf lemur","M","captive",3,1,16.627397260274,7
+"3612","Fat-tailed dwarf lemur","M","captive",3,1,12.3260273972603,7
+"3613","Fat-tailed dwarf lemur","F","captive",3,1,21.5506849315069,7
+"3614","Fat-tailed dwarf lemur","M","captive",1,1,12.8547945205479,7
+"3617","Fat-tailed dwarf lemur","F","captive",1,1,0,9
+"3619","Fat-tailed dwarf lemur","F","captive",1,1,22.2821917808219,8
+"362","Northern giant mouse lemur","F","captive",2,1,0.010958904109589,5
+"3620","Fat-tailed dwarf lemur","F","captive",1,1,20.3397260273973,7
+"3621","Fat-tailed dwarf lemur","M","captive",2,1,25.5452054794521,7
+"3622","Fat-tailed dwarf lemur","M","captive",2,1,8.9972602739726,7
+"3624","Fat-tailed dwarf lemur","M","captive",2,1,12.7397260273973,5
+"3626","Fat-tailed dwarf lemur","M","captive",NA,1,4.68767123287671,7
+"3627","Fat-tailed dwarf lemur","M","captive",NA,1,15.3369863013699,7
+"3629","Fat-tailed dwarf lemur","M","captive",NA,1,11.1369863013699,5
+"363","Northern giant mouse lemur","F","captive",2,1,11.9095890410959,5
+"3632","Fat-tailed dwarf lemur","F","captive",2,1,2.52876712328767,8
+"3633","Fat-tailed dwarf lemur","F","captive",2,1,16.7479452054795,8
+"3634","Fat-tailed dwarf lemur","F","captive",2,1,19.5972602739726,8
+"364","Northern giant mouse lemur","F","captive",1,1,10.6602739726027,6
+"3640","Fat-tailed dwarf lemur","F","captive",NA,NA,10.4876712328767,7
+"365","Northern giant mouse lemur","F","captive",2,1,13.7506849315069,6
+"366","Northern giant mouse lemur","M","captive",2,1,3.65205479452055,6
+"367","Northern giant mouse lemur","M","captive",2,1,16.6465753424658,6
+"368","Northern giant mouse lemur","F","captive",2,1,14.1095890410959,6
+"371","Northern giant mouse lemur","M","captive",1,1,2.64931506849315,7
+"372","Northern giant mouse lemur","F","captive",1,1,0,8
+"373","Northern giant mouse lemur","F","captive",2,1,5.51232876712329,9
+"374","Northern giant mouse lemur","F","captive",2,1,15.2,9
+"375","Northern giant mouse lemur","F","captive",1,1,0,9
+"376","Northern giant mouse lemur","M","captive",2,1,14.7424657534247,9
+"377","Northern giant mouse lemur","M","captive",2,1,17.3150684931507,9
+"378","Northern giant mouse lemur","M","captive",2,1,14.2465753424658,11
+"379","Northern giant mouse lemur","F","captive",2,1,10.6684931506849,11
+"380","Northern giant mouse lemur","F","captive",1,1,13.1178082191781,11
+"381","Northern giant mouse lemur","F","captive",1,1,0.00273972602739726,11
+"382","Northern giant mouse lemur","M","captive",2,1,9.59178082191781,1
+"383","Northern giant mouse lemur","M","captive",2,1,4.53150684931507,1
+"384","Northern giant mouse lemur","F","captive",1,1,0.00547945205479452,2
+"385","Northern giant mouse lemur","M","captive",2,1,0,4
+"386","Northern giant mouse lemur","M","captive",2,1,15.2931506849315,4
+"387","Northern giant mouse lemur","M","captive",2,1,12.9095890410959,4
+"389","Northern giant mouse lemur","M","captive",2,1,0.00273972602739726,5
+"390","Northern giant mouse lemur","M","captive",2,1,0.00547945205479452,5
+"391","Northern giant mouse lemur","M","captive",2,1,13.6,5
+"392","Northern giant mouse lemur","F","captive",2,1,9.20547945205479,5
+"393","Northern giant mouse lemur","F","captive",2,1,0,2
+"395","Northern giant mouse lemur","M","captive",1,1,4.3013698630137,6
+"397","Northern giant mouse lemur","F","captive",1,1,16.2849315068493,8
+"398","Northern giant mouse lemur","F","captive",2,1,0,3
+"399","Northern giant mouse lemur","F","captive",2,1,0,3
+"4501","Black-and-white ruffed lemur","M","wild",NA,NA,14.0657534246575,10
+"4502","Red-fronted brown lemur","F","wild",NA,NA,17.1753424657534,10
+"4503","Red-fronted brown lemur","M","wild",NA,NA,15.0931506849315,10
+"4504","Mongoose lemur","M","captive",NA,NA,30.772602739726,5
+"4505","Mongoose lemur","F","wild",NA,NA,3.83561643835616,10
+"4506","Red-fronted brown lemur","M","captive",NA,NA,8.2,4
+"4507","Red-fronted brown lemur","F","captive",NA,NA,16.7287671232877,2
+"4514","Ring-tailed lemur","M","captive",NA,NA,18.9041095890411,2
+"4515","Ring-tailed lemur","M","captive",NA,NA,15.1287671232877,11
+"4516","Crowned lemur","M","captive",NA,NA,23.2,10
+"4518","Ring-tailed lemur","M","captive",NA,NA,21.8931506849315,5
+"4519","Mongoose lemur","F","wild",NA,NA,13.0904109589041,10
+"4525","Crowned lemur","F","captive",NA,NA,25.7479452054795,7
+"4526","Crowned lemur","M","captive",NA,NA,5.71780821917808,7
+"4527","Red-fronted brown lemur","M","captive",1,1,18.9287671232877,2
+"4529","Eulemur hybrid","M","captive",2,NA,0,2
+"4530","Eulemur hybrid","F","captive",2,NA,0,2
+"4534","Ring-tailed lemur","F","captive",1,1,13.227397260274,3
+"4535","Ring-tailed lemur","M","captive",1,1,18.6520547945205,3
+"4536","Ring-tailed lemur","M","captive",1,1,21.3835616438356,3
+"4538","Common brown lemur","M","captive",NA,NA,29.7808219178082,5
+"4539","Black lemur","M","captive",NA,NA,14.9205479452055,12
+"4540","Ring-tailed lemur","F","captive",NA,NA,8.60547945205479,9
+"4542","Eulemur hybrid","M","captive",1,1,0,3
+"4545","Collared brown lemur","M","captive",1,1,17.3753424657534,4
+"4546","Red-fronted brown lemur","F","captive",1,1,12.3643835616438,4
+"4547","Red-fronted brown lemur","F","captive",1,1,8.10684931506849,4
+"4548","Black-and-white ruffed lemur","F","captive",2,NA,0,4
+"4549","Black-and-white ruffed lemur","F","captive",2,NA,26.2958904109589,4
+"4553","Eulemur hybrid","F","captive",2,0,17.0794520547945,4
+"4557","Eulemur hybrid","F","captive",1,0,0,4
+"4560","Eulemur hybrid","M","captive",1,1,23.4246575342466,4
+"4561","Black lemur","M","captive",2,1,3.23287671232877,4
+"4563","Eulemur hybrid","M","captive",3,0,0.687671232876712,4
+"4564","Eulemur hybrid","M","captive",3,0,4.29041095890411,4
+"4569","Black-and-white ruffed lemur","M","captive",4,1,21.1041095890411,4
+"4570","Black-and-white ruffed lemur","M","captive",4,1,11.4054794520548,4
+"4571","Black-and-white ruffed lemur","M","captive",4,1,8.65753424657534,4
+"4572","Black-and-white ruffed lemur","F","captive",4,1,4.58356164383562,4
+"4573","Eulemur hybrid","M","captive",2,0,8.0054794520548,4
+"4574","Eulemur hybrid","M","captive",2,0,5.78082191780822,4
+"4575","Red ruffed lemur","F","captive",1,1,21.5890410958904,5
+"4578","Red-fronted brown lemur","F","captive",1,1,0,5
+"4579","Eulemur hybrid","F","captive",1,1,6.64931506849315,5
+"4580","White-fronted brown lemur","M","captive",NA,NA,10.6301369863014,4
+"4582","Red-fronted brown lemur","F","captive",1,1,25.7780821917808,5
+"4584","Collared brown lemur","M","captive",2,1,4.65479452054795,5
+"4585","Common brown lemur","M","wild",NA,NA,21.0876712328767,10
+"4586","Black lemur","F","captive",1,1,18.0493150684932,5
+"4588","Eulemur hybrid","F","captive",2,0,0.0876712328767123,5
+"4590","Red ruffed lemur","M","wild",NA,NA,26.8575342465753,10
+"4591","Mongoose lemur","M","captive",1,1,0,6
+"4592","Crowned lemur","M","captive",NA,NA,18.441095890411,5
+"4593","White-fronted brown lemur","M","wild",NA,NA,2.84931506849315,6
+"4594","White-fronted brown lemur","F","wild",NA,NA,16.0849315068493,10
+"4596","Red-bellied lemur","M","captive",NA,NA,10.1315068493151,6
+"4597","Red-bellied lemur","F","wild",NA,NA,16.2328767123288,10
+"4598","Black-and-white ruffed lemur","M","captive",NA,NA,28.0438356164384,4
+"4599","Common brown lemur","M","captive",1,1,12.5205479452055,6
+"467","Northern greater galago","F","captive",NA,NA,18.3397260273973,6
+"501","Common brown lemur","M","wild",NA,NA,20.2712328767123,10
+"502","Common brown lemur","M","captive",1,1,16.8931506849315,2
+"503","Common brown lemur","F","captive",1,1,5.57808219178082,3
+"504","Common brown lemur","F","wild",NA,NA,5.56986301369863,10
+"505","Common brown lemur","M","captive",NA,NA,17.7315068493151,1
+"506","Common brown lemur","F","wild",NA,NA,20.0794520547945,10
+"507","Eulemur hybrid","F","captive",1,0,18.2712328767123,4
+"509","Common brown lemur","M","wild",NA,NA,34.4493150684931,10
+"510","Red-fronted brown lemur","F","wild",NA,NA,32.1835616438356,10
+"511","Red-fronted brown lemur","M","captive",1,1,7.62739726027397,3
+"512","Red-fronted brown lemur","M","captive",1,1,20.3945205479452,3
+"513","Red-fronted brown lemur","F","captive",1,1,5.77808219178082,4
+"514","Red-fronted brown lemur","F","captive",1,1,21.8876712328767,3
+"515","Red-fronted brown lemur","M","wild",NA,NA,25.1342465753425,10
+"516","Red-fronted brown lemur","M","wild",NA,NA,32.1616438356164,10
+"517","Eulemur hybrid","F","captive",1,0,0.347945205479452,3
+"518","Common brown lemur","F","captive",1,1,18.8931506849315,3
+"519","Red-fronted brown lemur","F","captive",1,1,19.3452054794521,3
+"520","Collared brown lemur","M","wild",NA,NA,22.4383561643836,10
+"521","Collared brown lemur","F","wild",NA,NA,32.613698630137,10
+"522","Red ruffed lemur","M","wild",NA,NA,10.227397260274,10
+"523","Red ruffed lemur","F","wild",NA,NA,26.8712328767123,10
+"524","Red ruffed lemur","F","wild",NA,NA,37.5424657534247,10
+"527","Ring-tailed lemur","M","wild",NA,NA,18.8219178082192,9
+"528","Ring-tailed lemur","F","wild",NA,NA,26.3808219178082,9
+"531","Common brown lemur","M","captive",1,1,0.336986301369863,1
+"532","Red-fronted brown lemur","F","captive",1,1,25.7424657534247,4
+"533","Eulemur hybrid","M","captive",1,0,0.194520547945205,5
+"534","Ring-tailed lemur","F","captive",1,1,19.986301369863,6
+"536","Ring-tailed lemur","F","captive",1,1,12.6328767123288,6
+"537","Black lemur","M","wild",NA,NA,11.9068493150685,10
+"538","Black lemur","F","wild",NA,NA,11.8986301369863,10
+"539","Black lemur","M","wild",NA,NA,11.9369863013699,10
+"540","Black lemur","F","wild",NA,NA,27.4191780821918,10
+"541","Red-fronted brown lemur","F","captive",1,1,28.9890410958904,3
+"542","Eulemur hybrid","M","captive",1,0,6.58356164383562,4
+"543","Red-fronted brown lemur","M","captive",1,1,8.36712328767123,4
+"544","Red ruffed lemur","F","captive",1,1,15.041095890411,4
+"545","Common brown lemur","F","captive",1,1,1.51780821917808,7
+"549","Eulemur hybrid","F","captive",1,0,25.5095890410959,4
+"550","Black lemur","F","captive",1,1,21.8630136986301,5
+"5501","Eulemur hybrid","M","captive",1,0,0,8
+"5506","Black-and-white ruffed lemur","M","captive",NA,NA,3.75616438356164,5
+"5510","Ring-tailed lemur","F","captive",1,NA,12.2082191780822,3
+"5512","Eulemur hybrid","F","captive",1,0,19.7260273972603,3
+"5513","Eulemur hybrid","M","captive",1,0,0.394520547945205,3
+"5514","Black lemur","M","captive",1,1,7.05479452054795,3
+"5515","Black lemur","F","captive",1,1,13.9178082191781,4
+"5516","Red-fronted brown lemur","F","captive",1,1,9.93972602739726,4
+"5517","Black lemur","F","captive",1,1,0,4
+"552","Sanford's brown lemur","F","wild",NA,NA,20.6191780821918,10
+"5520","White-fronted brown lemur","F","captive",4,1,0,4
+"5521","White-fronted brown lemur","M","captive",4,1,0,4
+"5523","White-fronted brown lemur","M","captive",4,1,9.72054794520548,4
+"5524","Eulemur hybrid","F","captive",1,0,2.46849315068493,4
+"5529","Red-fronted brown lemur","M","captive",1,1,25.3013698630137,4
+"553","White-fronted brown lemur","M","wild",NA,NA,26.0986301369863,10
+"5530","Eulemur hybrid","M","captive",1,0,11.0767123287671,4
+"5531","Crowned lemur","M","captive",2,1,16.8356164383562,4
+"5532","Crowned lemur","F","captive",2,1,20.3123287671233,4
+"5533","White-fronted brown lemur","F","captive",1,1,9.43561643835617,5
+"5534","Black-and-white ruffed lemur","M","captive",1,1,31.2794520547945,5
+"5535","Black-and-white ruffed lemur","F","captive",1,1,0,5
+"5536","Eulemur hybrid","M","captive",1,0,0.4,5
+"5538","Red ruffed lemur","M","captive",2,1,23.3232876712329,5
+"5539","Red ruffed lemur","F","captive",2,1,24.8082191780822,5
+"554","White-fronted brown lemur","F","wild",NA,NA,13.8520547945205,10
+"5540","Black-and-white ruffed lemur","M","captive",1,1,21.2986301369863,5
+"5541","Black-and-white ruffed lemur","F","captive",1,1,0,5
+"5542","Collared brown lemur","F","captive",1,1,1.64931506849315,5
+"5543","Black-and-white ruffed lemur","M","captive",2,1,30.7753424657534,5
+"5544","Black-and-white ruffed lemur","F","captive",2,1,15.1342465753425,5
+"5545","Red-fronted brown lemur","M","captive",1,1,1.3041095890411,5
+"5547","White-fronted brown lemur","F","captive",2,1,34.586301369863,5
+"5550","Eulemur hybrid","F","captive",2,0,0.104109589041096,5
+"5553","Eulemur hybrid","F","captive",2,0,0,6
+"5554","Eulemur hybrid","F","captive",2,0,4.17808219178082,6
+"5555","Mongoose lemur","F","captive",1,1,0,6
+"5557","Collared brown lemur","M","captive",1,1,18.2712328767123,6
+"5559","Black lemur","F","captive",NA,NA,15.627397260274,3
+"5560","Red ruffed lemur","M","captive",NA,NA,17.8630136986301,5
+"5561","Crowned lemur","F","captive",NA,NA,20.9643835616438,7
+"5567","Red-fronted brown lemur","M","captive",1,1,26.1534246575342,2
+"5569","Black lemur","M","captive",2,1,17.2520547945205,3
+"5570","Ring-tailed lemur","M","captive",2,1,0.00273972602739726,3
+"5571","Ring-tailed lemur","M","captive",2,1,0.00273972602739726,3
+"5572","Red-fronted brown lemur","M","captive",1,1,28.5890410958904,3
+"5573","Black lemur","M","captive",2,1,0,3
+"5574","Black lemur","M","captive",2,1,0.150684931506849,3
+"5576","Eulemur hybrid","M","captive",1,0,0.00821917808219178,3
+"5577","Red-fronted brown lemur","F","captive",1,1,3.88219178082192,3
+"5578","Ring-tailed lemur","F","captive",2,1,3.62465753424658,3
+"5579","Ring-tailed lemur","M","captive",2,1,0.0273972602739726,3
+"558","Eulemur hybrid","F","captive",1,0,0.128767123287671,3
+"5581","Black lemur","M","captive",NA,NA,17.8712328767123,4
+"5584","Black lemur","M","captive",1,NA,8.77808219178082,3
+"5586","Red ruffed lemur","M","captive",2,1,0,3
+"5587","Red ruffed lemur","F","captive",2,1,35.1041095890411,3
+"5591","Eulemur hybrid","M","captive",2,0,2.36438356164384,4
+"5592","Eulemur hybrid","F","captive",2,0,0.142465753424658,4
+"5596","Red-fronted brown lemur","F","captive",1,1,0.0383561643835616,4
+"5597","Collared brown lemur","F","captive",1,1,24.6246575342466,4
+"5601","Black-and-white ruffed lemur","F","captive",1,1,22.8904109589041,4
+"5602","Crowned lemur","M","captive",1,1,26.2383561643836,4
+"5603","Black-and-white ruffed lemur","M","captive",2,1,0,4
+"5604","Black-and-white ruffed lemur","M","captive",2,1,32.0958904109589,4
+"5605","White-fronted brown lemur","M","captive",2,1,4.58630136986301,4
+"5607","White-fronted brown lemur","M","captive",1,1,10.6575342465753,4
+"5608","Red-fronted brown lemur","M","captive",1,1,0,4
+"561","Collared brown lemur","M","captive",1,1,21.5315068493151,4
+"5612","Common brown lemur","M","captive",2,1,0,4
+"5614","Black-and-white ruffed lemur","F","captive",1,1,0,4
+"5615","Ring-tailed lemur","M","captive",NA,NA,26.5424657534247,4
+"5619","Eulemur hybrid","F","captive",1,1,0,4
+"5620","Eulemur hybrid","F","captive",1,0,24.0849315068493,4
+"5621","Common brown lemur","F","captive",1,1,0,5
+"5622","Black-and-white ruffed lemur","M","captive",2,1,2.9972602739726,5
+"5623","Black-and-white ruffed lemur","M","captive",2,1,12.0438356164384,5
+"5624","Black-and-white ruffed lemur","M","captive",3,1,13.3013698630137,5
+"5625","Black-and-white ruffed lemur","F","captive",3,1,20.2986301369863,5
+"5626","Black-and-white ruffed lemur","F","captive",3,1,16.7506849315069,5
+"5628","Varecia hybrid","F","captive",2,0,7.74794520547945,5
+"5629","Red ruffed lemur","M","captive",3,1,22,5
+"563","Eulemur hybrid","M","captive",2,0,22.2739726027397,4
+"5630","Red ruffed lemur","F","captive",3,1,10.9534246575342,5
+"5631","Red ruffed lemur","F","captive",3,1,1.3972602739726,5
+"5633","Eulemur hybrid","F","captive",2,0,0.126027397260274,5
+"5637","Red-fronted brown lemur","F","captive",1,1,0.00821917808219178,6
+"5638","Black lemur","M","captive",2,1,10.1342465753425,6
+"5640","Ring-tailed lemur","M","captive",2,1,21.213698630137,7
+"5641","Ring-tailed lemur","F","captive",2,1,4.86575342465753,7
+"5642","Black-and-white ruffed lemur","F","wild",NA,NA,16.386301369863,10
+"5643","Ring-tailed lemur","M","captive",NA,NA,15.6904109589041,3
+"5652","Black lemur","F","captive",1,1,17.7342465753425,3
+"5653","Black lemur","F","captive",1,1,0,3
+"5655","Ring-tailed lemur","M","captive",2,1,6.67397260273973,3
+"5656","Ring-tailed lemur","F","captive",2,1,6.4027397260274,3
+"5658","Ring-tailed lemur","F","captive",1,1,16.5013698630137,3
+"566","Black lemur","M","captive",1,1,24.6767123287671,4
+"5661","Black lemur","M","captive",1,1,11.0630136986301,3
+"5662","Black-and-white ruffed lemur","M","captive",NA,NA,3.88493150684931,4
+"5663","Black lemur","M","captive",1,1,26.2821917808219,3
+"5664","Common brown lemur","F","captive",1,1,0.0493150684931507,3
+"5667","Ring-tailed lemur","M","captive",2,NA,24.2547945205479,4
+"5669","Ring-tailed lemur","F","captive",2,NA,13.5260273972603,4
+"5671","Black-and-white ruffed lemur","M","captive",2,1,18.0027397260274,4
+"5672","Black-and-white ruffed lemur","F","captive",2,1,19.5917808219178,4
+"5673","Varecia hybrid","F","captive",1,0,0.756164383561644,4
+"5674","Ring-tailed lemur","M","captive",2,NA,0,4
+"5676","Ring-tailed lemur","M","captive",NA,1,14.4301369863014,3
+"5677","Red-fronted brown lemur","M","captive",1,1,2.84931506849315,4
+"5678","Black lemur","F","captive",1,1,13.441095890411,4
+"5679","Eulemur hybrid","F","captive",1,1,1.21917808219178,4
+"568","Black-and-white ruffed lemur","F","wild",NA,NA,35.6849315068493,10
+"5680","Black lemur","M","captive",2,1,13.8027397260274,4
+"5682","Black lemur","F","captive",2,1,0,4
+"5683","Crowned lemur","M","captive",2,1,18.3424657534247,4
+"5684","Crowned lemur","M","captive",2,1,0.063013698630137,4
+"5685","Black-and-white ruffed lemur","M","captive",1,1,13.6739726027397,4
+"5689","Red ruffed lemur","M","captive",3,1,13.8575342465753,5
+"569","Black-and-white ruffed lemur","F","wild",NA,NA,27.641095890411,10
+"5690","Red ruffed lemur","M","captive",3,1,0.0438356164383562,5
+"5691","Red ruffed lemur","F","captive",3,1,21.4767123287671,5
+"5692","Black-and-white ruffed lemur","F","captive",3,1,6.21643835616438,5
+"5693","Black-and-white ruffed lemur","F","captive",3,1,2.4027397260274,5
+"5694","Black-and-white ruffed lemur","M","captive",3,1,0,5
+"5695","Black-and-white ruffed lemur","F","captive",2,1,0,5
+"5696","Black-and-white ruffed lemur","F","captive",2,1,0,5
+"5697","Red ruffed lemur","M","captive",3,1,0.00273972602739726,5
+"5698","Red ruffed lemur","M","captive",3,1,18.9945205479452,5
+"5699","Red ruffed lemur","F","captive",3,1,5.75068493150685,5
+"570","Black-and-white ruffed lemur","F","wild",NA,NA,0.706849315068493,10
+"5700","Black-and-white ruffed lemur","F","captive",1,1,0.0301369863013699,5
+"5701","Coquerel's sifaka","F","wild",NA,NA,8.5041095890411,7
+"5702","Coquerel's sifaka","M","wild",NA,NA,10.0246575342466,7
+"5703","Coquerel's sifaka","F","wild",NA,NA,17.9205479452055,7
+"5704","Coquerel's sifaka","M","wild",NA,NA,7.63287671232877,7
+"5705","Coquerel's sifaka","F","wild",NA,NA,6.62465753424657,7
+"5706","Black-and-white ruffed lemur","M","captive",1,1,19.0027397260274,6
+"5707","Black lemur","M","captive",NA,NA,17.6520547945205,4
+"5708","Black lemur","F","captive",NA,NA,11.2986301369863,3
+"5709","Black lemur","F","captive",NA,NA,5.56986301369863,9
+"571","Common brown lemur","F","wild",NA,NA,23.213698630137,10
+"5710","Black-and-white ruffed lemur","F","wild",NA,NA,25.4465753424658,10
+"5711","Black-and-white ruffed lemur","F","wild",NA,NA,25.8821917808219,10
+"5712","Black-and-white ruffed lemur","M","captive",NA,NA,26.1643835616438,4
+"5713","Black-and-white ruffed lemur","M","captive",NA,NA,12.0821917808219,4
+"5714","Mongoose lemur","M","wild",NA,NA,23.3643835616438,10
+"5715","Mongoose lemur","F","wild",NA,NA,23.8602739726027,10
+"5716","Mongoose lemur","M","wild",NA,NA,27.1315068493151,10
+"5717","Mongoose lemur","F","wild",NA,NA,26.3479452054795,10
+"5718","Mongoose lemur","M","wild",NA,NA,30.827397260274,10
+"5719","Mongoose lemur","F","wild",NA,NA,25.6547945205479,10
+"572","White-fronted brown lemur","F","captive",1,NA,19.4876712328767,11
+"5720","Mongoose lemur","M","wild",NA,NA,36.2739726027397,10
+"5721","Mongoose lemur","F","wild",NA,NA,14.9013698630137,10
+"5722","Mongoose lemur","M","wild",NA,1,30.2246575342466,10
+"5723","Mongoose lemur","M","wild",NA,1,10.2630136986301,10
+"5724","Mongoose lemur","F","wild",NA,1,12.4027397260274,10
+"5728","Red-fronted brown lemur","M","captive",NA,NA,28.4657534246575,3
+"5729","Red-fronted brown lemur","M","captive",2,1,30.3232876712329,3
+"5730","Red-fronted brown lemur","F","captive",2,1,3.66301369863014,3
+"5731","Ring-tailed lemur","M","captive",1,1,0,3
+"5733","Ring-tailed lemur","M","captive",2,1,20.1972602739726,3
+"5734","Black lemur","M","captive",2,1,10.0767123287671,3
+"5735","Black lemur","M","captive",2,1,11.6383561643836,3
+"5737","Ring-tailed lemur","F","captive",1,NA,0.0767123287671233,3
+"5738","Ring-tailed lemur","M","captive",1,NA,3.15890410958904,3
+"5741","Black lemur","F","captive",2,1,2.12602739726027,3
+"5742","Black lemur","F","captive",2,1,22.2493150684931,3
+"5743","Black lemur","M","captive",2,1,18.6191780821918,3
+"5744","Black lemur","M","captive",2,1,13.1479452054795,3
+"5745","Ring-tailed lemur","F","captive",1,1,0,3
+"5746","Red-fronted brown lemur","F","captive",2,1,2.1013698630137,3
+"5748","Black lemur","M","captive",2,1,0,3
+"5749","Black lemur","F","captive",2,1,0,3
+"575","Eulemur hybrid","F","captive",2,NA,0.00273972602739726,1
+"5750","Ring-tailed lemur","M","captive",1,1,17.2849315068493,3
+"5752","Black lemur","M","captive",1,1,5.63287671232877,4
+"5753","Varecia hybrid","M","captive",2,0,7.05753424657534,4
+"5754","Varecia hybrid","F","captive",2,0,0.241095890410959,4
+"5755","Collared brown lemur","F","captive",1,1,14.7479452054795,4
+"5756","Black-and-white ruffed lemur","M","captive",3,1,0.0328767123287671,4
+"5757","Black-and-white ruffed lemur","F","captive",3,1,0.0328767123287671,4
+"5758","Eulemur hybrid","M","captive",1,0,24.6657534246575,4
+"5759","Black-and-white ruffed lemur","M","captive",3,1,0,4
+"576","Eulemur hybrid","M","captive",2,NA,4.88493150684932,1
+"5761","Black-and-white ruffed lemur","M","captive",2,1,0.0164383561643836,4
+"5764","Common brown lemur","F","captive",1,1,14.641095890411,4
+"5765","Red ruffed lemur","F","captive",3,1,0.00273972602739726,4
+"5766","Red ruffed lemur","M","captive",3,1,33.158904109589,4
+"5767","Red ruffed lemur","F","captive",3,1,20.8904109589041,4
+"5768","Red ruffed lemur","M","captive",2,1,21.3260273972603,4
+"5769","Red ruffed lemur","M","captive",2,1,16.1178082191781,4
+"577","Eulemur hybrid","M","captive",2,0,7.39452054794521,2
+"5770","Eulemur hybrid","M","captive",1,0,0,4
+"5771","Black-and-white ruffed lemur","M","captive",1,1,0,4
+"5772","Black-and-white ruffed lemur","M","captive",2,1,0.912328767123288,4
+"5773","Black-and-white ruffed lemur","M","captive",2,1,8.51780821917808,4
+"5774","Crowned lemur","M","captive",2,1,0.147945205479452,4
+"5775","Crowned lemur","F","captive",2,1,0.134246575342466,4
+"5776","Collared brown lemur","F","captive",1,1,25.1534246575342,4
+"5778","Eulemur hybrid","F","captive",1,0,0.00273972602739726,4
+"5779","Eulemur hybrid","F","captive",1,0,11.9534246575342,4
+"5784","Red ruffed lemur","M","captive",1,1,22.3123287671233,4
+"5786","Black-and-white ruffed lemur","F","captive",2,1,28.5972602739726,4
+"5787","Black lemur","F","captive",2,1,0,4
+"5788","Black lemur","M","captive",2,1,0,4
+"5790","Red ruffed lemur","M","captive",1,1,25.7808219178082,4
+"5791","Red ruffed lemur","M","captive",2,1,6.2054794520548,4
+"5792","Red ruffed lemur","F","captive",2,1,29.958904109589,4
+"5794","Black-and-white ruffed lemur","M","captive",2,1,10.1260273972603,5
+"5795","Black-and-white ruffed lemur","M","captive",2,1,22.4164383561644,5
+"5796","Red-fronted brown lemur","M","captive",NA,1,4.45479452054794,4
+"5797","Eulemur hybrid","M","captive",2,0,0,5
+"580","Eastern lesser bamboo lemur","F","wild",NA,NA,7.26027397260274,12
+"5800","Collared brown lemur","M","captive",1,1,20.9972602739726,5
+"5805","White-fronted brown lemur","M","captive",2,1,27.7452054794521,5
+"5807","Eulemur hybrid","M","captive",1,0,18.1972602739726,5
+"5808","Black-and-white ruffed lemur","F","captive",2,1,15.0986301369863,5
+"5809","Black-and-white ruffed lemur","F","captive",2,1,23.4876712328767,5
+"5810","Varecia hybrid","M","captive",1,0,0.00547945205479452,5
+"5811","Ring-tailed lemur","M","captive",3,1,18.0219178082192,6
+"5814","Black lemur","F","captive",1,1,0,6
+"5815","Eulemur hybrid","F","captive",1,NA,0,6
+"5818","Eulemur hybrid","M","captive",NA,0,1.98904109589041,1
+"582","Ring-tailed lemur","M","captive",2,NA,20.027397260274,3
+"5821","Eulemur hybrid","M","captive",NA,1,18.6794520547945,5
+"5825","Red-fronted brown lemur","F","captive",NA,NA,2.70684931506849,3
+"5826","Mongoose lemur","M","captive",1,1,33.6794520547945,11
+"5832","Red-fronted brown lemur","F","captive",NA,1,29.5123287671233,4
+"5834","Black lemur","F","captive",2,1,0,2
+"5835","Black lemur","M","captive",2,1,0,2
+"5838","Red-fronted brown lemur","M","captive",1,NA,0.0410958904109589,3
+"5839","Red-fronted brown lemur","M","captive",2,1,0.0136986301369863,3
+"584","Ring-tailed lemur","M","captive",1,NA,30.1753424657534,3
+"5840","Red-fronted brown lemur","F","captive",2,1,0,3
+"5842","Black lemur","M","captive",1,1,29.1095890410959,3
+"5847","Ring-tailed lemur","F","captive",2,1,26.1534246575342,3
+"5848","Eulemur hybrid","M","captive",1,0,17.3780821917808,3
+"5850","Black lemur","M","captive",2,1,34.4767123287671,3
+"5851","Black lemur","M","captive",2,1,26.3123287671233,3
+"5853","Ring-tailed lemur","F","captive",2,NA,0.0191780821917808,3
+"5854","Ring-tailed lemur","M","captive",2,NA,0.558904109589041,3
+"5855","Common brown lemur","M","captive",1,1,1.73424657534247,3
+"5856","Black lemur","F","captive",1,1,18.0383561643836,3
+"5857","Black lemur","M","captive",2,1,0,3
+"5858","Black lemur","M","captive",2,1,0,3
+"5859","Black lemur","F","captive",2,1,30.7013698630137,3
+"586","Black-and-white ruffed lemur","M","wild",NA,NA,25.9397260273973,10
+"5860","Black lemur","F","captive",2,1,23.3041095890411,3
+"5861","Varecia hybrid","M","captive",2,0,3.38082191780822,3
+"5863","Red-fronted brown lemur","F","captive",1,1,24.241095890411,3
+"5864","Eulemur hybrid","F","captive",1,0,0,3
+"5865","Varecia hybrid","F","captive",2,0,5.53972602739726,3
+"5870","Eulemur hybrid","M","captive",1,0,0.0657534246575342,4
+"5872","Black-and-white ruffed lemur","F","captive",3,1,0.210958904109589,4
+"5874","Red ruffed lemur","F","captive",1,1,5.30684931506849,4
+"5875","Black-and-white ruffed lemur","F","captive",3,1,0,4
+"5876","Black-and-white ruffed lemur","F","captive",3,1,0.47945205479452,4
+"5877","Black-and-white ruffed lemur","M","captive",3,1,0,4
+"5878","Ring-tailed lemur","M","captive",1,1,22.7397260273973,4
+"5879","Mongoose lemur","F","captive",1,1,11.7068493150685,4
+"588","Eulemur hybrid","M","captive",1,0,7.92602739726027,4
+"5880","Black-and-white ruffed lemur","F","captive",3,1,28.7890410958904,4
+"5881","Black-and-white ruffed lemur","M","captive",3,1,10.0657534246575,4
+"5882","Black-and-white ruffed lemur","M","captive",3,1,0,4
+"5883","Black-and-white ruffed lemur","M","captive",2,1,28.1013698630137,4
+"5884","Black-and-white ruffed lemur","M","captive",2,1,33.8109589041096,4
+"5885","Ring-tailed lemur","M","captive",NA,NA,6.37260273972603,3
+"5886","Red-fronted brown lemur","M","captive",NA,1,24.2630136986301,3
+"5887","Collared brown lemur","M","captive",1,1,16.1616438356164,4
+"5888","Red ruffed lemur","F","captive",3,1,10.5178082191781,4
+"5889","Red ruffed lemur","F","captive",3,1,10.1150684931507,4
+"589","Red-fronted brown lemur","M","captive",1,1,21.813698630137,5
+"5890","Red ruffed lemur","F","captive",3,1,0.131506849315068,4
+"5894","Black-and-white ruffed lemur","F","captive",4,1,24.7506849315069,4
+"5895","Black-and-white ruffed lemur","F","captive",4,1,10.8767123287671,4
+"5896","Black-and-white ruffed lemur","F","captive",4,1,0.336986301369863,4
+"5897","Red ruffed lemur","M","captive",1,1,27.9287671232877,4
+"5899","Red ruffed lemur","M","captive",2,1,25.9890410958904,4
+"590","Coquerel's sifaka","F","wild",NA,NA,17.2438356164384,7
+"5900","Red ruffed lemur","F","captive",2,1,30.1095890410959,4
+"591","Coquerel's sifaka","M","wild",NA,NA,11.1534246575342,7
+"5911","Eulemur hybrid","F","captive",1,1,1.21917808219178,4
+"5913","Eulemur hybrid","M","captive",1,0,4.91506849315068,5
+"5914","Ring-tailed lemur","M","captive",2,1,5.61369863013699,5
+"5915","Ring-tailed lemur","F","captive",2,1,9.07123287671233,5
+"5917","Black-and-white ruffed lemur","M","captive",2,1,19.7698630136986,5
+"5918","Black-and-white ruffed lemur","M","captive",2,1,2.32328767123288,5
+"5919","Collared brown lemur","M","wild",NA,NA,32.1095890410959,10
+"592","Coquerel's sifaka","M","wild",NA,NA,7.29315068493151,7
+"5920","Collared brown lemur","M","wild",NA,NA,21.1616438356164,10
+"5925","Black-and-white ruffed lemur","M","captive",3,1,32.4164383561644,5
+"5926","Black-and-white ruffed lemur","M","captive",3,1,0.515068493150685,5
+"5927","Black-and-white ruffed lemur","M","captive",3,1,16.8767123287671,5
+"5928","Ring-tailed lemur","F","captive",1,1,4.14794520547945,5
+"5929","Black-and-white ruffed lemur","F","captive",1,NA,0,5
+"593","Coquerel's sifaka","F","wild",NA,NA,11.3561643835616,7
+"5930","Red ruffed lemur","M","captive",3,1,6.27671232876712,5
+"5931","Red ruffed lemur","F","captive",3,1,20.441095890411,5
+"5932","Red ruffed lemur","F","captive",3,1,17.6657534246575,5
+"5936","Ring-tailed lemur","M","captive",1,1,0.00547945205479452,5
+"5937","Crowned lemur","F","captive",1,1,27.4219178082192,5
+"5938","Ring-tailed lemur","M","captive",2,1,12.2767123287671,5
+"5939","Ring-tailed lemur","M","captive",2,1,14.1342465753425,5
+"594","Coquerel's sifaka","F","wild",NA,NA,2.86027397260274,7
+"5941","Black lemur","M","captive",2,1,25.1534246575342,6
+"5942","Black lemur","F","captive",2,1,34.3479452054795,6
+"5943","Eulemur hybrid","F","captive",1,1,0,7
+"5944","Coquerel's sifaka","M","wild",NA,NA,28.5205479452055,7
+"5945","Coquerel's sifaka","M","wild",NA,NA,11.7808219178082,7
+"5947","Ring-tailed lemur","F","captive",NA,1,9.22465753424657,6
+"5948","Sanford's brown lemur","M","wild",NA,NA,24.1890410958904,10
+"5949","Sanford's brown lemur","M","wild",NA,NA,20.3972602739726,10
+"595","Coquerel's sifaka","F","captive",1,1,0.00273972602739726,5
+"5950","Sanford's brown lemur","F","wild",NA,NA,21.2191780821918,10
+"5951","Sanford's brown lemur","F","wild",NA,NA,32.9397260273973,10
+"5952","Mongoose lemur","F","captive",1,1,26.6904109589041,10
+"5955","Mongoose lemur","M","captive",1,1,21.4493150684931,1
+"5956","Coquerel's sifaka","M","captive",1,1,0,1
+"5957","White-fronted brown lemur","M","captive",NA,NA,21.1068493150685,5
+"5958","White-fronted brown lemur","M","captive",NA,NA,22.7890410958904,6
+"5959","Red-fronted brown lemur","M","captive",2,1,0,2
+"596","Coquerel's sifaka","F","captive",1,1,6.26849315068493,12
+"5960","Red-fronted brown lemur","F","captive",2,1,0,2
+"5961","Black lemur","M","captive",1,1,0,2
+"5962","Ring-tailed lemur","M","captive",1,1,24.7068493150685,3
+"5964","Red-fronted brown lemur","F","captive",1,1,0,3
+"5965","Ring-tailed lemur","M","captive",1,NA,22.6904109589041,3
+"5966","Red-fronted brown lemur","F","captive",1,1,0,3
+"5967","Red-fronted brown lemur","M","captive",1,1,1.30958904109589,3
+"5969","Ring-tailed lemur","M","captive",1,1,32.6109589041096,3
+"597","Coquerel's sifaka","M","captive",1,1,30.5890410958904,2
+"5971","Black lemur","M","captive",1,1,12.7835616438356,3
+"5972","Collared brown lemur","M","captive",1,1,1.66301369863014,3
+"5973","Collared brown lemur","M","captive",2,1,22.5397260273973,3
+"5974","Collared brown lemur","M","captive",2,1,8.39452054794521,3
+"5976","Red-fronted brown lemur","M","captive",NA,NA,11.6821917808219,4
+"5977","Ring-tailed lemur","M","captive",2,1,28.413698630137,3
+"5979","Black-and-white ruffed lemur","F","captive",1,1,0,4
+"5980","Black-and-white ruffed lemur","M","captive",1,1,8.64931506849315,4
+"5982","Collared brown lemur","F","captive",2,NA,28.9260273972603,4
+"5983","Ring-tailed lemur","F","captive",2,1,7.42191780821918,4
+"5984","Ring-tailed lemur","F","captive",2,1,25.4739726027397,4
+"599","Coquerel's sifaka","F","captive",1,1,1.68493150684932,2
+"5990","Black-and-white ruffed lemur","M","captive",3,1,3.15616438356164,4
+"5991","Black-and-white ruffed lemur","F","captive",3,1,0.235616438356164,4
+"5992","Varecia hybrid","F","captive",2,0,0.350684931506849,4
+"5993","Varecia hybrid","M","captive",2,0,0,4
+"5994","Black-and-white ruffed lemur","M","captive",3,1,15.1068493150685,4
+"5995","Black-and-white ruffed lemur","M","captive",3,1,15.5013698630137,4
+"5996","Black-and-white ruffed lemur","F","captive",3,1,8.45753424657534,4
+"5999","Black lemur","F","wild",NA,NA,18.8849315068493,10
+"6000","Red ruffed lemur","M","captive",1,1,20.7150684931507,4
+"6001","Red ruffed lemur","M","captive",2,1,27.2794520547945,4
+"6002","Red ruffed lemur","M","captive",2,1,15.1479452054795,4
+"6005","Varecia hybrid","F","captive",3,0,0.147945205479452,4
+"6008","Red ruffed lemur","F","captive",3,1,33.1369863013699,5
+"6009","Red ruffed lemur","F","captive",3,1,25.5698630136986,5
+"6010","Red ruffed lemur","F","captive",3,1,27.8602739726027,5
+"6011","Black-and-white ruffed lemur","M","captive",3,1,29.2328767123288,5
+"6013","Black-and-white ruffed lemur","F","captive",3,1,14.2191780821918,5
+"6014","Red ruffed lemur","M","captive",3,1,18.4876712328767,5
+"6015","Red ruffed lemur","M","captive",3,1,10.1369863013699,5
+"6016","Red ruffed lemur","F","captive",3,1,18.1945205479452,5
+"6017","Ring-tailed lemur","F","captive",1,1,4.66301369863014,5
+"6018","Black-and-white ruffed lemur","M","captive",3,1,0.00273972602739726,5
+"6019","Black-and-white ruffed lemur","M","captive",3,1,0.682191780821918,5
+"602","Fat-tailed dwarf lemur","M","wild",NA,NA,4.03835616438356,1
+"6020","Black-and-white ruffed lemur","F","captive",3,1,22.4904109589041,5
+"6021","Common brown lemur","M","captive",2,1,18.772602739726,5
+"6023","Black lemur","M","captive",1,1,10.7424657534247,5
+"6026","Eulemur hybrid","M","captive",2,1,2.98356164383562,6
+"6028","Black-and-white ruffed lemur","F","captive",1,1,0.00547945205479452,6
+"6029","Black lemur","M","captive",1,1,9.42739726027397,6
+"603","Fat-tailed dwarf lemur","M","wild",NA,NA,16.1452054794521,1
+"6030","Mongoose lemur","M","captive",1,1,18.4328767123288,6
+"6031","Crowned lemur","M","captive",1,1,2.6027397260274,6
+"6032","Ring-tailed lemur","F","captive",1,NA,3.39178082191781,6
+"6033","Mongoose lemur","M","captive",1,1,26.6657534246575,11
+"6034","Crowned lemur","M","wild",NA,NA,22.7643835616438,10
+"6035","Crowned lemur","M","wild",NA,NA,22.0794520547945,10
+"6036","Crowned lemur","F","wild",NA,NA,6.52054794520548,10
+"6037","Crowned lemur","F","wild",NA,NA,9.70958904109589,10
+"6038","Red-bellied lemur","F","wild",NA,NA,33.8356164383562,10
+"6039","Blue-eyed black lemur","M","wild",NA,NA,21.6849315068493,10
+"604","Fat-tailed dwarf lemur","F","wild",NA,NA,12.1424657534247,1
+"6040","Blue-eyed black lemur","M","wild",NA,NA,10.3013698630137,10
+"6041","Blue-eyed black lemur","F","wild",NA,NA,24.3698630136986,10
+"6042","Blue-eyed black lemur","F","wild",NA,NA,23.1178082191781,10
+"6043","Sanford's brown lemur","M","captive",1,1,1.12054794520548,10
+"6044","Sanford's brown lemur","M","captive",1,1,21.8575342465753,11
+"6045","Coquerel's sifaka","M","captive",1,1,0,12
+"6047","Red-fronted brown lemur","M","captive",1,NA,0.0164383561643836,3
+"6048","Black-and-white ruffed lemur","F","captive",2,1,0,3
+"6049","Black-and-white ruffed lemur","M","captive",2,1,3.64109589041096,3
+"605","Fat-tailed dwarf lemur","F","wild",NA,NA,22.6383561643836,1
+"6052","Collared brown lemur","M","captive",1,1,25.1780821917808,3
+"6054","Ring-tailed lemur","F","captive",2,1,1.16712328767123,3
+"6056","Black lemur","F","captive",1,1,0.0356164383561644,3
+"6057","Ring-tailed lemur","M","captive",2,1,17.6794520547945,3
+"6059","Black lemur","F","captive",1,1,9.56164383561644,3
+"606","Fat-tailed dwarf lemur","M","captive",2,1,21.4767123287671,4
+"6060","Red-fronted brown lemur","M","captive",1,NA,4.55616438356164,3
+"6061","Common brown lemur","M","captive",2,1,0,3
+"6062","Common brown lemur","F","captive",2,1,0,3
+"6063","Ring-tailed lemur","F","captive",1,1,9.21095890410959,3
+"6066","Red ruffed lemur","M","captive",4,1,12.6356164383562,3
+"6067","Red ruffed lemur","M","captive",4,1,16.5972602739726,3
+"6068","Red ruffed lemur","F","captive",4,1,21.9123287671233,3
+"6069","Red ruffed lemur","F","captive",4,1,18.8383561643836,3
+"607","Fat-tailed dwarf lemur","M","captive",2,1,4.63835616438356,4
+"6070","Red-fronted brown lemur","M","captive",2,1,20.2931506849315,3
+"6071","Red-fronted brown lemur","M","captive",2,1,0.331506849315069,3
+"6073","Ring-tailed lemur","F","captive",1,1,21.013698630137,4
+"6075","Eulemur hybrid","M","captive",1,0,4.16438356164384,4
+"6077","Mongoose lemur","F","captive",1,1,32.1506849315069,4
+"6078","Black-and-white ruffed lemur","F","captive",2,1,0,4
+"6079","Collared brown lemur","F","captive",2,1,0.00547945205479452,4
+"608","Fat-tailed dwarf lemur","F","captive",2,1,6.26301369863014,4
+"6081","Eulemur hybrid","M","captive",1,0,28.972602739726,4
+"6083","Crowned lemur","M","captive",1,1,11.7369863013699,4
+"6085","Black lemur","M","captive",1,NA,28.158904109589,4
+"609","Fat-tailed dwarf lemur","M","captive",2,1,0.863013698630137,4
+"6090","Red ruffed lemur","F","captive",2,1,11.2657534246575,4
+"6091","Red ruffed lemur","F","captive",2,1,14.8821917808219,4
+"6092","Varecia hybrid","F","captive",NA,NA,0.901369863013699,4
+"6094","Black-and-white ruffed lemur","F","captive",2,1,14.241095890411,4
+"6095","Eulemur hybrid","F","captive",1,0,0.167123287671233,4
+"6096","Red ruffed lemur","M","captive",2,1,0.0465753424657534,4
+"6097","Red ruffed lemur","M","captive",2,1,0.073972602739726,4
+"6098","Sanford's brown lemur","F","captive",1,1,23.3917808219178,4
+"6099","Black lemur","M","captive",1,1,13.0356164383562,5
+"6100","Ring-tailed lemur","F","captive",NA,1,3.17808219178082,4
+"6101","Black lemur","F","captive",1,1,18.5369863013699,5
+"6102","Mongoose lemur","F","captive",1,1,29.5890410958904,5
+"6103","Crowned lemur","M","captive",1,1,0,5
+"6104","Ring-tailed lemur","F","captive",1,NA,16.7205479452055,5
+"6105","Ring-tailed lemur","M","captive",2,1,18.9506849315068,6
+"6107","Coquerel's sifaka","M","wild",NA,NA,8.81369863013699,7
+"6108","Coquerel's sifaka","F","wild",NA,NA,21.6931506849315,7
+"6109","Coquerel's sifaka","F","wild",NA,NA,11.5397260273973,7
+"6110","Coquerel's sifaka","F","wild",NA,NA,15.8054794520548,7
+"6111","Crowned lemur","M","captive",1,1,0.0136986301369863,6
+"6112","Eulemur hybrid","M","captive",1,0,29.2602739726027,6
+"6114","Black-and-white ruffed lemur","M","captive",1,1,0.0684931506849315,6
+"6116","Blue-eyed black lemur","F","captive",1,1,0.0246575342465753,7
+"6117","Coquerel's sifaka","F","captive",1,NA,6.91506849315068,7
+"6120","Red-bellied lemur","M","wild",NA,NA,10.4684931506849,10
+"6121","Red-bellied lemur","M","wild",NA,NA,32.8520547945205,10
+"6122","Red-bellied lemur","F","wild",NA,NA,23.3917808219178,10
+"6123","Common brown lemur","F","captive",NA,1,29.8328767123288,3
+"6125","Ring-tailed lemur","M","captive",NA,NA,10.5123287671233,8
+"6126","Ring-tailed lemur","M","captive",NA,NA,20.7917808219178,6
+"6127","Ring-tailed lemur","M","captive",NA,NA,5.06301369863014,3
+"6129","Black lemur","F","captive",2,1,0,7
+"613","Fat-tailed dwarf lemur","F","captive",2,1,19.1945205479452,7
+"6130","Black lemur","M","captive",2,1,0,7
+"6131","Mongoose lemur","M","captive",1,1,5.04383561643836,11
+"6132","Mongoose lemur","M","captive",1,1,0.0657534246575342,11
+"6133","Coquerel's sifaka","M","captive",1,1,0.30958904109589,12
+"6134","Black lemur","M","captive",NA,1,26.5041095890411,3
+"6136","Black lemur","M","captive",NA,1,22.9808219178082,3
+"6138","Ring-tailed lemur","M","captive",2,NA,5.63013698630137,3
+"6139","Ring-tailed lemur","M","captive",2,NA,30.1424657534247,3
+"614","Fat-tailed dwarf lemur","F","captive",2,1,6.8986301369863,7
+"6140","Ring-tailed lemur","F","captive",1,NA,17.4246575342466,3
+"6142","Collared brown lemur","F","captive",1,1,27.9178082191781,3
+"6143","Ring-tailed lemur","M","captive",1,NA,23.586301369863,3
+"6146","Blue-eyed black lemur","F","captive",1,1,0.235616438356164,3
+"6147","Black-and-white ruffed lemur","F","captive",2,1,0.608219178082192,3
+"6148","Black-and-white ruffed lemur","F","captive",2,1,12.5890410958904,3
+"615","Fat-tailed dwarf lemur","M","captive",1,1,4.24657534246575,9
+"6150","Ring-tailed lemur","M","captive",2,1,3.13150684931507,4
+"6151","Crowned lemur","M","captive",2,1,0,4
+"6152","Crowned lemur","F","captive",2,1,0,4
+"6153","Black lemur","F","captive",1,1,19.0602739726027,4
+"6154","Coquerel's sifaka","F","captive",1,1,0,12
+"6155","Eulemur hybrid","M","captive",1,0,5.01917808219178,4
+"6156","Mongoose lemur","M","captive",1,1,31.0602739726027,4
+"6158","Ring-tailed lemur","F","captive",2,1,0.0273972602739726,4
+"6159","Ring-tailed lemur","F","captive",2,1,23.6082191780822,4
+"616","Fat-tailed dwarf lemur","F","captive",3,1,1.81917808219178,9
+"6161","Red ruffed lemur","F","captive",3,1,11.7534246575342,4
+"6162","Red ruffed lemur","F","captive",3,1,10.5671232876712,4
+"6169","Red ruffed lemur","M","captive",3,1,30.9780821917808,4
+"6170","Red ruffed lemur","M","captive",3,1,30.0082191780822,4
+"6171","Red ruffed lemur","F","captive",3,1,25.0958904109589,4
+"6172","Mongoose lemur","M","captive",2,1,14.8109589041096,4
+"6173","Red ruffed lemur","F","captive",2,1,18.8575342465753,4
+"6174","Red ruffed lemur","F","captive",2,1,22.2356164383562,4
+"6175","Crowned lemur","F","captive",1,1,0.704109589041096,4
+"6176","Red-fronted brown lemur","M","captive",1,NA,19.4904109589041,4
+"6177","Crowned lemur","F","captive",1,1,26.5150684931507,5
+"6178","Black-and-white ruffed lemur","M","captive",3,1,0.0219178082191781,5
+"6179","Black-and-white ruffed lemur","F","captive",3,1,8.64657534246575,5
+"618","Fat-tailed dwarf lemur","M","captive",3,1,5.3013698630137,9
+"6180","Black-and-white ruffed lemur","F","captive",3,1,22.8821917808219,5
+"6181","Eulemur hybrid","F","captive",1,0,20.6027397260274,5
+"6182","Sanford's brown lemur","M","captive",2,1,16.8328767123288,5
+"6183","Sanford's brown lemur","M","captive",2,1,16.8328767123288,5
+"6184","Eulemur hybrid","M","captive",2,0,28.5835616438356,5
+"6186","Crowned lemur","F","captive",1,1,0,5
+"6187","Blue-eyed black lemur","M","captive",1,1,19.8849315068493,5
+"6188","Mongoose lemur","M","captive",2,1,0.0136986301369863,4
+"6189","Collared brown lemur","M","captive",1,1,23.8684931506849,5
+"619","Fat-tailed dwarf lemur","F","captive",2,NA,5.75890410958904,7
+"6191","Ring-tailed lemur","M","captive",1,NA,17.158904109589,6
+"6192","Sanford's brown lemur","F","captive",1,1,14.4684931506849,7
+"6195","Black lemur","F","captive",NA,1,4.58082191780822,5
+"620","Fat-tailed dwarf lemur","M","captive",2,NA,4.01643835616438,7
+"6200","Coquerel's sifaka","F","captive",1,1,3.59452054794521,12
+"6201","Aye-aye","M","wild",NA,NA,32.6356164383562,12
+"6204","Red ruffed lemur","F","wild",NA,NA,31.7890410958904,10
+"6207","Coquerel's sifaka","M","captive",1,1,28.2164383561644,1
+"6209","Ring-tailed lemur","M","captive",1,NA,8.55616438356164,3
+"621","Fat-tailed dwarf lemur","M","captive",1,NA,19.0602739726027,6
+"6210","Red-fronted brown lemur","F","captive",1,NA,1.6,3
+"6211","Red-fronted brown lemur","M","captive",1,NA,0.0246575342465753,3
+"6213","Ring-tailed lemur","M","captive",1,NA,4.41917808219178,3
+"6214","Eulemur hybrid","F","captive",2,1,0,3
+"6215","Eulemur hybrid","F","captive",2,1,0,3
+"6217","Ring-tailed lemur","F","captive",1,NA,13.1041095890411,3
+"6218","Mongoose lemur","F","captive",1,1,12.7835616438356,4
+"6219","Black lemur","F","captive",NA,NA,19.6164383561644,4
+"622","Fat-tailed dwarf lemur","F","captive",2,NA,0.00273972602739726,7
+"6220","Mongoose lemur","F","captive",1,1,0.23013698630137,4
+"6221","Sanford's brown lemur","F","captive",1,1,22.9780821917808,4
+"6222","Collared brown lemur","F","captive",1,1,18.4986301369863,4
+"6223","Collared brown lemur","F","captive",1,1,11.7780821917808,4
+"6225","Collared brown lemur","M","captive",1,1,27.4958904109589,4
+"6226","Mongoose lemur","M","captive",1,1,30.3424657534247,4
+"6228","Ring-tailed lemur","F","captive",2,1,1.13424657534247,4
+"623","Fat-tailed dwarf lemur","M","captive",2,NA,0.00547945205479452,7
+"6232","Red-fronted brown lemur","F","captive",1,NA,3.17534246575342,4
+"6233","Blue-eyed black lemur","F","captive",1,1,14.013698630137,4
+"6234","Crowned lemur","M","captive",1,1,1.31506849315068,4
+"6235","Eulemur hybrid","F","captive",NA,1,12.8520547945205,5
+"6236","Eulemur hybrid","F","captive",NA,1,0.00273972602739726,5
+"6237","Mongoose lemur","M","captive",1,1,22.6602739726027,4
+"6238","Black lemur","F","captive",2,1,5.97808219178082,4
+"6239","Black lemur","F","captive",2,1,0.00273972602739726,4
+"624","Fat-tailed dwarf lemur","M","captive",2,NA,15.1671232876712,7
+"6241","Red ruffed lemur","M","captive",3,1,19.8958904109589,4
+"6242","Red ruffed lemur","F","captive",3,1,15.8054794520548,4
+"6243","Collared brown lemur","F","captive",1,1,14.2876712328767,5
+"6244","Red ruffed lemur","F","captive",2,1,0,5
+"6245","Red ruffed lemur","M","captive",2,1,25.2657534246575,5
+"6246","Mongoose lemur","F","captive",1,1,10.5753424657534,5
+"6247","Sanford's brown lemur","M","captive",1,1,0,5
+"6248","Blue-eyed black lemur","M","captive",1,1,22.8904109589041,5
+"6249","Black-and-white ruffed lemur","M","captive",2,1,5.63287671232877,5
+"625","Fat-tailed dwarf lemur","M","captive",2,NA,21.3945205479452,7
+"6250","Black-and-white ruffed lemur","F","captive",2,1,1.62465753424658,5
+"6251","Crowned lemur","M","captive",1,1,12.7150684931507,5
+"6252","Sanford's brown lemur","F","captive",1,1,15.7671232876712,5
+"6257","Eulemur hybrid","F","captive",1,0,27.4246575342466,7
+"626","Fat-tailed dwarf lemur","M","captive",1,NA,4.83835616438356,8
+"6260","Ring-tailed lemur","F","captive",1,NA,3.22739726027397,8
+"6261","Aye-aye","F","wild",NA,NA,17.358904109589,8
+"6262","Aye-aye","F","captive",NA,NA,1.54520547945205,5
+"6263","Mongoose lemur","F","captive",NA,NA,27.413698630137,5
+"6265","Black-and-white ruffed lemur","M","captive",NA,NA,3.42465753424658,4
+"6266","Coquerel's sifaka","M","captive",1,1,0.210958904109589,1
+"6271","Ring-tailed lemur","M","captive",2,NA,3.52054794520548,3
+"6273","Coquerel's sifaka","F","captive",1,1,10.558904109589,3
+"6274","Black lemur","M","captive",2,NA,24.8,3
+"6275","Black lemur","F","captive",2,NA,12.8301369863014,3
+"6276","Ring-tailed lemur","F","captive",2,NA,26.2520547945205,3
+"6277","Ring-tailed lemur","F","captive",2,1,17.7534246575342,3
+"6278","Collared brown lemur","F","captive",2,1,18.5205479452055,3
+"6280","Ring-tailed lemur","F","captive",1,NA,27.1972602739726,3
+"6281","Red-fronted brown lemur","F","captive",2,NA,0.0164383561643836,3
+"6283","Red-fronted brown lemur","F","captive",1,1,0.0136986301369863,3
+"6284","Black lemur","M","captive",2,NA,24.6547945205479,3
+"6285","Black lemur","F","captive",2,NA,13.4794520547945,3
+"6286","Mongoose lemur","F","captive",1,1,0.063013698630137,3
+"6287","Red-fronted brown lemur","M","captive",1,1,13.7369863013699,3
+"6288","Blue-eyed black lemur","M","captive",1,1,18.8438356164384,3
+"6289","Ring-tailed lemur","F","captive",1,NA,0.00273972602739726,3
+"6290","Red-bellied lemur","M","captive",1,1,13.5945205479452,3
+"6291","Black-and-white ruffed lemur","F","captive",1,NA,0.0191780821917808,4
+"6293","Black-and-white ruffed lemur","M","captive",1,1,26.2438356164384,4
+"6294","Collared brown lemur","M","captive",2,1,4.81369863013699,4
+"6295","Collared brown lemur","F","captive",2,1,0.00273972602739726,4
+"6296","Mongoose lemur","F","captive",1,1,0,4
+"6297","Mongoose lemur","F","captive",1,1,0.0356164383561644,4
+"6298","Crowned lemur","M","captive",1,1,15.6520547945205,4
+"6299","Crowned lemur","M","captive",1,1,8.74520547945206,4
+"6300","Ring-tailed lemur","M","captive",2,NA,0.361643835616438,4
+"6301","Ring-tailed lemur","F","captive",2,NA,3.36712328767123,4
+"6302","Red ruffed lemur","M","captive",3,1,0,4
+"6303","Red ruffed lemur","F","captive",3,1,22.8027397260274,4
+"6304","Red ruffed lemur","F","captive",3,1,9.45753424657534,4
+"6305","Collared brown lemur","F","captive",1,NA,25.6191780821918,4
+"6307","Ring-tailed lemur","F","captive",2,1,13.8986301369863,4
+"6308","Ring-tailed lemur","F","captive",2,1,20.4027397260274,4
+"6309","Red ruffed lemur","M","captive",3,1,17.4191780821918,4
+"631","Fat-tailed dwarf lemur","F","captive",1,NA,0.00547945205479452,8
+"6310","Red ruffed lemur","M","captive",3,1,23.9068493150685,4
+"6311","Red ruffed lemur","F","captive",3,1,29.3095890410959,4
+"6312","Ring-tailed lemur","F","captive",1,NA,0,4
+"6313","Red ruffed lemur","F","captive",1,1,24.1205479452055,4
+"6314","Red ruffed lemur","F","captive",1,1,0.00273972602739726,5
+"6315","Eulemur hybrid","M","captive",1,NA,17.3397260273973,5
+"6319","Black-and-white ruffed lemur","F","captive",2,1,0,6
+"6321","Mongoose lemur","M","captive",1,1,10.4082191780822,6
+"6322","Ring-tailed lemur","M","captive",1,NA,15.2794520547945,6
+"6323","Blue-eyed black lemur","M","captive",1,1,10.0027397260274,6
+"6324","Mongoose lemur","M","captive",1,1,0.00273972602739726,6
+"6326","Crowned lemur","M","captive",2,1,0.00821917808219178,7
+"6327","Crowned lemur","F","captive",2,1,6.54246575342466,7
+"6328","Red ruffed lemur","F","captive",NA,NA,22.6547945205479,5
+"633","Fat-tailed dwarf lemur","M","captive",2,NA,6.68219178082192,6
+"6330","Black-and-white ruffed lemur","F","captive",NA,NA,24.4739726027397,4
+"6331","Black lemur","F","captive",NA,1,9.02465753424658,3
+"6332","Eulemur hybrid","M","captive",NA,1,3.15068493150685,3
+"6334","Coquerel's sifaka","M","captive",1,1,0.167123287671233,1
+"6336","Coquerel's sifaka","F","captive",1,1,2.23561643835616,2
+"6337","Red-fronted brown lemur","M","captive",1,NA,0,2
+"6338","Red-bellied lemur","F","captive",1,1,25.5013698630137,3
+"6339","Black lemur","F","captive",1,1,21.3808219178082,3
+"634","Fat-tailed dwarf lemur","F","captive",3,NA,0.947945205479452,6
+"6341","Red-fronted brown lemur","F","captive",1,NA,0.646575342465753,3
+"6343","Ring-tailed lemur","F","captive",1,NA,0.0246575342465753,3
+"6346","Ring-tailed lemur","F","captive",2,NA,0.0849315068493151,3
+"6348","Ring-tailed lemur","F","captive",1,NA,0.0219178082191781,3
+"6349","Red-fronted brown lemur","M","captive",2,NA,0.101369863013699,3
+"635","Fat-tailed dwarf lemur","F","captive",3,NA,3.6027397260274,6
+"6351","Ring-tailed lemur","M","captive",2,1,6.76164383561644,3
+"6352","Ring-tailed lemur","F","captive",2,1,8.77534246575343,3
+"6355","Ring-tailed lemur","M","captive",2,NA,21.1643835616438,3
+"6356","Ring-tailed lemur","F","captive",2,NA,18.0630136986301,3
+"6357","Ring-tailed lemur","M","captive",1,NA,1.38904109589041,3
+"6358","Black lemur","F","captive",1,1,7.13972602739726,3
+"636","Fat-tailed dwarf lemur","M","captive",3,NA,17.0082191780822,6
+"6360","Blue-eyed black lemur","M","captive",1,1,6.06575342465753,3
+"6361","Black-and-white ruffed lemur","F","captive",1,1,1.2986301369863,3
+"6362","Collared brown lemur","F","captive",1,NA,17.5698630136986,4
+"6363","Blue-eyed black lemur","F","captive",1,1,0,4
+"6364","Crowned lemur","F","captive",1,1,0.0438356164383562,4
+"6365","Ring-tailed lemur","F","captive",1,NA,11.2602739726027,4
+"6366","Crowned lemur","F","captive",1,1,23.8931506849315,4
+"6367","Eulemur hybrid","M","captive",1,0,9.16164383561644,4
+"6368","Ring-tailed lemur","M","captive",1,NA,13.613698630137,4
+"637","Fat-tailed dwarf lemur","F","captive",1,NA,0.00273972602739726,6
+"6370","Red ruffed lemur","M","captive",3,1,0,4
+"6371","Red ruffed lemur","F","captive",3,1,0,4
+"6372","Red ruffed lemur","M","captive",3,1,28.5260273972603,4
+"6375","Collared brown lemur","F","captive",1,NA,13.641095890411,4
+"6376","Red ruffed lemur","F","captive",3,1,9.37534246575343,4
+"6377","Red ruffed lemur","F","captive",3,1,21.6684931506849,4
+"6378","Red ruffed lemur","F","captive",3,1,19.8164383561644,4
+"6379","Red ruffed lemur","M","captive",3,1,14.2739726027397,4
+"6380","Red ruffed lemur","F","captive",3,1,18.3205479452055,4
+"6381","Red ruffed lemur","F","captive",3,1,16.572602739726,4
+"6382","Mongoose lemur","M","captive",1,1,27.8602739726027,5
+"6383","Mongoose lemur","F","captive",1,1,0,5
+"6386","Sanford's brown lemur","F","captive",1,1,22.8027397260274,5
+"6387","Mongoose lemur","F","captive",1,1,0,6
+"6389","Collared brown lemur","M","captive",2,1,20.0575342465753,6
+"6392","Red-bellied lemur","M","wild",NA,NA,23.9808219178082,10
+"6393","Blue-eyed black lemur","F","wild",NA,NA,13.7068493150685,11
+"6394","Blue-eyed black lemur","F","wild",NA,NA,17.5671232876712,11
+"6395","Blue-eyed black lemur","F","wild",NA,NA,21.7671232876712,11
+"6396","Mongoose lemur","F","captive",NA,NA,29.1643835616438,5
+"6397","Coquerel's sifaka","F","captive",1,1,0,12
+"6398","Coquerel's sifaka","F","captive",1,1,15.6054794520548,1
+"6399","Coquerel's sifaka","M","captive",1,1,1.38630136986301,3
+"6400","Red-fronted brown lemur","M","captive",1,NA,12.5013698630137,3
+"6402","Red-fronted brown lemur","F","captive",1,NA,0.284931506849315,3
+"6403","Red-bellied lemur","F","captive",1,1,17.6767123287671,3
+"6404","Black lemur","M","captive",1,1,0.542465753424658,3
+"6406","Black lemur","M","captive",1,1,22.8849315068493,3
+"6407","Blue-eyed black lemur","M","captive",1,1,27.4027397260274,3
+"6408","Mongoose lemur","F","captive",1,1,0.00273972602739726,3
+"6409","Blue-eyed black lemur","M","captive",1,1,20.9506849315068,3
+"6410","Ring-tailed lemur","M","captive",1,NA,0.758904109589041,3
+"6411","Ring-tailed lemur","F","captive",1,NA,0.00547945205479452,4
+"6412","Ring-tailed lemur","M","captive",1,NA,0.70958904109589,4
+"6413","Ring-tailed lemur","F","captive",1,NA,0.693150684931507,4
+"6414","Black-and-white ruffed lemur","F","captive",2,NA,6.91506849315068,4
+"6415","Black-and-white ruffed lemur","F","captive",2,NA,23.4164383561644,4
+"6416","Ring-tailed lemur","M","captive",1,NA,0.871232876712329,4
+"6419","Collared brown lemur","M","captive",1,1,10.8109589041096,4
+"6421","Ring-tailed lemur","M","captive",1,NA,0.00273972602739726,4
+"6423","Red ruffed lemur","F","captive",3,NA,17.9013698630137,4
+"6424","Red ruffed lemur","F","captive",3,NA,17.027397260274,4
+"6425","Mongoose lemur","M","captive",1,1,20.1095890410959,4
+"6426","Mongoose lemur","M","captive",1,1,0,4
+"6428","Red ruffed lemur","M","captive",2,1,22.3808219178082,4
+"6429","Red ruffed lemur","M","captive",2,1,0,4
+"6430","Collared brown lemur","M","captive",1,1,9.33972602739726,4
+"6434","Mongoose lemur","M","captive",1,1,21.4986301369863,5
+"6435","Ring-tailed lemur","M","captive",1,NA,24.413698630137,5
+"6436","Crowned lemur","M","captive",1,1,6.34520547945205,5
+"6438","Crowned lemur","F","captive",1,1,14.4575342465753,5
+"6439","Blue-eyed black lemur","F","captive",1,1,18.1506849315068,5
+"6441","Crowned lemur","F","captive",1,1,16.9972602739726,6
+"6443","Mongoose lemur","F","captive",1,1,24.8493150684932,6
+"6445","Mongoose lemur","F","captive",2,1,25.4767123287671,6
+"6446","Red ruffed lemur","M","captive",2,1,22.572602739726,6
+"6447","Red ruffed lemur","F","captive",2,1,22.9616438356164,6
+"6448","Ring-tailed lemur","F","captive",1,NA,0.66027397260274,6
+"6449","Red-bellied lemur","F","captive",1,1,0,7
+"645","Fat-tailed dwarf lemur","M","captive",3,1,0,6
+"6450","Coquerel's sifaka","M","captive",1,1,20.2575342465753,11
+"6451","Aye-aye","M","wild",NA,NA,32.3698630136986,10
+"6454","Aye-aye","F","wild",NA,NA,27.9232876712329,11
+"6456","Coquerel's sifaka","F","captive",1,1,3.26575342465753,3
+"6457","Black lemur","F","captive",1,1,0,3
+"6458","Blue-eyed black lemur","F","captive",1,1,0.00547945205479452,3
+"6459","Red-fronted brown lemur","F","captive",1,NA,22.9287671232877,3
+"646","Fat-tailed dwarf lemur","F","captive",3,1,0,6
+"6462","Blue-eyed black lemur","M","captive",1,1,22.3917808219178,3
+"6463","Ring-tailed lemur","F","captive",1,NA,0.33972602739726,3
+"6464","Blue-eyed black lemur","F","captive",1,1,0,3
+"6465","Blue-eyed black lemur","F","captive",1,1,0.0712328767123288,3
+"6466","Ring-tailed lemur","F","captive",1,NA,0.0849315068493151,3
+"6467","Ring-tailed lemur","M","captive",1,NA,0.317808219178082,3
+"6468","Mongoose lemur","F","captive",1,1,4.47397260273973,3
+"6469","Ring-tailed lemur","M","captive",1,NA,0.241095890410959,3
+"6470","Ring-tailed lemur","M","captive",1,NA,0.367123287671233,3
+"6471","Mongoose lemur","F","captive",1,1,13.0356164383562,3
+"6472","Ring-tailed lemur","F","captive",1,NA,0.43013698630137,3
+"6478","Crowned lemur","M","captive",2,1,26.5698630136986,4
+"6479","Crowned lemur","F","captive",2,1,6.8,4
+"648","Fat-tailed dwarf lemur","F","captive",1,NA,0,8
+"6480","Aye-aye","M","captive",1,NA,6.70684931506849,4
+"6481","Red-fronted brown lemur","M","captive",2,NA,0.186301369863014,4
+"6482","Red-fronted brown lemur","F","captive",2,NA,0.010958904109589,4
+"6483","Blue-eyed black lemur","F","captive",1,1,18.4219178082192,4
+"6484","Red-bellied lemur","F","captive",1,1,13.2246575342466,4
+"6486","Ring-tailed lemur","F","captive",1,NA,0.358904109589041,4
+"6488","Red-bellied lemur","M","captive",1,1,26.3178082191781,4
+"6489","Red-fronted brown lemur","F","captive",1,NA,0.378082191780822,3
+"6490","Mongoose lemur","M","captive",1,1,24.027397260274,5
+"6491","Coquerel's sifaka","M","captive",1,1,0,5
+"6492","Red ruffed lemur","M","captive",2,1,2.53424657534247,5
+"6493","Red ruffed lemur","F","captive",2,1,17.9452054794521,5
+"6494","Red ruffed lemur","F","captive",3,1,24.7506849315069,5
+"6495","Red ruffed lemur","F","captive",3,1,26.5123287671233,5
+"6497","Black-and-white ruffed lemur","F","captive",4,1,5.68493150684932,5
+"6498","Black-and-white ruffed lemur","M","captive",4,1,23.3123287671233,5
+"6499","Black-and-white ruffed lemur","M","captive",4,1,5.91506849315068,5
+"6500","Black-and-white ruffed lemur","M","captive",4,1,15.7753424657534,5
+"6501","Mongoose lemur","F","captive",1,1,16.1013698630137,5
+"6502","Mongoose lemur","F","captive",1,1,10.4794520547945,5
+"6503","Red-bellied lemur","M","captive",1,1,14.5671232876712,5
+"6504","Crowned lemur","M","captive",1,1,25.4767123287671,5
+"6505","Crowned lemur","M","captive",1,1,0.0438356164383562,6
+"6506","Crowned lemur","F","captive",1,1,0.00821917808219178,6
+"6509","Sanford's brown lemur","F","captive",1,1,20.7561643835616,6
+"651","Fat-tailed dwarf lemur","M","captive",3,NA,7.23287671232877,9
+"6510","Collared brown lemur","F","captive",NA,1,15.7479452054795,3
+"6511","Collared brown lemur","F","captive",NA,1,14.7013698630137,5
+"6513","Red ruffed lemur","M","captive",NA,NA,18.7232876712329,5
+"6514","Aye-aye","M","captive",1,1,5.29041095890411,10
+"6515","Aye-aye","F","captive",1,1,0.00273972602739726,12
+"6516","Coquerel's sifaka","M","captive",1,1,0.00547945205479452,1
+"6517","Coquerel's sifaka","F","captive",1,1,14.8027397260274,2
+"6519","Black lemur","F","captive",1,1,19.3205479452055,3
+"652","Fat-tailed dwarf lemur","M","captive",3,1,2.06301369863014,6
+"6520","Coquerel's sifaka","M","captive",1,1,0,3
+"6521","Blue-eyed black lemur","F","captive",1,1,14.1643835616438,3
+"6523","Ring-tailed lemur","M","captive",3,NA,0.00547945205479452,3
+"6524","Ring-tailed lemur","F","captive",3,NA,0,3
+"6525","Blue-eyed black lemur","F","captive",1,1,23.5452054794521,3
+"6526","Red-fronted brown lemur","M","captive",1,NA,24.4219178082192,3
+"6529","Ring-tailed lemur","F","captive",1,NA,0.191780821917808,3
+"653","Fat-tailed dwarf lemur","M","captive",3,1,10.958904109589,6
+"6530","Ring-tailed lemur","F","captive",1,NA,0.786301369863014,3
+"6532","Ring-tailed lemur","F","captive",1,NA,8.28219178082192,3
+"6535","Red-bellied lemur","M","captive",1,1,0,3
+"6537","Mongoose lemur","M","captive",1,1,0.00821917808219178,4
+"6539","Black-and-white ruffed lemur","M","captive",3,NA,0.00273972602739726,4
+"654","Fat-tailed dwarf lemur","M","captive",3,1,7.38356164383562,6
+"6540","Black-and-white ruffed lemur","M","captive",3,NA,0.00547945205479452,4
+"6541","Black-and-white ruffed lemur","M","captive",3,NA,0.0136986301369863,4
+"6542","Common brown lemur","F","captive",1,1,0,4
+"6544","Mongoose lemur","F","captive",1,1,0.123287671232877,4
+"6546","Sanford's brown lemur","M","captive",1,1,14.5287671232877,5
+"6547","Mongoose lemur","M","captive",1,1,0.0986301369863014,5
+"6548","Ring-tailed lemur","M","captive",2,NA,0.010958904109589,5
+"655","Fat-tailed dwarf lemur","M","captive",3,1,0,7
+"6550","Crowned lemur","M","captive",1,1,0.112328767123288,5
+"6551","Mongoose lemur","F","captive",1,1,2.32602739726027,5
+"6552","Mongoose lemur","F","captive",NA,NA,26.6082191780822,5
+"6554","Crowned lemur","M","captive",1,1,0,6
+"6559","Red-bellied lemur","M","captive",1,1,16.6438356164384,9
+"656","Fat-tailed dwarf lemur","M","captive",3,1,7.23835616438356,7
+"6560","Coquerel's sifaka","M","captive",1,1,1.29041095890411,9
+"6561","Aye-aye","F","captive",1,1,5.2027397260274,10
+"6567","Coquerel's sifaka","M","captive",1,1,0.00547945205479452,3
+"6568","Coquerel's sifaka","M","captive",1,1,0,3
+"657","Fat-tailed dwarf lemur","F","captive",3,1,11.0849315068493,7
+"6570","Blue-eyed black lemur","M","captive",1,1,22.7808219178082,3
+"6571","Ring-tailed lemur","M","captive",2,NA,0.0164383561643836,3
+"6572","Ring-tailed lemur","M","captive",2,NA,14.6082191780822,3
+"6574","Ring-tailed lemur","M","captive",2,NA,24.786301369863,3
+"6577","Blue-eyed black lemur","M","captive",1,1,0,3
+"6583","Coquerel's sifaka","M","captive",1,1,20.6,4
+"6584","Blue-eyed black lemur","F","captive",1,1,0,4
+"6585","Mongoose lemur","F","captive",1,1,0.126027397260274,4
+"6587","Mongoose lemur","F","captive",1,1,0.00273972602739726,4
+"6588","Mongoose lemur","F","captive",1,1,0.0657534246575342,4
+"6589","Red-bellied lemur","F","captive",1,1,0,4
+"659","Fat-tailed dwarf lemur","M","captive",3,1,23.2712328767123,7
+"6593","Red ruffed lemur","M","captive",2,1,5.89041095890411,5
+"6595","Crowned lemur","F","captive",2,1,0.0328767123287671,5
+"6596","Crowned lemur","M","captive",2,1,0.0410958904109589,5
+"6598","Ring-tailed lemur","M","captive",1,NA,5.43287671232877,5
+"6599","Crowned lemur","M","captive",1,1,0.0438356164383562,5
+"660","Fat-tailed dwarf lemur","F","captive",3,1,1.23287671232877,7
+"6600","Crowned lemur","M","captive",2,1,0.0328767123287671,5
+"6601","Crowned lemur","F","captive",2,1,23.7178082191781,5
+"6603","Red-bellied lemur","F","captive",1,1,21.8082191780822,6
+"6604","Aye-aye","M","captive",1,1,22.4054794520548,6
+"6605","Black-and-white ruffed lemur","M","captive",1,NA,0.964383561643836,5
+"6608","Coquerel's sifaka","M","captive",1,1,15.786301369863,9
+"661","Fat-tailed dwarf lemur","M","captive",1,1,0,7
+"6610","Coquerel's sifaka","M","captive",1,1,13.3369863013699,12
+"6611","Coquerel's sifaka","M","captive",1,1,0,12
+"6613","Red-fronted brown lemur","M","captive",1,NA,0,2
+"6614","Blue-eyed black lemur","M","captive",1,1,2.3972602739726,3
+"6616","Ring-tailed lemur","M","captive",1,NA,22.2465753424658,3
+"6619","Ring-tailed lemur","F","captive",1,NA,0,3
+"662","Fat-tailed dwarf lemur","M","captive",2,NA,2.16986301369863,8
+"6620","Ring-tailed lemur","M","captive",2,NA,0.0383561643835616,3
+"6621","Ring-tailed lemur","M","captive",2,NA,1.03287671232877,3
+"6625","Coquerel's sifaka","M","captive",1,1,0.0657534246575342,3
+"6626","Blue-eyed black lemur","M","captive",1,1,8.62739726027397,4
+"6627","Blue-eyed black lemur","M","captive",1,1,17.1753424657534,4
+"6628","Coquerel's sifaka","F","captive",1,1,0.208219178082192,4
+"6629","Red-bellied lemur","F","captive",1,1,20.2054794520548,4
+"663","Fat-tailed dwarf lemur","M","captive",2,NA,0.526027397260274,8
+"6630","Mongoose lemur","F","captive",1,1,22.4684931506849,4
+"6631","Red-bellied lemur","M","captive",1,1,0,4
+"6632","Ring-tailed lemur","F","captive",1,NA,0.00821917808219178,4
+"6635","Crowned lemur","M","captive",2,1,0.00821917808219178,4
+"6638","Crowned lemur","M","captive",1,1,19.9780821917808,5
+"6639","Crowned lemur","M","captive",1,1,19.0986301369863,5
+"664","Fat-tailed dwarf lemur","M","captive",2,1,0,6
+"6640","Ring-tailed lemur","M","captive",1,NA,0.172602739726027,5
+"6641","Crowned lemur","F","captive",1,1,0.742465753424657,5
+"6643","Black-and-white ruffed lemur","F","captive",1,NA,0.463013698630137,5
+"6645","Mongoose lemur","F","captive",1,1,19.5178082191781,5
+"6646","Mongoose lemur","F","captive",NA,1,20.9835616438356,5
+"6648","Ring-tailed lemur","F","captive",2,NA,1.87123287671233,6
+"6649","Aye-aye","F","captive",1,1,0.010958904109589,10
+"665","Fat-tailed dwarf lemur","F","captive",2,1,0.00273972602739726,6
+"6652","Coquerel's sifaka","F","captive",1,1,0.00547945205479452,1
+"6653","Coquerel's sifaka","M","captive",1,1,0.136986301369863,2
+"6654","Blue-eyed black lemur","F","captive",1,1,0.00547945205479452,3
+"6655","Blue-eyed black lemur","M","captive",1,1,19.0383561643836,3
+"6657","Blue-eyed black lemur","F","captive",1,1,17.7808219178082,3
+"6659","Ring-tailed lemur","M","captive",1,NA,7.46301369863014,3
+"666","Fat-tailed dwarf lemur","M","captive",2,1,13.4794520547945,7
+"6662","Red-bellied lemur","M","captive",1,1,0.0438356164383562,3
+"6665","Ring-tailed lemur","M","captive",1,NA,10.641095890411,3
+"6667","Coquerel's sifaka","M","captive",1,1,0.33972602739726,3
+"667","Fat-tailed dwarf lemur","M","captive",2,1,7.9945205479452,7
+"6672","Red-fronted brown lemur","F","captive",1,NA,0,4
+"6673","Black-and-white ruffed lemur","M","captive",1,NA,2.21369863013699,4
+"6677","Red-bellied lemur","M","captive",1,1,0.0986301369863014,4
+"6678","Crowned lemur","M","captive",2,1,0.0712328767123288,4
+"6679","Crowned lemur","M","captive",2,1,0.0821917808219178,4
+"668","Fat-tailed dwarf lemur","M","captive",3,1,13.5890410958904,7
+"6680","Crowned lemur","M","captive",2,1,11.2082191780822,5
+"6683","Red ruffed lemur","M","captive",3,1,0,5
+"6685","Red ruffed lemur","F","captive",3,1,21.4575342465753,5
+"6686","Mongoose lemur","F","captive",1,1,16.6630136986301,5
+"6687","Ring-tailed lemur","F","captive",1,NA,1.22191780821918,5
+"6688","Ring-tailed lemur","M","captive",1,NA,6.2958904109589,5
+"6689","Red-bellied lemur","M","captive",NA,1,10.7972602739726,6
+"669","Fat-tailed dwarf lemur","F","captive",3,1,0.0986301369863014,7
+"6690","Coquerel's sifaka","F","captive",1,1,12.6219178082192,12
+"6691","Mongoose lemur","F","captive",NA,1,2.04109589041096,4
+"6692","Coquerel's sifaka","F","captive",1,1,8.44383561643836,12
+"6694","Black-and-white ruffed lemur","F","captive",NA,NA,22.2383561643836,4
+"6695","Coquerel's sifaka","M","captive",1,1,0,2
+"6696","Coquerel's sifaka","F","captive",1,1,1.38356164383562,2
+"6697","Blue-eyed black lemur","M","captive",1,1,0.00273972602739726,3
+"6699","Blue-eyed black lemur","M","captive",1,1,16.2027397260274,3
+"6704","Ring-tailed lemur","F","captive",2,NA,17.7534246575342,4
+"6705","Ring-tailed lemur","M","captive",2,NA,18.7123287671233,4
+"6707","Ring-tailed lemur","F","captive",2,NA,0.273972602739726,4
+"6708","Ring-tailed lemur","F","captive",1,NA,13.2328767123288,4
+"671","Fat-tailed dwarf lemur","M","captive",2,NA,14.2575342465753,8
+"6712","Ring-tailed lemur","M","captive",1,NA,0,4
+"6714","Red-bellied lemur","M","captive",1,1,0,5
+"6715","Red-bellied lemur","M","captive",1,1,0.29041095890411,5
+"6717","Mongoose lemur","M","captive",1,1,19.7890410958904,6
+"6718","Coquerel's sifaka","F","captive",NA,1,0.00821917808219178,11
+"6719","Black-and-white ruffed lemur","F","captive",NA,NA,10.4054794520548,5
+"6720","Black-and-white ruffed lemur","M","captive",NA,NA,11.9479452054795,5
+"6723","Coquerel's sifaka","F","captive",1,1,6.4,1
+"6724","Coquerel's sifaka","M","captive",1,1,1.43013698630137,2
+"6725","Aye-aye","M","captive",1,1,10.7698630136986,2
+"6727","Coquerel's sifaka","F","captive",1,1,19.2602739726027,2
+"6728","Coquerel's sifaka","F","captive",1,1,0.0219178082191781,2
+"673","Fat-tailed dwarf lemur","M","captive",1,1,0.243835616438356,8
+"6730","Crowned lemur","M","captive",NA,1,19.8246575342466,4
+"6731","Mongoose lemur","M","captive",NA,1,8.6,4
+"6733","Black-and-white ruffed lemur","F","captive",NA,NA,9.51232876712329,5
+"6736","Black-and-white ruffed lemur","F","captive",1,1,0,6
+"6738","Coquerel's sifaka","F","captive",NA,1,0.00547945205479452,6
+"6739","Black-and-white ruffed lemur","M","captive",NA,NA,25.4493150684931,4
+"674","Fat-tailed dwarf lemur","M","captive",NA,1,17.8876712328767,7
+"6740","Red ruffed lemur","F","captive",NA,1,15.5369863013699,6
+"6743","Coquerel's sifaka","F","captive",1,1,19.6821917808219,2
+"6746","Blue-eyed black lemur","F","captive",NA,1,1.01369863013699,4
+"6747","Coquerel's sifaka","M","captive",1,1,15.6328767123288,2
+"6748","Blue-eyed black lemur","F","captive",NA,1,4.93698630136986,3
+"6749","Blue-eyed black lemur","M","captive",1,1,0,4
+"675","Fat-tailed dwarf lemur","M","captive",NA,1,4.68493150684932,7
+"6752","Red ruffed lemur","M","captive",2,1,18.613698630137,5
+"6753","Red-bellied lemur","M","captive",1,1,0,6
+"6755","Red-bellied lemur","F","captive",1,1,0,10
+"6756","Coquerel's sifaka","M","captive",NA,1,2.63561643835616,12
+"6757","Coquerel's sifaka","M","captive",1,1,11.7068493150685,2
+"6758","Coquerel's sifaka","F","captive",1,1,16.9260273972603,2
+"6759","Coquerel's sifaka","M","captive",1,1,4.40821917808219,2
+"676","Fat-tailed dwarf lemur","F","captive",NA,1,18.641095890411,5
+"6760","Ring-tailed lemur","M","captive",2,1,0.0684931506849315,3
+"6761","Ring-tailed lemur","F","captive",2,1,18.8246575342466,3
+"6763","Ring-tailed lemur","F","captive",1,1,4.52054794520548,3
+"6764","Ring-tailed lemur","M","captive",2,1,13.5232876712329,3
+"6765","Ring-tailed lemur","F","captive",2,1,6.05479452054795,3
+"6768","Blue-eyed black lemur","M","captive",NA,1,4.08767123287671,9
+"6769","Red ruffed lemur","F","captive",NA,NA,17.8794520547945,6
+"677","Fat-tailed dwarf lemur","M","captive",2,1,0,4
+"6771","Aye-aye","M","captive",1,1,0.0136986301369863,12
+"6774","Coquerel's sifaka","M","captive",1,1,10.2630136986301,2
+"6775","Crowned lemur","F","captive",NA,1,8.34246575342466,3
+"6778","Blue-eyed black lemur","M","captive",1,1,0.00273972602739726,3
+"678","Fat-tailed dwarf lemur","F","captive",2,1,11.3945205479452,4
+"6780","Coquerel's sifaka","M","captive",1,1,2.26849315068493,5
+"6785","Red ruffed lemur","M","captive",NA,1,8.2,3
+"6788","Aye-aye","M","captive",1,1,13.2438356164384,10
+"679","Fat-tailed dwarf lemur","F","captive",4,1,0,7
+"6790","Coquerel's sifaka","M","captive",1,1,9.50684931506849,12
+"6792","Coquerel's sifaka","F","captive",NA,1,0.00547945205479452,2
+"6793","Blue-eyed black lemur","F","captive",1,1,3.84657534246575,3
+"6794","Coquerel's sifaka","F","captive",1,1,0.00821917808219178,3
+"6798","Collared brown lemur","F","captive",2,1,0.00273972602739726,4
+"6799","Collared brown lemur","F","captive",2,1,0,4
+"680","Fat-tailed dwarf lemur","M","captive",4,1,0,7
+"6801","Mongoose lemur","M","captive",NA,1,5.44657534246575,4
+"6804","Coquerel's sifaka","M","captive",1,1,8.49041095890411,1
+"6805","Coquerel's sifaka","F","captive",NA,1,0.00273972602739726,2
+"6806","Coquerel's sifaka","M","captive",1,1,2.21643835616438,2
+"6807","Coquerel's sifaka","M","captive",1,1,9.74520547945206,3
+"6808","Ring-tailed lemur","F","captive",1,1,1.60821917808219,3
+"6809","Blue-eyed black lemur","F","captive",1,1,0,3
+"6810","Blue-eyed black lemur","M","captive",NA,1,0.449315068493151,3
+"6812","Ring-tailed lemur","M","captive",2,1,4.28767123287671,4
+"6814","Red ruffed lemur","F","captive",NA,1,13.3424657534247,4
+"6818","Black-and-white ruffed lemur","M","captive",NA,NA,0.413698630136986,6
+"6819","Coquerel's sifaka","M","captive",NA,1,15.1342465753425,8
+"6820","Aye-aye","F","captive",1,1,12.5150684931507,9
+"6822","Blue-eyed black lemur","M","captive",NA,1,11.5643835616438,6
+"6823","Coquerel's sifaka","M","captive",1,1,5.50958904109589,1
+"6824","Coquerel's sifaka","M","captive",NA,1,0,1
+"6825","Coquerel's sifaka","F","captive",1,1,3.29315068493151,2
+"6829","Blue-eyed black lemur","F","captive",1,1,1.21369863013699,3
+"6830","Ring-tailed lemur","F","captive",2,1,7.76712328767123,3
+"6833","Collared brown lemur","M","captive",1,1,0,3
+"6836","Ring-tailed lemur","M","captive",1,1,0.0219178082191781,4
+"684","Fat-tailed dwarf lemur","F","captive",3,1,21.8739726027397,7
+"6840","Coquerel's sifaka","M","captive",NA,1,0.835616438356164,7
+"6843","Coquerel's sifaka","M","captive",1,1,11.3890410958904,1
+"6844","Coquerel's sifaka","F","captive",1,1,0.276712328767123,1
+"6845","Coquerel's sifaka","M","captive",NA,1,1.55342465753425,2
+"6846","Ring-tailed lemur","M","captive",NA,NA,15.4301369863014,4
+"6848","Ring-tailed lemur","M","captive",NA,NA,11.5424657534247,3
+"685","Fat-tailed dwarf lemur","F","captive",3,1,16.7698630136986,7
+"6850","Coquerel's sifaka","F","captive",1,1,2.69315068493151,2
+"6852","Collared brown lemur","F","captive",NA,1,2.94520547945205,6
+"6853","Blue-eyed black lemur","F","captive",1,1,0.00273972602739726,3
+"6862","Ring-tailed lemur","M","captive",NA,NA,32.7287671232877,5
+"6865","Ring-tailed lemur","F","captive",1,1,1.98356164383562,6
+"6866","Aye-aye","F","captive",1,1,11.1479452054795,9
+"6867","Coquerel's sifaka","M","captive",NA,1,0.010958904109589,3
+"687","Fat-tailed dwarf lemur","F","captive",4,1,25.1753424657534,8
+"6871","Coquerel's sifaka","M","captive",1,1,0,1
+"6872","Coquerel's sifaka","F","captive",1,1,0.397260273972603,2
+"6875","Coquerel's sifaka","M","captive",NA,1,0.53972602739726,2
+"6879","Ring-tailed lemur","F","captive",2,1,0.0328767123287671,5
+"688","Fat-tailed dwarf lemur","F","captive",4,1,10.8876712328767,8
+"6883","Coquerel's sifaka","M","captive",NA,1,7.58904109589041,1
+"689","Fat-tailed dwarf lemur","F","captive",4,1,18.5561643835616,8
+"6890","Blue-eyed black lemur","F","captive",1,1,0,3
+"6891","Coquerel's sifaka","M","captive",NA,1,0.00821917808219178,12
+"6893","Ring-tailed lemur","F","captive",1,1,0.789041095890411,4
+"690","Fat-tailed dwarf lemur","M","captive",4,1,18.8602739726027,8
+"6904","Coquerel's sifaka","M","captive",NA,1,8.55342465753425,2
+"6905","Coquerel's sifaka","F","captive",1,1,0,3
+"6906","Blue-eyed black lemur","M","captive",1,1,0,3
+"6908","Coquerel's sifaka","F","captive",NA,1,0.10958904109589,4
+"6915","Aye-aye","M","captive",1,1,7.8054794520548,7
+"6918","Black-and-white ruffed lemur","F","captive",NA,NA,17.1534246575342,4
+"6919","Aye-aye","M","captive",NA,1,0,10
+"692","Fat-tailed dwarf lemur","M","captive",2,1,0.00821917808219178,5
+"6920","Coquerel's sifaka","M","captive",1,1,6.51506849315069,12
+"6921","Coquerel's sifaka","M","captive",NA,1,6.43013698630137,1
+"693","Fat-tailed dwarf lemur","M","captive",2,1,0.010958904109589,5
+"6933","Coquerel's sifaka","M","captive",NA,1,5.65205479452055,2
+"6934","Coquerel's sifaka","M","captive",NA,1,2.37808219178082,2
+"6935","Coquerel's sifaka","F","captive",NA,1,0.471232876712329,2
+"6938","Ring-tailed lemur","F","captive",1,1,0.0547945205479452,3
+"6941","Aye-aye","M","captive",1,1,7.56712328767123,4
+"6942","Mongoose lemur","F","captive",1,1,0,4
+"6944","Coquerel's sifaka","F","captive",NA,1,0,3
+"6948","Red ruffed lemur","M","captive",NA,NA,6.50684931506849,4
+"695","Fat-tailed dwarf lemur","M","captive",2,1,0,6
+"6952","Black-and-white ruffed lemur","M","captive",3,1,0,5
+"6953","Ring-tailed lemur","M","captive",2,1,0.0958904109589041,7
+"6958","Aye-aye","F","captive",NA,1,6.95068493150685,9
+"696","Fat-tailed dwarf lemur","F","captive",3,1,0,6
+"6960","Coquerel's sifaka","M","captive",NA,1,3.78356164383562,12
+"6961","Coquerel's sifaka","F","captive",1,1,7.6027397260274,12
+"6962","Coquerel's sifaka","M","captive",NA,1,8.92054794520548,12
+"6963","Coquerel's sifaka","M","captive",1,1,0,2
+"6964","Coquerel's sifaka","M","captive",1,1,7.51506849315069,2
+"6966","Coquerel's sifaka","M","captive",NA,1,1.47671232876712,1
+"697","Fat-tailed dwarf lemur","F","captive",3,1,0,6
+"6982","Coquerel's sifaka","F","captive",1,1,1.48493150684931,1
+"6984","Coquerel's sifaka","M","captive",NA,1,0.712328767123288,2
+"6986","Coquerel's sifaka","F","captive",NA,1,7.81917808219178,1
+"699","Fat-tailed dwarf lemur","F","captive",2,1,0.00273972602739726,7
+"6992","Black-and-white ruffed lemur","M","captive",1,1,0,4
+"6998","Red ruffed lemur","F","captive",2,1,0,5
+"6999","Red ruffed lemur","M","captive",2,1,0,5
+"7001","Gray mouse lemur","F","captive",3,1,9.85479452054794,8
+"7002","Gray mouse lemur","M","captive",3,1,6.26575342465753,8
+"7003","Gray mouse lemur","M","captive",3,1,14.5561643835616,8
+"7004","Gray mouse lemur","M","captive",NA,1,0.00273972602739726,8
+"7005","Gray mouse lemur","M","captive",NA,1,0.00273972602739726,8
+"7006","Gray mouse lemur","M","captive",2,1,12.3424657534247,6
+"7007","Gray mouse lemur","M","captive",2,1,11.2794520547945,6
+"7011","Gray mouse lemur","F","captive",4,1,8.04931506849315,7
+"7012","Gray mouse lemur","F","captive",4,1,6.43287671232877,7
+"7013","Gray mouse lemur","F","captive",4,1,10.3013698630137,7
+"7016","Gray mouse lemur","M","captive",NA,1,13.8109589041096,2
+"7017","Gray mouse lemur","M","captive",NA,NA,11.8739726027397,6
+"7018","Gray mouse lemur","F","captive",NA,NA,7.77534246575342,6
+"7019","Gray mouse lemur","M","captive",NA,NA,11.8958904109589,7
+"7020","Gray mouse lemur","F","captive",NA,NA,10.1753424657534,8
+"7021","Gray mouse lemur","M","captive",NA,NA,11.2438356164384,7
+"7022","Gray mouse lemur","F","captive",NA,NA,9.14520547945206,8
+"7023","Gray mouse lemur","F","captive",NA,NA,9.1041095890411,10
+"7024","Gray mouse lemur","M","captive",NA,NA,10.1890410958904,7
+"7025","Gray mouse lemur","M","captive",NA,NA,10.7698630136986,7
+"7026","Gray mouse lemur","F","captive",NA,NA,10.3397260273973,6
+"7027","Gray mouse lemur","M","captive",NA,NA,9.62465753424657,5
+"7028","Gray mouse lemur","F","captive",NA,NA,10.2438356164384,5
+"7031","Gray mouse lemur","M","captive",NA,NA,7.18630136986301,5
+"7041","Aye-aye","M","captive",NA,1,3.84657534246575,11
+"7053","Fat-tailed dwarf lemur","M","captive",4,1,0.00273972602739726,7
+"7054","Fat-tailed dwarf lemur","F","captive",4,1,0.00273972602739726,7
+"7057","Ring-tailed lemur","M","captive",2,1,0,7
+"7058","Ring-tailed lemur","F","captive",2,1,0,7
+"7065","Gray mouse lemur","M","captive",3,1,1.4958904109589,8
+"7067","Gray mouse lemur","F","captive",2,NA,6.43835616438356,8
+"7077","Coquerel's sifaka","F","captive",1,1,0.202739726027397,1
+"7078","Coquerel's sifaka","M","captive",1,1,0,1
+"7079","Coquerel's sifaka","F","captive",NA,1,1.43287671232877,1
+"7080","Coquerel's sifaka","M","captive",NA,1,0.224657534246575,2
+"7092","Red ruffed lemur","M","captive",4,1,0,5
+"7097","Gray mouse lemur","F","captive",3,1,5.66575342465753,6
+"7100","Ring-tailed lemur","F","captive",2,1,0.00273972602739726,6
+"7101","Ring-tailed lemur","F","captive",2,1,0,6
+"7102","Pygmy slow loris","M","captive",2,1,0.0356164383561644,6
+"7107","Black-and-white ruffed lemur","F","captive",1,1,0,7
+"7108","Gray mouse lemur","F","captive",3,NA,6.4027397260274,7
+"7113","Gray mouse lemur","F","captive",2,1,5.76164383561644,7
+"7115","Crowned lemur","F","captive",1,1,0,7
+"7117","Ring-tailed lemur","M","captive",2,1,0,7
+"7118","Ring-tailed lemur","M","captive",2,1,0,7
+"7126","Gray mouse lemur","F","captive",3,1,4.7041095890411,8
+"7133","Coquerel's sifaka","M","captive",1,1,0.0684931506849315,1
+"7134","Coquerel's sifaka","M","captive",NA,1,0,1
+"7136","Coquerel's sifaka","M","captive",1,1,5.94794520547945,2
+"7138","Ring-tailed lemur","F","captive",2,1,0.063013698630137,3
+"7142","Ring-tailed lemur","F","captive",2,1,1.15616438356164,3
+"7144","Ring-tailed lemur","F","captive",2,1,1.15342465753425,3
+"7145","Ring-tailed lemur","M","captive",2,1,0.0575342465753425,3
+"7147","Mongoose lemur","M","captive",1,1,0,4
+"7148","Mongoose lemur","M","captive",1,1,0.00821917808219178,4
+"7156","Coquerel's sifaka","F","captive",NA,1,0,2
+"7159","Gray mouse lemur","F","captive",2,1,4.03561643835616,6
+"7160","Gray mouse lemur","M","captive",2,1,5.18082191780822,6
+"7169","Coquerel's sifaka","M","captive",NA,1,0.249315068493151,1
+"7173","Coquerel's sifaka","M","captive",1,1,0,1
+"7178","Blue-eyed black lemur","M","captive",1,1,0.328767123287671,3
+"7193","Fat-tailed dwarf lemur","F","captive",1,1,0.00273972602739726,8
+"7195","Coquerel's sifaka","M","captive",NA,1,0.0794520547945206,11
+"7197","Coquerel's sifaka","M","captive",NA,1,0.884931506849315,12
+"7198","Coquerel's sifaka","F","captive",NA,1,0.136986301369863,12
+"7203","Coquerel's sifaka","M","captive",1,1,0,2
+"7205","Ring-tailed lemur","M","captive",1,1,0.00547945205479452,3
+"7213","Red ruffed lemur","M","captive",3,1,0.383561643835616,5
+"7216","Mongoose lemur","F","captive",1,1,0,6
+"7217","Gray mouse lemur","F","captive",1,1,0.010958904109589,6
+"7224","Coquerel's sifaka","M","captive",NA,1,0,9
+"7225","Coquerel's sifaka","F","captive",NA,1,0.232876712328767,9
+"7229","Coquerel's sifaka","M","captive",NA,1,0,4
+"7230","Coquerel's sifaka","M","captive",NA,1,0,9
+"7232","Coquerel's sifaka","F","captive",1,1,0.0136986301369863,1
+"7236","Black-and-white ruffed lemur","F","captive",NA,NA,7.32054794520548,5
+"7238","Red-fronted brown lemur","F","captive",1,1,0,3
+"7245","Pygmy slow loris","M","captive",NA,NA,11.213698630137,3
+"7248","Aye-aye","F","captive",NA,1,0,5
+"7252","Black-and-white ruffed lemur","M","captive",2,1,2.32876712328767,6
+"7260","Aye-aye","M","captive",NA,1,0.010958904109589,11
+"7263","Coquerel's sifaka","M","captive",1,1,0.342465753424658,1
+"7266","Pygmy slow loris","F","captive",2,1,0.00273972602739726,1
+"7281","Coquerel's sifaka","M","captive",NA,1,0,6
+"7284","Coquerel's sifaka","F","captive",1,1,0,10
+"7285","Pygmy slow loris","M","captive",NA,NA,7.6986301369863,3
+"7290","Blue-eyed black lemur","F","captive",2,1,0,3
+"7293","Crowned lemur","F","captive",1,1,0,4
+"7299","Red ruffed lemur","M","captive",3,1,0,5
+"7300","Coquerel's sifaka","M","captive",1,1,0,6
+"7304","Coquerel's sifaka","M","captive",NA,1,0.0876712328767123,7
+"801","Gray mouse lemur","F","wild",NA,NA,3.96164383561644,12
+"8012","Northern greater galago","M","captive",1,1,0.147945205479452,11
+"8013","Northern greater galago","M","captive",1,1,0,12
+"8017","Northern greater galago","M","captive",2,1,0.126027397260274,1
+"8018","Northern greater galago","F","captive",1,1,0.158904109589041,5
+"8019","Northern greater galago","M","captive",1,1,0,7
+"802","Gray mouse lemur","F","wild",NA,NA,6.15890410958904,12
+"8020","Northern greater galago","F","captive",1,1,0,12
+"8023","Northern greater galago","M","captive",2,1,0.010958904109589,3
+"8027","Northern greater galago","M","captive",1,1,16.7178082191781,2
+"8028","Northern greater galago","M","captive",1,1,20.0054794520548,3
+"803","Gray mouse lemur","F","wild",NA,NA,5.54246575342466,12
+"8030","Northern greater galago","M","captive",1,1,0,7
+"8031","Northern greater galago","F","captive",1,1,0,11
+"8032","Northern greater galago","F","captive",1,1,3.05205479452055,5
+"8035","Northern greater galago","F","captive",1,1,0,1
+"8037","Northern greater galago","M","captive",1,1,0.0438356164383562,5
+"804","Gray mouse lemur","F","wild",NA,NA,6.4958904109589,12
+"805","Gray mouse lemur","F","wild",NA,NA,7.18904109589041,12
+"806","Gray mouse lemur","F","wild",NA,NA,15.9397260273973,12
+"807","Gray mouse lemur","F","wild",NA,NA,5.09041095890411,12
+"808","Gray mouse lemur","F","wild",NA,NA,14.4219178082192,12
+"809","Gray mouse lemur","F","wild",NA,NA,15.786301369863,12
+"810","Gray mouse lemur","F","wild",NA,NA,3.23561643835616,12
+"811","Gray mouse lemur","M","wild",NA,NA,2.09041095890411,12
+"812","Gray mouse lemur","F","wild",NA,NA,2.08219178082192,12
+"813","Gray mouse lemur","M","wild",NA,NA,11.7534246575342,12
+"814","Gray mouse lemur","M","wild",NA,NA,14.4328767123288,12
+"815","Gray mouse lemur","F","wild",NA,NA,2.44657534246575,12
+"816","Gray mouse lemur","F","wild",NA,NA,12.6712328767123,12
+"817","Gray mouse lemur","M","captive",3,1,12.441095890411,3
+"818","Gray mouse lemur","M","captive",3,1,9.15068493150685,3
+"819","Gray mouse lemur","M","captive",3,1,7.73424657534247,3
+"820","Gray mouse lemur","F","captive",3,1,10.2767123287671,7
+"821","Gray mouse lemur","M","captive",3,1,9.79178082191781,7
+"822","Gray mouse lemur","M","captive",3,1,5.14794520547945,7
+"823","Gray mouse lemur","F","captive",2,1,4.76164383561644,9
+"824","Gray mouse lemur","M","captive",2,1,8.78356164383562,9
+"825","Gray mouse lemur","F","captive",1,1,2.79452054794521,6
+"826","Gray mouse lemur","M","captive",2,NA,7.86575342465753,7
+"827","Gray mouse lemur","M","captive",2,NA,0.123287671232877,7
+"828","Gray mouse lemur","M","captive",1,1,0,9
+"829","Gray mouse lemur","F","captive",3,NA,12.3534246575342,5
+"830","Gray mouse lemur","M","captive",3,NA,10.4630136986301,5
+"831","Gray mouse lemur","M","captive",3,NA,6.61917808219178,5
+"832","Gray mouse lemur","F","captive",1,NA,0.0273972602739726,6
+"833","Gray mouse lemur","F","captive",1,NA,1.81369863013699,6
+"837","Gray mouse lemur","M","captive",3,NA,17.9643835616438,8
+"838","Gray mouse lemur","M","captive",3,NA,5.64383561643836,8
+"839","Gray mouse lemur","M","captive",3,NA,10.0931506849315,8
+"840","Gray mouse lemur","F","captive",1,NA,5.23013698630137,9
+"841","Gray mouse lemur","M","wild",NA,NA,9.6958904109589,12
+"842","Gray mouse lemur","F","captive",3,1,9.82739726027397,9
+"843","Gray mouse lemur","F","captive",3,1,8.32602739726027,9
+"844","Gray mouse lemur","M","captive",3,1,0.0602739726027397,9
+"845","Gray mouse lemur","F","captive",3,NA,15.0383561643836,7
+"846","Gray mouse lemur","F","captive",3,NA,7.42739726027397,7
+"847","Gray mouse lemur","M","captive",3,NA,11.2739726027397,7
+"849","Gray mouse lemur","M","captive",4,NA,0,8
+"850","Gray mouse lemur","M","captive",4,NA,15.5068493150685,8
+"851","Gray mouse lemur","M","captive",4,NA,6.37260273972603,8
+"852","Gray mouse lemur","M","captive",2,1,8.37808219178082,6
+"853","Gray mouse lemur","F","captive",2,1,10.3698630136986,6
+"854","Gray mouse lemur","M","captive",3,1,0.0191780821917808,6
+"855","Gray mouse lemur","M","captive",3,1,0.175342465753425,6
+"857","Gray mouse lemur","M","captive",4,NA,7.52602739726027,7
+"858","Gray mouse lemur","M","captive",4,NA,3.91506849315068,7
+"859","Gray mouse lemur","F","captive",4,NA,10.1671232876712,7
+"860","Gray mouse lemur","F","captive",4,NA,0.180821917808219,7
+"861","Gray mouse lemur","M","captive",3,1,3.34246575342466,8
+"862","Gray mouse lemur","M","captive",3,1,14.7178082191781,8
+"863","Gray mouse lemur","F","captive",3,1,10.2684931506849,8
+"864","Gray mouse lemur","M","captive",1,1,2.74794520547945,12
+"865","Gray mouse lemur","F","captive",NA,NA,6.95616438356164,8
+"866","Gray mouse lemur","M","captive",NA,NA,8.67397260273973,10
+"867","Gray mouse lemur","F","captive",NA,NA,8.7972602739726,10
+"868","Gray mouse lemur","M","captive",NA,NA,9.43561643835617,7
+"869","Gray mouse lemur","F","captive",NA,NA,4.96438356164384,6
+"870","Gray mouse lemur","M","captive",2,1,11.7287671232877,6
+"872","Gray mouse lemur","M","captive",2,1,0.0356164383561644,6
+"873","Gray mouse lemur","F","captive",2,1,0.10958904109589,6
+"874","Gray mouse lemur","F","captive",2,1,12.3424657534247,8
+"875","Gray mouse lemur","F","captive",2,1,12.3890410958904,8
+"876","Gray mouse lemur","M","captive",3,1,2.14246575342466,8
+"877","Gray mouse lemur","M","captive",3,1,5.43561643835616,8
+"878","Gray mouse lemur","F","captive",3,1,5.23835616438356,8
+"880","Gray mouse lemur","M","captive",3,NA,0.0986301369863014,6
+"881","Gray mouse lemur","M","captive",3,NA,1.26575342465753,6
+"882","Gray mouse lemur","F","captive",3,NA,1.11232876712329,6
+"883","Gray mouse lemur","F","captive",3,NA,12.3890410958904,6
+"884","Gray mouse lemur","F","captive",3,NA,7.24109589041096,6
+"885","Gray mouse lemur","M","captive",3,NA,1.23013698630137,6
+"886","Gray mouse lemur","M","captive",3,1,0.00273972602739726,6
+"887","Gray mouse lemur","M","captive",3,1,0.00273972602739726,6
+"888","Gray mouse lemur","M","captive",3,1,0.00273972602739726,6
+"889","Gray mouse lemur","F","captive",1,1,11.813698630137,7
+"890","Gray mouse lemur","M","captive",2,1,0,8
+"891","Gray mouse lemur","F","captive",2,1,0,8
+"892","Gray mouse lemur","M","captive",NA,NA,5.53150684931507,12
+"893","Gray mouse lemur","M","captive",NA,NA,1.93150684931507,12
+"894","Gray mouse lemur","M","captive",4,1,3.04657534246575,6
+"895","Gray mouse lemur","F","captive",4,1,5.92054794520548,6
+"896","Gray mouse lemur","M","captive",4,1,9.81369863013699,6
+"897","Gray mouse lemur","M","captive",4,1,0.0356164383561644,6
+"898","Gray mouse lemur","F","captive",3,1,0,6
+"899","Gray mouse lemur","F","captive",3,1,12.6684931506849,6
+"903","Potto","M","wild",NA,NA,4.77808219178082,11
+"904","Potto","F","wild",NA,NA,4.79178082191781,11
+"905","Potto","F","wild",NA,NA,3.36438356164384,11
+"906","Potto","F","wild",NA,NA,2.33698630136986,11
+"908","Slender loris","M","wild",NA,NA,1.55342465753425,11
+"909","Slender loris","F","wild",NA,NA,1.4986301369863,11
+"912","Potto","F","captive",NA,NA,5.9972602739726,9
+"913","Potto","M","captive",NA,NA,7.3972602739726,9
+"914","Potto","M","wild",NA,NA,16.3013698630137,11
+"916","Potto","F","captive",NA,NA,5.2054794520548,9
+"917","Potto","F","wild",NA,NA,16.2958904109589,11
+"918","Potto","F","wild",NA,NA,32.3534246575342,11
+"919","Potto","M","captive",1,1,25.6712328767123,4
+"920","Potto","M","wild",NA,NA,14.9808219178082,11
+"921","Potto","F","wild",NA,NA,23.0712328767123,11
+"922","Potto","M","captive",1,1,30.0027397260274,11
+"923","Potto","M","captive",1,1,0.00821917808219178,4
+"925","Potto","F","captive",1,1,15.9753424657534,1
+"927","Potto","M","captive",1,1,0,12
+"929","Potto","F","captive",1,1,0,8
+"930","Potto","M","wild",NA,NA,16.4547945205479,11
+"931","Potto","M","captive",1,1,0,3
+"932","Potto","M","captive",1,1,5.09315068493151,9
+"934","Potto","M","captive",1,1,0.00273972602739726,12
+"935","Potto","F","captive",NA,NA,17.7835616438356,6
+"950","Slow loris","M","wild",NA,NA,2.69315068493151,9
+"951","Slow loris","M","wild",NA,NA,2.17260273972603,9
+"952","Slow loris","M","wild",NA,NA,2.66027397260274,9
+"953","Slow loris","M","wild",NA,NA,1.36986301369863,11
+"954","Slow loris","F","wild",NA,NA,1.35890410958904,11
+"955","Slow loris","F","wild",NA,NA,1.36712328767123,11
+"956","Slow loris","F","wild",NA,NA,2.0958904109589,11
+"959","Slow loris","M","wild",NA,NA,20.0383561643836,7
+"960","Slow loris","F","wild",NA,NA,10.1178082191781,7
+"961","Slow loris","M","captive",1,1,12.4849315068493,9
+"962","Slow loris","M","captive",NA,NA,9.05479452054795,6
+"964","Slow loris","F","wild",NA,NA,9.28219178082192,6
+"965","Slow loris","F","captive",1,1,1.4986301369863,7
+"966","Slow loris","F","captive",1,1,9.2,2
+"967","Slow loris","F","wild",NA,NA,9.78904109589041,6
+"968","Slow loris","F","wild",NA,NA,11.3342465753425,6
+"969","Slow loris","M","wild",NA,NA,14.3397260273973,6
+"970","Slow loris","M","captive",NA,1,11.227397260274,8
+"971","Slow loris","M","captive",NA,1,15.2520547945205,8
+"973","Slow loris","F","captive",NA,NA,6.01643835616438,3
+"974","Slow loris","M","captive",1,1,18.586301369863,4
+"975","Slender loris","M","wild",NA,NA,16.1424657534247,5
+"976","Slender loris","F","wild",NA,NA,16.7315068493151,5
+"977","Slender loris","F","wild",NA,NA,16.9095890410959,5
+"978","Slender loris","F","captive",1,1,12.6493150684932,12
+"979","Slow loris","M","captive",1,1,10.9452054794521,5
+"980","Slow loris","M","wild",NA,NA,15.0684931506849,7
+"981","Slow loris","F","wild",NA,NA,12.3890410958904,7
+"982","Slow loris","F","wild",NA,NA,9.86849315068493,7
+"983","Slow loris","M","captive",NA,NA,5.41369863013699,9
+"984","Slender loris","M","captive",1,1,18.1479452054795,8
+"985","Slender loris","M","captive",NA,NA,19.413698630137,7
+"986","Slender loris","F","captive",1,1,17.8109589041096,10
+"989","Slow loris","F","captive",NA,NA,19.3835616438356,1
+"990","Slender loris","M","wild",NA,NA,17.986301369863,4
+"991","Slender loris","F","wild",NA,NA,17.2082191780822,4
+"992","Slow loris","M","captive",1,1,10.4602739726027,4
+"993","Slow loris","M","captive",1,1,11.8602739726027,5
+"994","Slender loris","F","captive",1,1,14.4986301369863,5
+"995","Slender loris","F","captive",1,1,10.6684931506849,6
+"996","Slow loris","F","captive",1,1,0,5
+"997","Slender loris","F","captive",1,1,0.531506849315069,8
+"998","Slow loris","M","captive",NA,1,8.58904109589041,11
+"999","Slender loris","M","captive",1,1,0.156164383561644,12
