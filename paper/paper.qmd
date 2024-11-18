@@ -1,0 +1,32 @@
+---
+title: "Himalays"
+# subtitle: "My subtitle if needed"
+author: 
+  - Khushaal Nandwani
+thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+date: today
+date-format: long
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+# bibliography: references.bib
+---
+
+
+# Possible topics
+
+1. Predicting the average height the person will be able to climb, or the percentage of heigh depending on the various variables. 
+
+# Lemur Data
+
+1. What factors can contribute to lifespan of lemur?
+    - sex
+    - species
+    - birth month (season): some seasons makes stronger. maybe winter?
+    - captivity vs wild: captivity makes them use to spoon feeding?
+    - litter size: maybe mother is more involved with other kids
+    - mother_species and father_species is same or not
+
+## Why Lemur?
+
+Established in 1966 on Duke University's campus in Durham, NC, the Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs, the planet's most endangered group of mammals. Home to over 200 animals spanning 13 species, the DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar. cite(https://lemur.duke.edu)
