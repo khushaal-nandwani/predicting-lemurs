@@ -62,5 +62,7 @@ data <- tibble(
     month_born = month_born
 )
 
+write.csv(data, "data/analysis_data/sim_data.csv", row.names = FALSE)
+
 # print the first few rows of the dataset
 head(data)
