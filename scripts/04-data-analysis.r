@@ -23,19 +23,19 @@ library(tidyverse)
 # summary(model)
 
 wild_data <- read.csv("data/analysis_data/wild.csv")
-wild_data <- wild_data %>% drop_na(sex, species, age, month_born)
+
 # give count of na valus in each column
 # Extract function to count NA values in each column
 # Count NA values in each column of wild_data
 count_na(wild_data)
 # drop na values in columns sex, species, age, month_born
 # create a model for wild animals
-wild_model <- glm(age ~ species + sex + month_born, family = gaussian(), data = wild_data)
+wild_model <- glm(age ~ species + sex + month_born + genus, family = gaussian(), data = wild_data)
 summary(wild_model)
 
 captive_data <- read.csv("data/analysis_data/captive.csv")
 # drop na values in columns sex, species, age, month_born
-captive_data <- captive_data %>% drop_na(sex, species, age, month_born)
+
 # create a model for captive animals
-captive_model <- glm(age ~ species + sex + month_born, family = gaussian(), data = captive_data)
+captive_model <- glm(age ~ species + genus + sex + month_born, family = gaussian(), data = captive_data)
 summary(captive_model)
