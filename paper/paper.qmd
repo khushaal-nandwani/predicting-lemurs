@@ -10,9 +10,23 @@ abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
 bibliography: ref.bib
-editor:
-  render-on-save: true
+# editor:
+#   render-on-save: true
 ---
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(tidyverse)  
+library(ggplot2)
+library(dplyr)
+library(patchwork) # For arranging plots side by side
+
+# Set the color for lemurs
+WILD_COLOR <- "#006400"
+CAPTIVE_COLOR <- "#FF8C00"
+```
+
 # Possible topics
 
 
@@ -32,22 +46,123 @@ We are aiming to predict the lifepspan of a lemur. Specifically, using sex, spec
 # Data
 The data was taken from @cookson_duke_lemur_center, who acquired it from Duke Lemur Center more about which, can be found in Section [3.1](#data_collection). We used @citeR 
 
-<!-- TODO: Add other libraries that were used -->
 
 It is important to know about Lemurs and what affects their lifespan because they are the most endangered mammals on the planet. The Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs. The DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar.
 
 To do so, I chose the following variables from the dataset, which I believe are the most important factors that can affect the lifespan of a lemur:
 
-- `sex`: The sex of the lemur on birth. It is a cateogrical variable that can be `M` or `F`.
-- `species`: The species of the lemur. It is also a categorical
+- `Sex`: The sex of the lemur on birth. It is a cateogrical variable that can be `M` or `F`.
+- `Species`: The species of the lemur. It is also a categorical variable and can take one of the following values: `GG`, `COL`, `UL`, `RUF`, `MOH`, `MAC`, `CAT`, `FUL`, `ALB`, `AR`, `VV`, `COQ`, `MED`, `MUR`, `COU`, `TAR`, `PYG`, `ZAZ`, `MON`, `RUB`, `COR`, `SAN`, `FLA`, `MAD`, `POT`. The specific or common names of these species can be found in Appendix [A](#appendix_a).
+- `Genus`: The genus of the lemur. It is a categorical variable and can take one of the following values: `O`, `E`, `G`, `H`, `L`, `V`, `P`, `C`, `M`, `N`, `D`.
+- `month_born`: The month in which the lemur was born. It is a categorical variable and can take one of the following values: `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, where `1` corresponds to January, `2` to February, and so on.
 
-<!-- Inclue genus from taxonomic code? -->
+Finally, we have the target variable `Age` which is the lifespan of the lemur in years. It is a continuous variable.
 
-<!-- TODO: appendix me
-- litter size par nirbhar hai
-- maa baap same par nirbhar hai?
-- agar pregnant hoti hai, toh kya age par fark aata hai?
- -->
+The following [plots](@fig-count-plots) show the distribution of the lemurs in the dataset based on the variables `Sex`, `Species`, `Genus`, and `month_born` for both lemurs in captivity and in the wild. 
+
+For `Sex`, we observe that in the wild, the distribution of male and female lemurs is nearly even, with only a slight skew. While in captivity, there are significantly more female lemurs than males. The larger count of female lemurs in captivity could result from conservation breeding programs prioritizing females to ensure the species' survival.
+
+Looking at the distribution of `Species`. We observe that in the wild, the distribution is relatively balanced, with a few exceptions of `MAD`, `CAT` and `MED` which appear to be low in number. In captivity, certain species (e.g., MUR, CAT, MED) are more represented, while others are rare or absent. This can be due to captive environments may focus on saving the most endangered species, as we see the ones least in wild like `CAT` and `MED` are more in captivity. 
+
+
+With the exception of genus `E`, genus representation is balanced in both wild and captive lemurs. `E` might be high in both cases, as it could be a common genus or have a higher conservation priority.
+
+For birth month, births in the wild are concentrated in a few months, suggesting a breeding season. While in captivity, births are more evenly spread across the year, with some peaks in specific months. Seasonal breeding in the wild is influenced by environmental factors like food availability and climate. Captivity can disrupt these natural cycles, as controlled environments and year-round resources allow for more frequent and less seasonal reproduction.
+
+For `Age`, we observe that in the wild, the age distribution of lemurs shows a higher frequency of younger lemurs, with relatively few individuals reaching older ages. In captivity, the age distribution extends further, with a significant number of lemurs living to older ages. This difference can be attributed to the controlled environments in captivity, which provide consistent food, medical care, and protection from predators, thus increasing longevity. In contrast, the challenges of the wild, such as predation, disease, and fluctuating resources, contribute to shorter lifespans. With there being one exception, we observe signigicant number of captive lemurs below age 1, this can be due to the extensive breeding of captivity or could be a sign of data quality issues.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-count-plots
+
+
+# Read data
+wild_data <- read.csv("../data/analysis_data/wild.csv")
+captive_data <- read.csv("../data/analysis_data/captive.csv")
+
+# Reusable plot function
+create_plot <- function(data, aes_var, fill_color, title, x_label) {
+  ggplot(data, aes(x = !!sym(aes_var))) +
+    geom_bar(fill = fill_color) +
+    labs(title = title, x = x_label, y = "Count") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+}
+
+# Modify data for ordering by frequency
+wild_data <- wild_data %>%
+  mutate(species = fct_infreq(species),
+         genus = fct_infreq(genus),
+         month_born = fct_infreq(as.factor(month_born)))
+
+captive_data <- captive_data %>%
+  mutate(species = fct_infreq(species),
+         genus = fct_infreq(genus),
+         month_born = fct_infreq(as.factor(month_born)))
+
+# Generate plots
+wild_plot <- create_plot(wild_data, "sex", WILD_COLOR, "Wild Lemurs", "Sex")
+captive_plot <- create_plot(captive_data, "sex", CAPTIVE_COLOR, "Captive Lemurs", "Sex")
+
+wild_plot_species <- create_plot(wild_data, "species", WILD_COLOR, "Wild Lemurs", "Species")
+captive_plot_species <- create_plot(captive_data, "species", CAPTIVE_COLOR, "Captive Lemurs", "Species")
+
+wild_plot_genus <- create_plot(wild_data, "genus", WILD_COLOR, "Wild Lemurs", "Genus")
+captive_plot_genus <- create_plot(captive_data, "genus", CAPTIVE_COLOR, "Captive Lemurs", "Genus")
+
+wild_plot_month <- create_plot(wild_data, "month_born", WILD_COLOR, "Wild Lemurs", "Birth Month")
+captive_plot_month <- create_plot(captive_data, "month_born", CAPTIVE_COLOR, "Captive Lemurs", "Birth Month")
+```
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-sex-plots
+#| fig-cap: Distribution of Lemurs by Sex
+# Display plots
+wild_plot + captive_plot
+```
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-species-plots
+wild_plot_species
+captive_plot_species
+wild_plot_genus + captive_plot_genus + wild_plot_month + captive_plot_month
+```
+
+We will also look at the distribution of the target variable `Age` in the dataset. The following [plot](@fig-age-distribution) shows the distribution of the ages of the lemurs in the dataset for both lemurs in captivity and in the wild.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-age-distribution
+#| fig-cap: Distribution of ages of lemurs in the dataset for both lemurs in captivity and in the wild.
+
+# line plot of count of lemurs by age
+wild_plot_age <- ggplot(wild_data, aes(x = age)) +
+  geom_histogram(fill = WILD_COLOR, bins = 30) +
+  labs(title = "Wild Lemurs",
+       x = "Age",
+       y = "Count") +
+  theme_minimal()
+
+captive_plot_age <- ggplot(captive_data, aes(x = age)) +
+  geom_histogram(fill = CAPTIVE_COLOR, bins = 30) +
+  labs(title = "Captive Lemurs",
+       x = "Age",
+       y = "Count") +
+  theme_minimal()
+
+
+wild_plot_age + captive_plot_age
+```
+
+
 
 ## Data Collection {#data_collection}
 The data in these sources was acquired and processed by staff at the Duke Lemur Center (DLC). 
@@ -67,7 +182,39 @@ The data in these sources was updated on February 8, 2019. The DLC plans to upda
 
 # Why Lemur?
 
+
 Established in 1966 on Duke University's campus in Durham, NC, the Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs, the planet's most endangered group of mammals. Home to over 200 animals spanning 13 species, the DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar. cite(https://lemur.duke.edu)
+
+# Model
+
+I used Generalized Linear Model (GLM) framework with a Gaussian family distribution to determine the expected lifespan of a lemur based on the selected variables. GLM is a statistical model that generalizes linear regression to include non-normal distributions. It is used when the dependent variable is not normally distributed or when the relationship between the dependent and independent variables is not linear. The Gaussian family distribution is used when the dependent variable is continuous and normally distributed, which was in my case. 
+
+My model will be based on `Sex`, `Species`, `Genus`, and `month_born` as the independent variables and `Age` as the dependent variable. 
+
+Mathematically, the model can be represented as:
+
+\begin{equation}
+\bar{a} = \beta_0 + \beta_1 \times \texttt{Sex} + \beta_2 \times \texttt{Species} + \beta_3 \times \texttt{Genus} + \beta_4 \times \texttt{month\_born} + \epsilon
+\end{equation}
+where,
+
+- $\bar{a}$ is the expected lifespan of a lemur.
+- $\beta_0$ is the intercept term. It represents the expected lifespan of a lemur when all other variables are zero.
+- $\beta_1$ is the coefficient for `Sex`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Sex`.
+- $\beta_2$ is the coefficient for `Species`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Species`.
+- $\beta_3$ is the coefficient for `Genus`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Genus`.
+- $\beta_4$ is the coefficient for `month_born`. It represents the change in the expected lifespan of a lemur for a one-unit change in `month_born`.
+- $\epsilon$ is the error term.
+
+
+
+# Appendix 
+\appendix
+
+# Appendix A: Species of Lemurs {#appendix_a}
+The following are the species of lemurs that are present in the dataset:
+
+- `GG`: Genus *Genus*
 
 
 \newpage 

@@ -1,0 +1,56 @@
+Share
+
+RN
+You said:
+> head(wild_data)
+  animal_id sex litter_size genus species      age month_born
+1      0002   M          NA     O      GG 3.928767          1
+2      0007   M          NA     O      GG 7.547945          1
+3      0030   F          NA     E     COL 5.550685         10
+4      0046   M          NA     H      GG 1.501370         12
+5      0202   M          NA     O      GG 3.928767          1
+6      0251   F          NA     O      GG 2.906849          8
+
+# load wild data
+wild_data <- read.csv("data/analysis_data/wild.csv")
+# load captive data
+captive_data <- read.csv("data/analysis_data/captive.csv")
+
+head(wild_data)
+
+
+Write R code to create a bar chart, with males and females on x-axis and count on y-axis for wild and captive data in the same plot
+
+2/2
+
+ChatGPT said:
+
+ChatGPT
+You can use the ggplot2 library to create a bar chart with the counts of males and females for both the wild and captive datasets in the same plot. Here's the R code:
+
+# Load required library
+library(ggplot2)
+library(dplyr)
+
+# Add a column to differentiate between wild and captive datasets
+wild_data <- wild_data %>% mutate(dataset = "Wild")
+captive_data <- captive_data %>% mutate(dataset = "Captive")
+
+# Combine both datasets
+combined_data <- bind_rows(wild_data, captive_data)
+
+# Create the bar chart
+ggplot(combined_data, aes(x = sex, fill = dataset)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Counts of Males and Females in Wild and Captive Data",
+       x = "Sex",
+       y = "Count",
+       fill = "Dataset") +
+  theme_minimal()
+Explanation:
+mutate(): Adds a new column dataset to label whether the data belongs to the wild or captive dataset.
+bind_rows(): Combines the two datasets into a single data frame for plotting.
+aes(x = sex, fill = dataset): Specifies sex on the x-axis and uses dataset to color the bars.
+geom_bar(position = "dodge"): Creates a bar chart with side-by-side bars for each dataset.
+labs(): Adds titles and axis labels for clarity.
+This will produce a plot where the counts of males and females for both wild and captive datasets are shown side-by-side for easy comparison.
