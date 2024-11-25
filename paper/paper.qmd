@@ -196,9 +196,22 @@ Mathematically, the model can be represented as:
 \begin{equation}
 \bar{a} = \beta_0 + \beta_1 \times \texttt{Sex} + \beta_2 \times \texttt{Species} + \beta_3 \times \texttt{Genus} + \beta_4 \times \texttt{month\_born} + \epsilon
 \end{equation}
+
+$$
+\begin{aligned}
+\bar{a}_\text{wild} & \sim \mbox{Normal}(16, 4)\\
+\bar{a}_\text{captive} & \sim \mbox{Normal}(26, 4)\\
+\beta_0 & \sim \mbox{Normal}(0, 2.5)\\
+\beta_1 & \sim \mbox{Normal}(0, 2.5)\\
+\beta_2 & \sim \mbox{Normal}(0, 2.5)\\
+\beta_3 & \sim \mbox{Normal}(0, 2.5)\\
+\beta_4 & \sim \mbox{Normal}(0, 2.5)
+\end{aligned}
+$$
 where,
 
-- $\bar{a}$ is the expected lifespan of a lemur.
+- $\bar{a}_\text{wild}$ is the expected lifespan of a lemur in the wild.
+- $\bar{a}_\text{captive}$ is the expected lifespan of a lemur in captivity.
 - $\beta_0$ is the intercept term. It represents the expected lifespan of a lemur when all other variables are zero.
 - $\beta_1$ is the coefficient for `Sex`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Sex`.
 - $\beta_2$ is the coefficient for `Species`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Species`.
@@ -206,12 +219,55 @@ where,
 - $\beta_4$ is the coefficient for `month_born`. It represents the change in the expected lifespan of a lemur for a one-unit change in `month_born`.
 - $\epsilon$ is the error term.
 
+We chose a Gaussian family distribution for the model because the dependent variable `Age` is continuous and normally distributed. From @citenjgov we found that the expected lifespan of a lemur in wild is upto 18 years, and in captivity about 30 years. So, we set the prior for the expected lifespan of a lemur in the wild to be $\mbox{Normal}(16, 4)$ and in captivity to be $\mbox{Normal}(26, 4)$. We set the priors for the coefficients to be $\mbox{Normal}(0, 2.5)$, because we do not have any prior information about the effect of the independent variables on the dependent variable.
+
+Using moderately broad priors can help regularize the model, reducing the risk of overfitting and make us have more stable estimates, especially in scenarios with limited data.
+
+@app_model-dataset covers coefficients, standard errors, convergence checks and other model diagnostics for our model. 
+
 
 
 # Appendix 
+
 \appendix
 
-# Appendix A: Species of Lemurs {#appendix_a}
+# Data Cleaning {#app_data_cleaning}
+I took the following steps to clean the raw data and prepare it for analysis:
+
+1. Loading the Data: The raw data is loaded from the file data/raw_data/animals.csv.
+
+2. Column Selection: The dataset is reduced to relevant columns: `animal_id`, `taxonomic_code`, `sex`, `birth_date`, `death_date`, `birth_type`, `litter_size`, `mother_species`, and `father_species`.
+
+3. Filtering Rows: Rows where death_date is missing are removed to ensure the data includes only animals with complete lifecycle information. 
+
+4. Extracting Genus and Species: The taxonomic_code column is split into two new columns: `genus` (first letter) and `species` (remaining characters). The original taxonomic_code column is removed as it is no longer needed.
+
+5. Age Calculation: A new column, `age`, is calculated based on the difference between `death_date` and `birth_date`, measured in years.Lemurs with an age of less than 1 year are removed to focus on mature animals and ignore infant mortality. This was especially common for captive-born animals because excess breeding can lead to high infant mortality rates.
+
+6. Birth Month Extraction: A new column, month_born, is created to indicate the birth month extracted from the birth_date. We needed this information to analyze seasonal effects on lifespan.
+
+7. Splitting Data by Birth Type:
+The data is split into two subsets based on birth_type: one for animals born in captivity (`data_captive`) and another for those born in the wild (`data_wild`).
+
+8. Column Removal for Wild Data: Since information on mother_species, father_species, and litter_size is unavailable for wild-born animals, these columns are removed from data_wild.
+
+9. Handling Missing Values: Both datasets, data_wild and data_captive, are cleaned by dropping rows with missing values in key columns: sex, species, age, month_born, and genus.
+
+10. Final Output: The cleaned datasets are saved as CSV files:
+Wild-born animals: `data/analysis_data/wild.csv`
+Captive-born animals: `data/analysis_data/captive.csv`
+
+
+This systematic cleaning ensures the dataset is consistent, reliable, and ready for further analysis.
+
+# Analysis Dataset {#app_analysis_dataset}
+
+Hello
+
+# Model Dataset {#app-model-dataset}
+
+
+#  Species of Lemurs {#appendix_a}
 The following are the species of lemurs that are present in the dataset:
 
 - `GG`: Genus *Genus*
