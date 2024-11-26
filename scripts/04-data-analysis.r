@@ -11,31 +11,45 @@
 library(tidyverse)
 library(arrow)
 
+library(brms)
 # Load data
 wild_data <- read.csv("data/analysis_data/wild.csv")
 captive_data <- read.csv("data/analysis_data/captive.csv")
 
 # Build models
-wild_model <- 
-    glm(
-        age ~ species + sex + month_born + genus, 
-        family = gaussian(), 
-        data = wild_data,
-        adapt_delta = 0.95,
-        prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
-        prior_intercept = normal(location = 16, scale = 4, autoscale = TRUE)
-    )
-captive_model <- 
-    glm(
-        age ~ species + genus + sex + month_born, 
-        family = gaussian(), 
-        data = captive_data,
-        adapt_delta = 0.95,
-        prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
-        prior_intercept = normal(location = 26, scale = 4, autoscale = TRUE)
-    )
+wild_model <- brm(
+    formula = age ~ species + sex + month_born + genus,
+    family = gaussian(),
+    data = wild_data,
+    prior = c(
+        set_prior("normal(0, 2.5)", class = "b"),
+        set_prior("normal(16, 4)", class = "Intercept")
+    ),
+    control = list(adapt_delta = 0.95)
+)
+
+# captive_model <- 
+#     glm(
+#         age ~ species + genus + sex + month_born, 
+#         family = gaussian(), 
+#         data = captive_data,
+#         prior = c(
+#             set_prior("normal(0, 2.5)", class = "b"),
+#             set_prior("normal(26, 4)", class = "Intercept")
+#         ),
+#         control = list(adapt_delta = 0.95)
+#     )
+captive_model <- brm(
+    formula = age ~ species + sex + month_born + genus,
+    family = gaussian(),
+    data = captive_data,
+    prior = c(
+        set_prior("normal(0, 2.5)", class = "b"),
+        set_prior("normal(26, 4)", class = "Intercept")
+    ),
+    control = list(adapt_delta = 0.95)
+)
 
 # save models
 saveRDS(wild_model, "models/wild_model.rds")
 saveRDS(captive_model, "models/captive_model.rds")
-
