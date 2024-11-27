@@ -12,6 +12,8 @@ packages <- c(
   "dplyr",
   "knitr",
   "ggplot2",
+  "arrow",
+  "rstanarm"
 )
 
 # Install packages if they are not already installed

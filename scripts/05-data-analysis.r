@@ -10,12 +10,12 @@
 ## Workspace setup ##
 library(tidyverse)
 library(arrow)
-library(brms)
 library(rstanarm)
 
 # Load data
-wild_data <- read.csv("data/analysis_data/wild.csv")
-captive_data <- read.csv("data/analysis_data/captive.csv")
+wild_data <- read_parquet("data/analysis_data/wild.parquet")
+captive_data <- read_parquet("data/analysis_data/captive.parquet")
+
 
 wild_model <- glm(
     formula = age ~ species + sex + month_born + genus,
@@ -31,4 +31,3 @@ captive_model <- glm(
 # save models
 saveRDS(wild_model, "models/wild_model.rds")
 saveRDS(captive_model, "models/captive_model.rds")
-

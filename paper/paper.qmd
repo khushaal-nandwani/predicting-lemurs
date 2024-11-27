@@ -3,10 +3,10 @@ title: "Predicting a Lemur's Lifespan in Wild and Captivity"
 # subtitle: "My subtitle if needed"
 author: 
   - Khushaal Nandwani
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+thanks: "Code and data are available at: [https://github.com/khushaal-nandwani/predicting-lemurs/tree/main](https://github.com/khushaal-nandwani/predicting-lemurs/tree/main)."
 date: today
 date-format: long
-abstract: "This study aims to predict the lifespan of lemurs in wild and captive by analyzing key factors such as sex, species, genus, and birth month. Utilizing data from the Duke Lemur Center, I divided the dataset into wild-born and captive-born lemurs to assess differences in longevity. I employed Generalized Linear Models (GLMs) with a Gaussian distribution to model lifespan based on the selected variables. My findings indicate that lemurs in captivity have a significantly higher average lifespan compared to their wild counterparts, likely due to controlled environments and access to medical care. In wild populations, sex was a significant predictor of lifespan, with males living longer than females, whereas in captivity, sex did not have a substantial impact. Species differences were prominent in both settings, suggesting inherent biological factors affecting longevity. Birth month showed inconsistent effects on lifespan across both groups. These results highlight the influence of environmental conditions on lemur longevity and underscore the importance of species-specific conservation strategies."
+abstract: "This study investigates the lifespan of lemurs in both wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis highlights that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The findings reveal species-specific variations in lifespan and the diminishing influence of sex differences in captivity. These insights help identify effective practices in captivity and suggest areas for improvement to optimize conservation strategies, contributing to the survival of this endangered mammalian group."
 format: pdf
 number-sections: true
 toc: true
@@ -47,6 +47,12 @@ The remainder of this paper is structured as follows: @sec-data details the data
 
 # Data {#sec-data}
 The data was taken from @cookson_duke_lemur_center, who acquired it from Duke Lemur Center more about which, can be found in @sec-data_collection. We used @citeR 
+tidyverse
+rstanarm
+arrow
+ggplot2
+knitr
+dplyr
 
 It is important to know about Lemurs and what affects their lifespan because they are the most endangered mammals on the planet. The Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs. The DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar.
 
@@ -464,24 +470,20 @@ I took the following steps to clean the raw data and prepare it for analysis:
 
 1. Loading the Data: The raw data is loaded from the file data/raw_data/animals.csv.
 
-2. Column Selection: The dataset is reduced to relevant columns: `animal_id`, `taxonomic_code`, `sex`, `birth_date`, `death_date`, `birth_type`, `litter_size`, `mother_species`, and `father_species`.
+2. Column Selection: The dataset is reduced to relevant columns: `animal_id`, `taxonomic_code`, `sex`, `birth_date`, `death_date` and `birth_type`.
 
 3. Filtering Rows: Rows where death_date is missing are removed to ensure the data includes only animals with complete lifecycle information. 
 
 4. Extracting Genus and Species: The taxonomic_code column is split into two new columns: `genus` (first letter) and `species` (remaining characters). The original taxonomic_code column is removed as it is no longer needed.
 
-5. Age Calculation: A new column, `age`, is calculated based on the difference between `death_date` and `birth_date`, measured in years.Lemurs with an age of less than 1 year are removed to focus on mature animals and ignore infant mortality. This was especially common for captive-born animals because excess breeding can lead to high infant mortality rates.
+5. Age Calculation: A new column, `age`, is calculated based on the difference between `death_date` and `birth_date`, measured in years. Lemurs with an age of less than 1 year are removed to focus on mature animals and ignore infant mortality. This was especially common for captive-born animals because excess breeding can lead to high infant mortality rates.
 
-6. Birth Month Extraction: A new column, month_born, is created to indicate the birth month extracted from the birth_date. We needed this information to analyze seasonal effects on lifespan.
+6. Birth Month Extraction: A new column, `month_born`, is created to indicate the birth month extracted from the `birth_date`. We needed this information to analyze seasonal effects on lifespan.
 
 7. Splitting Data by Birth Type:
 The data is split into two subsets based on birth_type: one for animals born in captivity (`data_captive`) and another for those born in the wild (`data_wild`).
 
-8. Column Removal for Wild Data: Since information on mother_species, father_species, and litter_size is unavailable for wild-born animals, these columns are removed from data_wild.
-
-9. Handling Missing Values: Both datasets, data_wild and data_captive, are cleaned by dropping rows with missing values in key columns: sex, species, age, month_born, and genus.
-
-10. Final Output: The cleaned datasets are saved as CSV files:
+8. Final Output: NA values are then dropped and the cleaned datasets are saved as CSV files:
 Wild-born animals: `data/analysis_data/wild.csv`
 Captive-born animals: `data/analysis_data/captive.csv`
 
@@ -518,8 +520,6 @@ head(captive_data) %>%
 ```
 @tbl-wild provides a glimpse of the dataset used for analysis for wild lemurs, and @tbl-captive provides a glimpse of the dataset used for analysis for captive lemurs.
 
-
-# Model Dataset {#app-model-dataset}
 
 
 #  Species of Lemurs {#sec-appendix-species}
