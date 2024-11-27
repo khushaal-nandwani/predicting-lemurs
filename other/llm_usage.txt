@@ -54,3 +54,50 @@ aes(x = sex, fill = dataset): Specifies sex on the x-axis and uses dataset to co
 geom_bar(position = "dodge"): Creates a bar chart with side-by-side bars for each dataset.
 labs(): Adds titles and axis labels for clarity.
 This will produce a plot where the counts of males and females for both wild and captive datasets are shown side-by-side for easy comparison.
+
+
+
+
+
+library(ggplot2)
+
+sexes <- c("F", "M")
+
+predictions <- read_csv("data/predictions/predictions.csv")
+
+# One of the columns is sex, and there are two predicted columns
+# one is if the lemur was in wild, the other if he was in captive
+# plot barplot of age of male and female
+# showing wild prediction in green, and captive prediction in red next to each other
+
+Complete
+ChatGPT said:
+
+ChatGPT
+Here is the complete R code to generate a barplot based on your description:
+
+library(ggplot2)
+library(readr)
+
+# Load the data
+predictions <- read_csv("data/predictions/predictions.csv")
+
+# Create a barplot
+ggplot(predictions, aes(x = factor(sex, levels = sexes), fill = factor(predicted_status))) +
+  geom_bar(position = "dodge") +
+  scale_fill_manual(values = c("wild" = "green", "captive" = "red")) +
+  labs(
+    title = "Predicted Wild and Captive Lemurs by Sex",
+    x = "Sex",
+    y = "Count",
+    fill = "Prediction"
+  ) +
+  theme_minimal()
+Explanation:
+read_csv: Reads the CSV file into a dataframe.
+aes: Specifies aesthetics for the plot. x is sex, and fill is predicted_status (assumed column for predictions).
+geom_bar(position = "dodge"): Creates a bar chart with bars dodged to be placed side by side.
+scale_fill_manual: Assigns specific colors (green for "wild" and red for "captive").
+labs: Adds title, axis labels, and legend title.
+theme_minimal: Applies a clean theme to the plot.
+Save or display this chart using the typical R plotting workflow. If you face any issues with column names or levels, verify them in the CSV file and adjust accordingly.
