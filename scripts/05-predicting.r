@@ -11,47 +11,41 @@ library(tidyverse)
 library(arrow)
 
 # Prediction datasets
-wild_analysis_data <- read_csv("data/analysis_data/wild.csv")
-captive_analysis_data <- read_csv("data/analysis_data/captive.csv")
+analysis_data <- read_csv("data/analysis_data/wild.csv")
 
 # Load models
 wild_model <- readRDS("models/wild_model.rds")
 captive_model <- readRDS("models/captive_model.rds")
 
 # creating prediction dataset
-wild_ages_ <- unique(wild_analysis_data$age)
-wild_species_ <- unique(wild_analysis_data$species)
-wild_sex_ <- unique(wild_analysis_data$sex)
-wild_month_born_ <- unique(wild_analysis_data$month_born)
-wild_genus_ <- unique(wild_analysis_data$genus)
+ages_ <- unique(analysis_data$age)
+species_ <- unique(analysis_data$species)
+sex_ <- unique(analysis_data$sex)
+month_born_ <- unique(analysis_data$month_born)
+genus_ <- unique(analysis_data$genus)
 
-captive_ages_ <- unique(captive_analysis_data$age)
-captive_species_ <- unique(captive_analysis_data$species)
-captive_sex_ <- unique(captive_analysis_data$sex)
-captive_month_born_ <- unique(captive_analysis_data$month_born)
-captive_genus_ <- unique(captive_analysis_data$genus)
-
-wild_prediction_data <- expand.grid(
-    age = wild_ages_,
-    species = wild_species_,
-    sex = wild_sex_,
-    month_born = wild_month_born_,
-    genus = wild_genus_
-)
-
-captive_prediction_data <- expand.grid(
-    age = captive_ages_,
-    species = captive_species_,
-    sex = captive_sex_,
-    month_born = captive_month_born_,
-    genus = captive_genus_
+prediction_data <- expand.grid(
+    age = ages_,
+    species = species_,
+    sex = sex_,
+    month_born = month_born_,
+    genus = genus_
 )
 
 # predict age based on these variables
-predictions_wild <- predict(wild_model, newdata = wild_prediction_data, type = "response")
-predictions_captive <- predict(captive_model, newdata = captive_prediction_data, type = "response")
+predictions_wild <- predict(wild_model, newdata = prediction_data, type = "response")
+predictions_captive <- predict(captive_model, newdata = prediction_data, type = "response")
 
 
-# Save the predictions
-write.csv(predictions_wild, "data/predictions/wild_predictions.csv", row.names = FALSE)
-write.csv(predictions_captive, "data/predictions/captive_predictions.csv", row.names = FALSE)
+predictions_df <- data.frame(
+    age = prediction_data$age,
+    species = prediction_data$species,
+    sex = prediction_data$sex,
+    month_born = prediction_data$month_born,
+    genus = prediction_data$genus,
+    predicted_age_wild = predictions_wild,
+    predicted_age_captive = predictions_captive
+)
+
+# save the predictions
+write_csv(predictions_df, "data/predictions/predictions.csv")

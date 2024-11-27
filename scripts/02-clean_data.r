@@ -43,6 +43,9 @@ data <- data[data$age >= 1, ]
 
 # create a column for month born
 data$month_born <- as.numeric(format(data$birth_date, "%m"))
+# convert month_born to name of the months
+data$month_born <- month.abb[data$month_born]
+
 
 # remove birth_date and death_date columns, as they are no longer needed
 data <- data[, -c(3, 4)]
@@ -56,18 +59,9 @@ data_wild <- data_wild[, -c(3, 7)]
 
 # drop relevant NA values
 data_wild <- data_wild %>% drop_na(sex, species, age, month_born, genus)
+# remove litter size
+data_wild <- data_wild[, -3]
 write.csv(data_wild, "data/analysis_data/wild.csv", row.names = FALSE)
 data_captive <- data_captive %>% drop_na(sex, species, age, month_born, genus)
 write.csv(data_captive, "data/analysis_data/captive.csv", row.names = FALSE)
-
-
-
-
-
-
-
-
-
-
-
 
