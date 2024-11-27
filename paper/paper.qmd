@@ -30,25 +30,23 @@ CAPTIVE_COLOR <- "#FF8C00"
 predictions <- read_csv("../data/predictions/predictions.csv")
 ```
 
-# Possible topics
-
 
 # Introduction 
-We are aiming to predict the lifepspan of a lemur. Specifically, using sex, specis, birth month of lemurs. We have also divided the dataset into two parts: one for lemurs in captivity and one for lemurs in wild. The goal is to realize the success we have achievd by captiving lemurs, see areas of improvement in the pre existing methods. 
 
 
 
-1. What factors can contribute to lifespan of lemur?
-    - sex
-    - species
-    - birth month (season): some seasons makes stronger. maybe winter?
-    - captivity vs wild: captivity makes them use to spoon feeding?
-    - litter size: maybe mother is more involved with other kids
-    - mother_species and father_species is same or not
+Lemurs are the world’s most endangered group of mammals (@citedukelemurcenter). Understanding the factors that influence their lifespan is crucial for guiding effective conservation efforts. The Duke Lemur Center (DLC), established in 1966, has played a pivotal role in the study and preservation of lemurs, maintaining the largest population of these species outside their native Madagascar. Different factors can affect the longevity of lemurs in wild and captive, longevity is important because the longer lemurs live, the more likely they are to reproduce and contribute to the survival of their species.
 
-# Data
-The data was taken from @cookson_duke_lemur_center, who acquired it from Duke Lemur Center more about which, can be found in Section [3.1](#data_collection). We used @citeR 
+This study uses a dataset from the DLC to analyze if and how sex, species, genus and month a lemur is born in can affect its lifespan in the wild and captivity. This study can help us guide what kinds of lemur are we failing to conserve in captivity and how they perform in wild. It will also reinforce where our efforts have been successful. 
 
+Using Generalized Linear Models (GLMs) with Gaussian distribution, factors including sex, species, genus, and birth month were evaluated to predict lemur longevity. The dataset was divided into wild-born and captive-born lemurs to understand the differences in lifespan between the two environments and separate models were built for each group. 
+
+The findings reveal that lemurs in captivity exhibit significantly longer lifespans. In wild populations, males tend to live longer than females, while species differences are prominent in both environments, emphasizing the need for species-specific conservation strategies. Birth month was found to have inconsistent effects across both groups, suggesting complex interactions with environmental conditions.
+
+The remainder of this paper is structured as follows: @sec-data details the data collection and processing methods, while @sec-model outlines the modeling approach. @sec-results presents the results, highlighting key differences between wild and captive lemurs. The discussion in @sec-sec-discussion contextualizes these findings, addressing limitations and proposing future directions for research. Finally, the @sec-appendixs includes additional information on data cleaning, the analysis dataset, and the model dataset.
+
+# Data {#sec-data}
+The data was taken from @cookson_duke_lemur_center, who acquired it from Duke Lemur Center more about which, can be found in @sec-data_collection. We used @citeR 
 
 It is important to know about Lemurs and what affects their lifespan because they are the most endangered mammals on the planet. The Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs. The DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar.
 
@@ -167,7 +165,7 @@ wild_plot_age + captive_plot_age
 
 
 
-## Data Collection {#data_collection}
+## Data Collection {#sec-data_collection}
 The data in these sources was acquired and processed by staff at the Duke Lemur Center (DLC). 
 
 ### Data Acquisition
@@ -183,12 +181,9 @@ The DLC created two data files from the database: **the DLC Animal List**, which
 The data in these sources was updated on February 8, 2019. The DLC plans to update the data on a yearly basis.
 
 
-# Why Lemur?
 
 
-Established in 1966 on Duke University's campus in Durham, NC, the Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs, the planet's most endangered group of mammals. Home to over 200 animals spanning 13 species, the DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar. cite(https://lemur.duke.edu)
-
-# Model
+# Model {#sec-model}
 
 I used Generalized Linear Model (GLM) framework with a Gaussian family distribution to determine the expected lifespan of a lemur based on the selected variables. GLM is a statistical model that generalizes linear regression to include non-normal distributions. It is used when the dependent variable is not normally distributed or when the relationship between the dependent and independent variables is not linear. The Gaussian family distribution is used when the dependent variable is continuous and normally distributed, which was in my case. 
 
@@ -230,7 +225,7 @@ Using moderately broad priors can help regularize the model, reducing the risk o
 
 
 
-# Results
+# Results {#sec-results}
 
 ```{r}
 #| echo: false
@@ -434,11 +429,37 @@ species_plot
 Once again in species as seen in @fig-species-effects, we see captive lemurs living longer than wild ones in most of them, except `ALB`, `COR`, `MAC` and `MON`. Why these species are living longer in wild, can be a good area of research for Duke Lemur Center.
 
 
-# Appendix 
+# Discussion {#sec-discussion}
+
+In this study, we sought to predict and analyze the lifespan of lemurs in wild and captive environments by examining factors of sex, species, genus, and birth month. Utilizing data from the Duke Lemur Center, we divided the dataset into wild-born and captive-born lemurs to understand how environmental conditions impact longevity. Generalized Linear Models (GLMs) with a Gaussian distribution were employed to understand the relationships between these variables and lifespan.
+
+## Key Findings
+
+We learn from this study that captivity plays a major role in the lifespan of lemurs. Captive lemurs, benefit from controlled environments, consistent food supplies, and medical care, live considerably longer on average than their wild counterparts similar to as the study by @citetidi showed. This underscores the potential of captive breeding programs to contribute positively to species survival and highlights the role of human intervention in extending the lifespans of endangered species.
+
+Another important finding is the variability in lifespan based on species and sex. In the wild, male lemurs tend to live longer than females, possibly due to biological or behavioral factors. However, this sex-based difference diminishes in captivity, suggesting that controlled environments mitigate sex-specific survival challenges. Additionally, species differences in longevity were significant in both settings, highlighting the influence of inherent biological factors and emphasizing the need for species-specific conservation strategies.
+
+## Weaknesses and Limitations
+
+Despite these findings, this study has several limitations. The dataset used was relatively small for wild-born lemurs, potentially affecting the reliability of the statistical models. For instance, the limited sample size may have led to the inclusion of predictors with p-values slightly above the conventional threshold, which could inflate Type I error rates. Furthermore, the data on wild-born lemurs lacked detailed information on maternal and paternal species and litter size, which are potentially critical factors in understanding lifespan dynamics, and we could not include them in our analysis.
+
+Another limitation lies in the potential bias introduced by data collection processes. The reliance on historical records and the transition between database systems may have resulted in inconsistencies or inaccuracies. Additionally, the study only considered certain categorical variables, excluding other possible factors such as habitat quality, diet variability, or exposure to diseases, which could provide a more holistic understanding of lemur longevity.
+
+## Future Directions
+
+This research opens the door to several avenues for further investigation. Future studies should aim to collect larger and more representative datasets for wild-born lemurs to improve the robustness of the models. Additionally, incorporating environmental variables such as habitat degradation, climate patterns, and predation risks could provide better understanding of the challenges faced by wild populations.
+
+Furthermore, understanding why certain species thrive better in the wild (e.g., ALB, COR, MAC, and MON) compared to captivity requires focused investigation. This could involve studying behavioral adaptations, ecological niches, and species-specific physiological traits. Expanding the analysis to include genetic data may also uncover underlying biological factors that contribute to these differences.
+
+Finally, longitudinal studies examining the long-term impacts of captivity on lemur behavior, reproduction, and overall health would be invaluable. Integrating interdisciplinary approaches, combining ecological, genetic, and conservation sciences, could help develop more effective strategies for preserving these critically endangered species.
+
+In conclusion, while this study provides meaningful insights into the factors influencing lemur lifespan, it also highlights the complexities of their survival in diverse environments. Addressing the limitations and expanding the scope of research will not only deepen our understanding but also support more informed conservation efforts for lemurs and other endangered species.
+
+# Appendix {#sec-appendix} 
 
 \appendix
 
-# Data Cleaning {#app_data_cleaning}
+# Data Cleaning {#sec-appendix-data-cleaning}
 I took the following steps to clean the raw data and prepare it for analysis:
 
 1. Loading the Data: The raw data is loaded from the file data/raw_data/animals.csv.
@@ -467,7 +488,7 @@ Captive-born animals: `data/analysis_data/captive.csv`
 
 This systematic cleaning ensures the dataset is consistent, reliable, and ready for further analysis.
 
-# Analysis Dataset {#app_analysis_dataset}
+# Analysis Dataset {#sec-appendix-data-analysis}
 ```{r}
 #| echo: false
 #| warning: false
@@ -501,10 +522,37 @@ head(captive_data) %>%
 # Model Dataset {#app-model-dataset}
 
 
-#  Species of Lemurs {#appendix_a}
+#  Species of Lemurs {#sec-appendix-species}
 The following are the species of lemurs that are present in the dataset:
 
-- `GG`: Genus *Genus*
+| Index | Code | Latin Name | Common Name |
+|-------|------|------------|-------------|
+| 1     | MED | Cheirogaleus medius | Fat-tailed dwarf lemur |
+| 2     | MAD | Daubentonia madagascariensis | Aye-aye |
+| 3     | ALB | Eulemur albifrons | White-fronted brown lemur |
+| 4     | COL | Eulemur collaris | Collared brown lemur |
+| 5     | COR | Eulemur coronatus | Crowned lemur |
+| 6     | FLA | Eulemur flavifrons | Blue-eyed black lemur |
+| 7     | FUL | Eulemur fulvus | Common brown lemur |
+| 8     | MAC | Eulemur macaco | Black lemur |
+| 9     | MON | Eulemur mongoz | Mongoose lemur |
+| 10    | RUB | Eulemur rubriventer | Red-bellied lemur |
+| 11    | RUF | Eulemur rufus | Red-fronted brown lemur |
+| 12    | SAN | Eulemur sanfordi | Sanford's brown lemur |
+| 13    | MOH | Galago moholi | Mohol bushbaby |
+| 14    | GG  | Hapalemur griseus griseus | Eastern lesser bamboo lemur |
+| 15    | CAT | Lemur catta | Ring-tailed lemur |
+| 16    | TAR | Loris tardigradus | Slender loris |
+| 17    | MUR | Mircocebus murinus | Gray mouse lemur |
+| 18    | COQ | Mirza coquereli | Northern giant mouse lemur |
+| 19    | COU | Nycticebus coucang | Slow loris |
+| 20    | PYG | Nycticebus pygmaeus | Pygmy slow loris |
+| 21    | COQ | Propithecus coquereli | Coquerel's sifaka |
+| 22    | POT | Perodicticus potto | Potto |
+| 23    | VAR | Varecia | Varecia hybrid |
+| 24    | RUB | Varecia rubra | Red ruffed lemur |
+| 25    | VV  | Varecia variegata variegata | Black-and-white ruffed lemur |
+
 
 
 \newpage 

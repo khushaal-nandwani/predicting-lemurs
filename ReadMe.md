@@ -2,7 +2,7 @@
 
 This repository contains the neccessary code, data and files for producing the paper "Predicting a Lemur's Lifespan in Wild and Captivity".
 
-The [final paper](/paper/paper.pdf) is available in the paper folder.
+The [paper](/paper/paper.pdf) is available in the paper folder.
 
 The study explores the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center. It employs statistical modeling techniques to analyze the impact of variables such as sex, species, genus, and birth month on lemur longevity.
 
