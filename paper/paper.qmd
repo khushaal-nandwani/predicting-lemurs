@@ -1,14 +1,15 @@
 ---
-title: "Predicting Lemur's Lifespan"
+title: "Predicting a Lemur's Lifespan in Wild and Captivity"
 # subtitle: "My subtitle if needed"
 author: 
   - Khushaal Nandwani
 thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This study aims to predict the lifespan of lemurs in wild and captive by analyzing key factors such as sex, species, genus, and birth month. Utilizing data from the Duke Lemur Center, I divided the dataset into wild-born and captive-born lemurs to assess differences in longevity. I employed Generalized Linear Models (GLMs) with a Gaussian distribution to model lifespan based on the selected variables. My findings indicate that lemurs in captivity have a significantly higher average lifespan compared to their wild counterparts, likely due to controlled environments and access to medical care. In wild populations, sex was a significant predictor of lifespan, with males living longer than females, whereas in captivity, sex did not have a substantial impact. Species differences were prominent in both settings, suggesting inherent biological factors affecting longevity. Birth month showed inconsistent effects on lifespan across both groups. These results highlight the influence of environmental conditions on lemur longevity and underscore the importance of species-specific conservation strategies."
 format: pdf
 number-sections: true
+toc: true
 bibliography: ref.bib
 # editor:
 #   render-on-save: true
