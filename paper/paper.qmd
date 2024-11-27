@@ -25,6 +25,8 @@ library(patchwork) # For arranging plots side by side
 # Set the color for lemurs
 WILD_COLOR <- "#006400"
 CAPTIVE_COLOR <- "#FF8C00"
+
+predictions <- read_csv("../data/predictions/predictions.csv")
 ```
 
 # Possible topics
@@ -227,6 +229,210 @@ Using moderately broad priors can help regularize the model, reducing the risk o
 
 
 
+# Results
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-wild-model-coefficients
+#| fig-cap: Coefficients of the wild model
+
+wild_model <- readRDS("../models/wild_model.rds")
+
+# Coefficients for the wild model
+coefficients <- broom::tidy(wild_model, conf.int = TRUE)
+# remove NAs
+coefficients <- coefficients %>% drop_na()
+# remove the ones which are not significant
+coefficients <- coefficients %>%
+  filter(
+    (str_starts(term, "sex")) | 
+    p.value <= 0.07
+  )
+
+# Plot for the coefficients of the model
+ggplot(coefficients, aes(x = estimate, y = term)) +
+  geom_point() + # Coefficient points
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high)) + # Confidence/Credible interval bars
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") + # Add zero line
+  labs(x = "Coefficient Estimate", y = "Predictor Variable") + # Axis labels
+  theme_minimal() # Minimal theme for better readability
+``` 
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-captive-model-coefficients
+#| fig-cap: Coefficients of the captive model
+
+captive_model <- readRDS("../models/captive_model.rds")
+
+# Coefficients for the captive model
+coefficients <- broom::tidy(captive_model, conf.int = TRUE)
+
+# remove NAs
+coefficients <- coefficients %>% drop_na()
+# remove the ones which are not significant
+coefficients <- coefficients %>%
+  filter(
+    (str_starts(term, "sex") | str_starts(term, "month_born")) | 
+    p.value <= 0.05
+  )
+
+# Plot for the coefficients of the model
+ggplot(coefficients, aes(x = estimate, y = term)) +
+  geom_point() + # Coefficient points
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high)) + # Confidence/Credible interval bars
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") + # Add zero line
+  labs(x = "Coefficient Estimate", y = "Predictor Variable") + # Axis labels
+  theme_minimal() # Minimal theme for better readability
+```
+
+@fig-wild-model-coefficients and @fig-captive-model-coefficients shows the coefficients and their 95% credible intervals for the predictor variables in the respective wild and captive generalized linear regression models. A 95% credible interval indicates a 95% chance that the true parameter value falls within the interval, based on the observed data and model assumptions. Each point represents the estimated coefficient for a predictor, and the horizontal lines show the credible interval around it. Coefficients to the right of zero suggest a positive relationship with the outcome variable, meaning that as the predictor increases, the outcome also increases. Coefficients to the left of zero suggest a negative relationship, meaning that as the predictor increases, the outcome decreases.
+
+## Wild Lemurs
+Few species in the wild have significant effect on the age, these include `VV`, `SAN`, `RUF`, `RUB`, `MAD` and `CAT`. For sex, as expected in wild, males have a higher lifespan than females. We had to jump over p-value of 0.07 to get the significant results, as we had limited data in case of wild.
+
+## Captive Lemurs
+Few species have a negative effect on age, these include `MUR`, `MOH`, `MAD`, `GG`, `COQ` and `AR`.  In case of captivity, sex is not a major factor in age, as its confidence interval is nearly centered at 0. Overall, species differences are prominent, while birth month effects appear less consistent, mostly centered around 0. Except December and September seem to be negatively affecting the age of lemurs in captivity, while November positively. 
+
+## Effect of Sex on Age
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-sex-effects
+#| fig-cap: Comparison of Average Predicted Ages of Lemurs by Age Range, Sex, and Prediction Type (Wild vs. Captive)
+
+# Define age ranges
+predictions <- predictions %>%
+  mutate(age_range = cut(age, breaks = c(0, 10, 20, 40), labels = c("0-10", "10-20", "20+"), include.lowest = TRUE))
+
+# Summarize data for plotting
+plot_data <- predictions %>%
+  group_by(age_range, sex) %>%
+  summarise(
+    avg_age_wild = mean(predicted_age_wild, na.rm = TRUE),
+    avg_age_captive = mean(predicted_age_captive, na.rm = TRUE)
+  ) %>%
+  pivot_longer(
+    cols = c(avg_age_wild, avg_age_captive),
+    names_to = "prediction_type",
+    values_to = "avg_age"
+  )
+
+# remove NAs
+plot_data <- plot_data %>% drop_na()
+
+# Create the bar plot
+plotted <- ggplot(plot_data, aes(x = age_range, y = avg_age, fill = prediction_type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  facet_wrap(~sex) +
+  scale_fill_manual(
+    values = c("avg_age_wild" = WILD_COLOR, "avg_age_captive" = CAPTIVE_COLOR),
+    labels = c("Wild Lemurs", "Captive Lemurs")
+  ) +
+  labs(
+    x = "Age Ranges",
+    y = "Average Predicted Age",
+    fill = "Type of Lemurs"
+  ) +
+  theme_minimal()
+
+plotted
+```
+
+
+From the @fig-sex-effects, lemurs in captive have a higher average predicted age than those in the wild across all age ranges. And in the captive, we see males living longer on average than females, while in the wild, the difference is less pronounced. This can be due to the controlled environment in captivity, which provides consistent food, medical care, and protection from predators, thus increasing longevity. In the wild, the challenges of predation, disease, and fluctuating resources contribute to shorter lifespans.
+
+
+## Effect of Month Born on Age
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-month-born-effects
+#| fig-cap: Comparison of Average Predicted Ages of Lemurs by Age Range, Birth Month, and Prediction Type (Wild vs. Captive)
+
+# Summarize the data by month
+month_plot_data <- predictions %>%
+  group_by(month_born) %>%
+  summarise(
+    avg_age_wild = mean(predicted_age_wild, na.rm = TRUE),
+    avg_age_captive = mean(predicted_age_captive, na.rm = TRUE)
+  ) %>%
+  pivot_longer(
+    cols = c(avg_age_wild, avg_age_captive),
+    names_to = "prediction_type",
+    values_to = "avg_age"
+  )
+
+# Create the bar plot
+month_plot <- ggplot(month_plot_data, aes(x = month_born, y = avg_age, fill = prediction_type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c("avg_age_wild" = WILD_COLOR, "avg_age_captive" = CAPTIVE_COLOR),
+    labels = c("Wild Lemurs", "Captive Lemurs")
+  ) +
+  labs(
+    x = "Month Born",
+    y = "Average Predicted Age",
+    fill = "Type of Lemurs",
+    title = "Average Predicted Ages by Month Born"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+month_plot
+```
+
+For months in @fig-month-born-effects, we see captive lemurs outlive wild lemurs most of the months except August, January, March, Novemeber and September. It is worth exploring the reasons behind these differences by Duke Lemur Center, as they can provide insights into the impact of seasonal factors on lemur lifespan.
+
+## Effect of Species on Age
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-species-effects
+#| fig-cap: Comparison of Average Predicted Ages of Lemurs by Age Range, Species, and Prediction Type (Wild vs. Captive)
+
+# Summarize the data by species
+species_plot_data <- predictions %>%
+  group_by(species) %>%
+  summarise(
+    avg_age_wild = mean(predicted_age_wild, na.rm = TRUE),
+    avg_age_captive = mean(predicted_age_captive, na.rm = TRUE)
+  ) %>%
+  pivot_longer(
+    cols = c(avg_age_wild, avg_age_captive),
+    names_to = "prediction_type",
+    values_to = "avg_age"
+  )
+
+# Create the bar plot
+species_plot <- ggplot(species_plot_data, aes(x = species, y = avg_age, fill = prediction_type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c("avg_age_wild" = WILD_COLOR, "avg_age_captive" = CAPTIVE_COLOR),
+    labels = c("Wild Lemurs", "Captive Lemurs")
+  ) +
+  labs(
+    x = "Species",
+    y = "Average Predicted Age",
+    fill = "Type of Lemurs",
+    title = "Average Predicted Ages by Species"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+species_plot
+```
+
+Once again in species as seen in @fig-species-effects, we see captive lemurs living longer than wild ones in most of them, except `ALB`, `COR`, `MAC` and `MON`. Why these species are living longer in wild, can be a good area of research for Duke Lemur Center.
+
+
 # Appendix 
 
 \appendix
@@ -261,8 +467,35 @@ Captive-born animals: `data/analysis_data/captive.csv`
 This systematic cleaning ensures the dataset is consistent, reliable, and ready for further analysis.
 
 # Analysis Dataset {#app_analysis_dataset}
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: tbl-wild
+#| tbl-cap: Analysis dataset for Wild Lemurs
+library(knitr)
 
-Hello
+wild_data <- read.csv("../data/analysis_data/wild.csv")
+captive_data <- read.csv("../data/analysis_data/captive.csv")
+
+# Glimpse of the anaysis dataset
+head(wild_data) %>%
+  kable(digits = 2)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: tbl-captive
+#| tbl-cap: Analysis dataset for Captive Lemurs
+
+head(captive_data) %>%
+  kable(digits = 2)
+```
+@tbl-wild provides a glimpse of the dataset used for analysis for wild lemurs, and @tbl-captive provides a glimpse of the dataset used for analysis for captive lemurs.
+
 
 # Model Dataset {#app-model-dataset}
 
