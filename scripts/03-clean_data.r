@@ -57,4 +57,4 @@ write_parquet(data_wild, "data/analysis_data/wild.parquet")
 write_parquet(data_captive, "data/analysis_data/captive.parquet")
 
 
-unique(data$genus)
+unique(data$species)

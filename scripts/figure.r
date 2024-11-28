@@ -1,41 +1,24 @@
-library(ggplot2)
-library(dplyr)
+library(arrow)
+# load model
+wild_model <- readRDS("models/wild_model.rds")
+wild_data <- read_parquet("data/analysis_data/wild.parquet")
+captive_model <- readRDS("models/captive_model.rds")
 
-WILD_COLOR <- "#FFA500"
-CAPTIVE_COLOR <- "#4169E1"
+# Residual plots for wild_model
+plot(wild_model$fitted.values, residuals(wild_model), main="Residual Plot for Wild Model")
+abline(h=0, col="red")
 
-# Load the data
-predictions <- read_csv("data/predictions/predictions.csv")
-# Summarize the data by month
-month_plot_data <- predictions %>%
-  group_by(month_born) %>%
-  summarise(
-    avg_age_wild = mean(predicted_age_wild, na.rm = TRUE),
-    avg_age_captive = mean(predicted_age_captive, na.rm = TRUE)
-  ) %>%
-  pivot_longer(
-    cols = c(avg_age_wild, avg_age_captive),
-    names_to = "prediction_type",
-    values_to = "avg_age"
-  )
+# QQ plot to check normality of residuals
+qqnorm(residuals(wild_model))
+qqline(residuals(wild_model), col="blue")
 
-# Create the bar plot
-month_plot <- ggplot(month_plot_data, aes(x = month_born, y = avg_age, fill = prediction_type)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(
-    values = c("avg_age_wild" = WILD_COLOR, "avg_age_captive" = CAPTIVE_COLOR),
-    labels = c("Wild Lemurs", "Captive Lemurs")
-  ) +
-  labs(
-    x = "Month Born",
-    y = "Average Predicted Age",
-    fill = "Type of Lemurs",
-    title = "Average Predicted Ages by Month Born"
-  ) +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+# Residual plots for captive_model
+wild_model$aic
 
-month_plot
+install.packages("car")
+library(car)
+vif(wild_model)
 
-# save the plot
-ggsave("figures/month_plot.png", month_plot, width = 10, height = 6, units = "in", dpi = 300)
+wild_predictions <- predict(wild_model, type="response")
+plot(wild_data$age, wild_predictions, main="Predicted vs Observed (Wild Model)")
+abline(0, 1, col="red")

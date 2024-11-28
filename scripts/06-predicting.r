@@ -18,14 +18,12 @@ wild_model <- readRDS("models/wild_model.rds")
 captive_model <- readRDS("models/captive_model.rds")
 
 # creating prediction dataset
-ages_ <- unique(analysis_data$age)
 species_ <- unique(analysis_data$species)
 sex_ <- unique(analysis_data$sex)
 month_born_ <- unique(analysis_data$month_born)
 genus_ <- unique(analysis_data$genus)
 
 prediction_data <- expand.grid(
-    age = ages_,
     species = species_,
     sex = sex_,
     month_born = month_born_,
@@ -38,7 +36,6 @@ predictions_captive <- predict(captive_model, newdata = prediction_data, type = 
 
 
 predictions_df <- data.frame(
-    age = prediction_data$age,
     species = prediction_data$species,
     sex = prediction_data$sex,
     month_born = prediction_data$month_born,
@@ -49,3 +46,4 @@ predictions_df <- data.frame(
 
 # save the predictions
 write_csv(predictions_df, "data/predictions/predictions.csv")
+

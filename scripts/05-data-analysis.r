@@ -8,9 +8,7 @@
 # Pre-requisites: None
 
 ## Workspace setup ##
-library(tidyverse)
 library(arrow)
-library(rstanarm)
 
 # Load data
 wild_data <- read_parquet("data/analysis_data/wild.parquet")
@@ -22,6 +20,13 @@ wild_model <- glm(
     family = gaussian(),
     data = wild_data,
 )
+
+my_model <- glm(
+    formula = age ~ species + sex + birth_type + month_born + genus,
+    family = gaussian(),
+    data = data,
+)
+
 captive_model <- glm(
     formula = age ~ species + sex + month_born + genus,
     family = gaussian(),
@@ -31,3 +36,5 @@ captive_model <- glm(
 # save models
 saveRDS(wild_model, "models/wild_model.rds")
 saveRDS(captive_model, "models/captive_model.rds")
+
+
