@@ -1,6 +1,6 @@
-# Predicting a Lemur's Lifespan in Wild and Captivity
+# Lifespan Analysis of Lemurs in Wild and Captive Environments
 
-This repository contains the neccessary code, data and files for producing the paper "Predicting a Lemur's Lifespan in Wild and Captivity".
+This repository contains the neccessary code, data and files for producing the paper "Lifespan Analysis of Lemurs in Wild and Captive Environments".
 
 The [paper](/paper/paper.pdf) is available in the paper folder.
 

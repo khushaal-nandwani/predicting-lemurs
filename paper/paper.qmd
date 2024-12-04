@@ -1,6 +1,6 @@
 ---
-title: "Predicting a Lemur's Lifespan in Wild and Captivity"
-# subtitle: "My subtitle if needed"
+title: "Lifespan Analysis of Lemurs in Wild and Captive Environments"
+subtitle: "Evaluating Effective Strategies and Highlighting Areas for Conservation Focus"
 author: 
   - Khushaal Nandwani
 thanks: "Code and data are available at: [https://github.com/khushaal-nandwani/predicting-lemurs/tree/main](https://github.com/khushaal-nandwani/predicting-lemurs/tree/main)."
@@ -493,9 +493,11 @@ Future research should focus on:
 By addressing these areas, conservationists can develop targeted strategies to enhance the survival of lemurs both in the wild and in captivity. Such studies help us understand what are we doing right in conservation efforts, and where should we focus next. 
 
 
+\appendix
+
+
 # Appendix {#sec-appendix} 
 
-\appendix
 
 # Data Cleaning {#sec-appendix-data-cleaning}
 I took the following steps to clean the raw data and prepare it for analysis:
