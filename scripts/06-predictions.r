@@ -11,7 +11,10 @@ library(tidyverse)
 library(arrow)
 
 # Prediction datasets
-analysis_data <- read_csv("data/analysis_data/wild.csv")
+# We are only using wild data for predictions as certain 
+# species are only present in the captive, which could disrupt the wild model.
+analysis_data <- read_parquet("data/analysis_data/wild.parquet")
+
 
 # Load models
 wild_model <- readRDS("models/wild_model.rds")
@@ -46,4 +49,3 @@ predictions_df <- data.frame(
 
 # save the predictions
 write_csv(predictions_df, "data/predictions/predictions.csv")
-
