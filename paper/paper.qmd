@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: [https://github.com/khushaal-nandwani/predicting-lemurs/tree/main](https://github.com/khushaal-nandwani/predicting-lemurs/tree/main)."
 date: today
 date-format: long
-abstract: "This study investigates the lifespan of lemurs in both wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis highlights that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The findings reveal species-specific variations in lifespan and the diminishing influence of sex differences in captivity. These insights help identify effective practices in captivity and suggest areas for improvement to optimize conservation strategies, contributing to the survival of this endangered mammalian group."
+abstract: "This study investigates the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis highlights that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The findings reveal species-specific variations in lifespan and the diminishing influence of sex differences in captivity. These insights help identify effective practices in captivity and suggest areas for improvement to optimize conservation strategies, contributing to the survival of this endangered mammalian group."
 format: pdf
 number-sections: true
 toc: true
@@ -25,11 +25,18 @@ library(patchwork) # For arranging plots side by side
 library(arrow)
 library(kableExtra)
 library(rstanarm)
+library(knitr)
+
 # Set the color for lemurs
 WILD_COLOR <- "#006400"
 CAPTIVE_COLOR <- "#FF8C00"
 
+# Read data
+wild_data <- read_parquet("../data/analysis_data/wild.parquet")
+captive_data <- read_parquet("../data/analysis_data/captive.parquet")
+# Load predictions
 predictions <- read_csv("../data/predictions/predictions.csv")
+# Load models
 wild_model <- readRDS("../models/wild_model.rds")
 captive_model <- readRDS("../models/captive_model.rds")
 ```
@@ -37,56 +44,48 @@ captive_model <- readRDS("../models/captive_model.rds")
 
 # Introduction 
 
+Lemurs are the world’s most endangered group of mammals (@citedukelemurcenter). Understanding the factors that influence their lifespan is crucial for guiding effective conservation efforts. The Duke Lemur Center (DLC), established in 1966, has played a pivotal role in the study and preservation of lemurs, maintaining the largest population of these species outside their native region Madagascar. Different factors can affect the longevity of lemurs in wild and captive. Longevity is important because the longer lemurs live, the more likely they are to reproduce and hence, contribute to the survival of their species.
 
-
-Lemurs are the world’s most endangered group of mammals (@citedukelemurcenter). Understanding the factors that influence their lifespan is crucial for guiding effective conservation efforts. The Duke Lemur Center (DLC), established in 1966, has played a pivotal role in the study and preservation of lemurs, maintaining the largest population of these species outside their native Madagascar. Different factors can affect the longevity of lemurs in wild and captive, longevity is important because the longer lemurs live, the more likely they are to reproduce and contribute to the survival of their species.
-
-This study uses a dataset from the DLC to analyze if and how sex, species, genus and month a lemur is born in can affect its lifespan in the wild and captivity. This study can help us guide what kinds of lemur are we failing to conserve in captivity and how they perform in wild. It will also reinforce where our efforts have been successful. 
+My study uses a dataset from the DLC to analyze if and how sex, species, genus and month a lemur is born in can affect its lifespan in the wild and captivity. This study can provide insights into which lemur species we are struggling to conserve in captivity and their performance in the wild. It will highlight areas where our conservation efforts have been effective.
 
 Using Generalized Linear Models (GLMs) with Gaussian distribution, factors including sex, species, genus, and birth month were evaluated to predict lemur longevity. The dataset was divided into wild-born and captive-born lemurs to understand the differences in lifespan between the two environments and separate models were built for each group. 
 
 The findings reveal that lemurs in captivity exhibit significantly longer lifespans. In wild populations, males tend to live longer than females, while species differences are prominent in both environments, emphasizing the need for species-specific conservation strategies. Birth month was found to have inconsistent effects across both groups, suggesting complex interactions with environmental conditions.
 
-The remainder of this paper is structured as follows: @sec-data details the data collection and processing methods, while @sec-model outlines the modeling approach. @sec-results presents the results, highlighting key differences between wild and captive lemurs. The discussion in @sec-sec-discussion contextualizes these findings, addressing limitations and proposing future directions for research. Finally, the @sec-appendixs includes additional information on data cleaning, the analysis dataset, and the model dataset.
+The remainder of this paper is structured as follows: @sec-data details the data collection and processing methods. @sec-model outlines the modeling approach. @sec-results presents the results, highlighting key differences between wild and captive lemurs. The discussion in @sec-discussion contextualizes these findings, addressing limitations and proposing future directions for research. Finally, @sec-appendix is the appendix and includes additional information on data cleaning, the analysis dataset, and the model dataset.
 
 # Data {#sec-data}
-The data was taken from @cookson_duke_lemur_center, who acquired it from Duke Lemur Center more about which, can be found in @sec-data_collection. We used `R` [@citeR] along with its packages to clean and analyze the data. These packages include `tidyverse` [@cite-tidyverse], `ggplot2` [@cite-ggplot], `dplyr` [@cite-dplyr], `patchwork` [@cite-patchwork], `arrow` [@cite-arrow], `knitr` [@cite-knitr] and `rstanarm` [@cite-rstanarm].
-
+The data was taken from the GitHub repository of @cookson_duke_lemur_center, who acquired it from Duke Lemur Center. Details on how data was acquired and processed can be found in @sec-data_collection. We used `R` [@citeR] along with its packages to clean and analyze the data. These packages include `tidyverse` [@cite-tidyverse], `ggplot2` [@cite-ggplot], `dplyr` [@cite-dplyr], `patchwork` [@cite-patchwork], `arrow` [@cite-arrow], `knitr` [@cite-knitr], `rstanarm` [@cite-rstanarm] and `kableExtra` [@cite-kableExtra].
 
 It is important to know about Lemurs and what affects their lifespan because they are the most endangered mammals on the planet. The Duke Lemur Center (DLC) is a global leader in the research, care, and conservation of lemurs. The DLC hosts the most diverse population of lemurs outside their native habitat in Madagascar.
 
 To do so, I chose the following variables from the dataset, which I believe are the most important factors that can affect the lifespan of a lemur:
 
-- `Sex`: The sex of the lemur on birth. It is a cateogrical variable that can be `M` or `F`.
-- `Species`: The species of the lemur. It is also a categorical variable and can take one of the following values: `GG`, `COL`, `UL`, `RUF`, `MOH`, `MAC`, `CAT`, `FUL`, `ALB`, `AR`, `VV`, `COQ`, `MED`, `MUR`, `COU`, `TAR`, `PYG`, `ZAZ`, `MON`, `RUB`, `COR`, `SAN`, `FLA`, `MAD`, `POT`. The specific or common names of these species can be found in Appendix [A](#appendix_a).
-- `Genus`: The genus of the lemur. It is a categorical variable and can take one of the following values: `O`, `E`, `G`, `H`, `L`, `V`, `P`, `C`, `M`, `N`, `D`.
-- `month_born`: The month in which the lemur was born. It is a categorical variable and can take one of the following values: `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, where `1` corresponds to January, `2` to February, and so on.
+- `Sex`: The sex of the lemur on birth. It is a cateogrical variable that can be `M` or `F`. I took sex as a factor because it is common to see females tend to live longer [@cite-Lemaitre2020].
+- `Species`: The species of the lemur. It is also a categorical variable and can take one of the following values: `GG`, `COL`, `UL`, `RUF`, `MOH`, `MAC`, `CAT`, `FUL`, `ALB`, `AR`, `VV`, `COQ`, `MED`, `MUR`, `COU`, `TAR`, `PYG`, `ZAZ`, `MON`, `RUB`, `COR`, `SAN`, `FLA`, `MAD`, `POT`. The specific or common names of these species can be found in @sec-appendix-species. Species is important as different species have different requirements and threats, which can affect their lifespan.
+- `Genus`: The genus of the lemur. It is a categorical variable and can take one of the following values: `O`, `E`, `G`, `H`, `L`, `V`, `P`, `C`, `M`, `N`, `D`. Genus can have the same effect as species. 
+- `month_born`: The month in which the lemur was born. It is a categorical variable and can take one of the following values: `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, where `1` corresponds to January, `2` to February, and so on. Month born can be important as it can affect the availability of food and other resources during its early stages, which can affect the lifespan of the lemur.
 
 Finally, we have the target variable `Age` which is the lifespan of the lemur in years. It is a continuous variable.
 
-The following figures show the distribution of the lemurs in the dataset based on the variables `Sex` (@fig-sex-plots), `Species` (@fig-species-effects), `Genus` (@fig-genus-plots), and `month_born` (@fig-month-born-effects) for both lemurs in captivity, shown in orange and in the wild, shown in dark green. 
+The following figures show the distribution of the lemurs in the dataset based on the variables `Sex` (@fig-sex-plots), `Species` (@fig-species-plots and @fig-species-captive-plots), `Genus` (@fig-genus-plots), and `month_born` (@fig-month-plots) for both lemurs in captivity, shown in orange and in the wild, shown in dark green. 
 
-For `Sex` (@fig-sex-plots), we observe that in the wild, the distribution of male and female lemurs is nearly even, with only a slight skew. While in captivity, there are significantly more female lemurs than males. The larger count of female lemurs in captivity could result from conservation breeding programs prioritizing females to ensure the species' survival.
+For `Sex` (@fig-sex-plots), we observe that in the wild, there are more females than males. This might be due to the fact that females tend to live longer than males for most mammals [@cite-Lemaitre2020]. While in captivity, there are significantly more male lemurs than males. This shows a short coming in the conservation efforts, as we are not able to conserve the females, which are more important for the survival of the species.
 
 Looking at the distribution of `Species` (@fig-species-effects). We observe that in the wild, the distribution is relatively balanced, with a few exceptions of `MAD`, `CAT` and `MED` which appear to be low in number. In captivity, certain species (e.g., MUR, CAT, MED) are more represented, while others are rare or absent. This can be due to captive environments may focus on saving the most endangered species, as we see the ones least in wild like `CAT` and `MED` are more in captivity. 
-
 
 With the exception of genus `E`, genus (@fig-genus-plots) representation is balanced in both wild and captive lemurs. `E` might be high in both cases, as it could be a common genus or have a higher conservation priority.
 
 For birth month (@fig-month-born-effects), births in the wild are concentrated in a few months, suggesting a breeding season. While in captivity, births are more evenly spread across the year, with some peaks in specific months. Seasonal breeding in the wild is influenced by environmental factors like food availability and climate. Captivity can disrupt these natural cycles, as controlled environments and year-round resources allow for more frequent and less seasonal reproduction.
 
-For `Age` (@fig-age-distribution), we observe that in the wild, the age distribution of lemurs shows a higher frequency of younger lemurs, with relatively few individuals reaching older ages. In captivity, the age distribution extends further, with a significant number of lemurs living to older ages. This difference can be attributed to the controlled environments in captivity, which provide consistent food, medical care, and protection from predators, thus increasing longevity. In contrast, the challenges of the wild, such as predation, disease, and fluctuating resources, contribute to shorter lifespans. With there being one exception, we observe signigicant number of captive lemurs below age 1, this can be due to the extensive breeding of captivity or could be a sign of data quality issues.
+
+For `Age` (@fig-age-distribution), we observe that in the wild, the age distribution of lemurs shows a higher frequency of younger lemurs, with relatively few individuals reaching older ages. In captivity, the age distribution extends further, with a significant number of lemurs living to older ages. This difference can be attributed to the controlled environments in captivity, which provide consistent food, medical care, and protection from predators, thus increasing longevity. In contrast, the challenges of the wild, such as predation, disease, and fluctuating resources, contribute to shorter lifespans. 
 
 ```{r}
 #| echo: false
 #| warning: false
 #| message: false
 #| label: fig-count-plots
-
-
-# Read data
-wild_data <- read_parquet("../data/analysis_data/wild.parquet")
-captive_data <- read_parquet("../data/analysis_data/captive.parquet")
 
 # Reusable plot function
 create_plot <- function(data, aes_var, fill_color, title, x_label) {
@@ -126,7 +125,7 @@ captive_plot_month <- create_plot(captive_data, "month_born", CAPTIVE_COLOR, "Ca
 #| warning: false
 #| message: false
 #| label: fig-sex-plots
-#| fig-cap: Distribution of Lemurs by Sex
+#| fig-cap: Sex distribution of wild and captive lemurs represented by bar plots for female (F) and male (M) individuals.
 # Display plots
 wild_plot + captive_plot
 ```
@@ -135,7 +134,17 @@ wild_plot + captive_plot
 #| warning: false
 #| message: false
 #| label: fig-species-plots
+#| fig-cap: Species-wise count of wild lemurs in our dataset.
 wild_plot_species
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: fig-species-captive-plots
+#| fig-cap: Species-wise count of captive lemurs in our dataset.
+
 captive_plot_species
 ```
 
@@ -144,7 +153,7 @@ captive_plot_species
 #| warning: false
 #| message: false
 #| label: fig-genus-plots
-#| fig-cap: Distribution of Lemurs by Genus
+#| fig-cap: Distribution of lemurs by genus in the wild (on left) and in captivity (on right).
 wild_plot_genus + captive_plot_genus
 ```
 
@@ -153,8 +162,7 @@ wild_plot_genus + captive_plot_genus
 #| warning: false
 #| message: false
 #| label: fig-month-plots
-#| fig-cap: Distribution of Lemurs by Birth Month
-
+#| fig-cap: Distribution of lemurs by the month they were born in. On left is the distribution for lemurs in the wild and on the right is for lemurs in captivity.
 wild_plot_month + captive_plot_month
 ```
 
@@ -164,19 +172,19 @@ wild_plot_month + captive_plot_month
 #| warning: false
 #| message: false
 #| label: fig-age-distribution
-#| fig-cap: Distribution of ages of lemurs in the dataset for both lemurs in captivity and in the wild.
+#| fig-cap: Distribution of ages of lemurs in the dataset for lemurs in captivity (on right) and in the wild (on left).
 
 # line plot of count of lemurs by age
 wild_plot_age <- ggplot(wild_data, aes(x = age)) +
   geom_histogram(fill = WILD_COLOR, bins = 30) +
-  labs(title = "Wild Lemurs",
+  labs(
        x = "Age",
        y = "Count") +
   theme_minimal()
 
 captive_plot_age <- ggplot(captive_data, aes(x = age)) +
   geom_histogram(fill = CAPTIVE_COLOR, bins = 30) +
-  labs(title = "Captive Lemurs",
+  labs(
        x = "Age",
        y = "Count") +
   theme_minimal()
@@ -198,7 +206,7 @@ In the mid-1990s, the DLC started using two databases: the Animal Record Keeping
 ### Data Processing
 The DLC used SAS software to build a database for the lemur data. Data from various sources was imported into SAS Enterprise Guide, including ARKS, MedARKS, ZIMS, and spreadsheets. They wrote programs in SAS to extract, match, and join data, calculate new variables, and format the output. They also used tools within SAS Enterprise Guide Projects for calculations and formatting. The DLC uses a unique ID to match data for individual animals, and the taxonomic name for species-related variables. The data was validated by identifying and locating missing data, standardizing codes and text, investigating outliers, and comparing known values to the database output.Data that could not be verified was excluded from the published dataset. 
 
-The DLC created two data files from the database: **the DLC Animal List**, which contains single-copy variables for each animal in the colony's history, and **the DLC Weight File**, which contains all weight measurements for each animal. We used the DLC Animal List for this analysis, which was first cleaned by @cookson_duke_lemur_center and then we clean it as per our needs.
+The DLC created two data files from the database: **the DLC Animal List**, which contains single-copy variables for each animal in the colony's history, and **the DLC Weight File**, which contains all weight measurements for each animal. We used the DLC Animal List for this analysis, which was first cleaned by @cookson_duke_lemur_center and then I clean it. The steps I took for cleaning the data can be found in @sec-appendix-data-cleaning.
 
 The data in these sources was updated on February 8, 2019. The DLC plans to update the data on a yearly basis.
 
@@ -207,47 +215,39 @@ The data in these sources was updated on February 8, 2019. The DLC plans to upda
 
 # Model {#sec-model}
 
-I used Generalized Linear Model (GLM) framework with a Gaussian family distribution to determine the expected lifespan of a lemur based on the selected variables for both models, for wild and captive. `birth type`, captive or wild, was not chosen as a predictor variable because there is significantly less data for wild and we thought it would be easier to visualize the predictions when done seperately. However, in doing so, we lost the oppoturnity of studying interaction of `birth_type` with other predictors. GLM is a statistical model that generalizes linear regression to include non-normal distributions. It is used when the dependent variable is not normally distributed or when the relationship between the dependent and independent variables is not linear. The Gaussian family distribution is used when the dependent variable is continuous and normally distributed, which was in my case. 
+I used Generalized Linear Model (GLM) framework with a Gaussian family distribution to determine the expected lifespan of a lemur based on the selected variables for both models, wild and captive. `birth type` (captive or wild) was not chosen as a predictor variable because there is significantly less data for wild and I thought it would be easier to visualize the predictions when done seperately. However, in doing so, we lost the oppoturnity of studying interaction effects of `birth_type` with other predictors. 
 
-My model will be based on `Sex`, `Species`, `Genus`, and `month_born` as the independent variables and `Age` as the dependent variable. 
+GLM is a statistical model that generalizes linear regression to include non-normal distributions. It is used when the dependent variable is not normally distributed or when the relationship between the dependent and independent variables is not linear. The Gaussian family distribution is used when the dependent variable is continuous and normally distributed, which was in my case. 
+
+My model is based on `Sex`, `Species`, `Genus`, and `month_born` as the independent variables and `Age` as the dependent variable. 
 
 Mathematically, the model can be represented as:
 
 \begin{equation}
 \bar{a} = \beta_0 + \beta_1 \times \texttt{Sex} + \beta_2 \times \texttt{Species} + \beta_3 \times \texttt{Genus} + \beta_4 \times \texttt{month\_born} + \epsilon
 \end{equation}
-<!-- 
-$$
-\begin{aligned}
-\bar{a}_\text{wild} & \sim \mbox{Normal}(16, 4)\\
-\bar{a}_\text{captive} & \sim \mbox{Normal}(26, 4)\\
-\beta_0 & \sim \mbox{Normal}(0, 2.5)\\
-\beta_1 & \sim \mbox{Normal}(0, 2.5)\\
-\beta_2 & \sim \mbox{Normal}(0, 2.5)\\
-\beta_3 & \sim \mbox{Normal}(0, 2.5)\\
-\beta_4 & \sim \mbox{Normal}(0, 2.5)
-\end{aligned}
-$$
-where, -->
+
+where:
 
 - $\bar{a}$ is the expected lifespan of a lemur in the wild or captive.
+
 - $\beta_0$ is the intercept term. It represents the expected lifespan of a lemur when all other variables are zero.
+
 - $\beta_1$ is the coefficient for `Sex`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Sex`.
+
 - $\beta_2$ is the coefficient for `Species`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Species`.
+
 - $\beta_3$ is the coefficient for `Genus`. It represents the change in the expected lifespan of a lemur for a one-unit change in `Genus`.
+
 - $\beta_4$ is the coefficient for `month_born`. It represents the change in the expected lifespan of a lemur for a one-unit change in `month_born`.
+
 - $\epsilon$ is the error term.
 
-We chose a Gaussian family distribution for the model because the dependent variable `Age` is continuous and normally distributed. `glm` was used to create the model which is available in the base `R` package. The model was then saved using `saveRDS` function to be used for predictions and further analysis.
-<!-- From @citenjgov we found that the expected lifespan of a lemur in wild is upto 18 years, and in captivity about 30 years. So, we set the prior for the expected lifespan of a lemur in the wild to be $\mbox{Normal}(16, 4)$ and in captivity to be $\mbox{Normal}(26, 4)$. We set the priors for the coefficients to be $\mbox{Normal}(0, 2.5)$, because we do not have any prior information about the effect of the independent variables on the dependent variable. -->
-<!-- 
-Using moderately broad priors can help regularize the model, reducing the risk of overfitting and make us have more stable estimates, especially in scenarios with limited data. -->
+I chose a Gaussian family distribution for the model because the dependent variable `Age` is continuous and normally distributed. `glm` was used to create the model which is available in the base `R` package. The model was then saved using `saveRDS` function to be used for predictions and further analysis.
 
-@sec-appendix-model covers coefficients, standard errors, convergence checks and other model diagnostics for our model. 
+@sec-appendix-model covers coefficients, standard errors, convergence checks and other model diagnostics of our model. 
 
-A combined model was tried, where `birth_type` was taken as the predictor variable, but it had worse residual and p values, so we decided to go with two separate models for wild and captive lemurs. The seperate models allow us to better understand the factors affecting the lifespan of lemurs in each environment, making them easy to visualize. At the expense of, not being able to study the interaction of `birth_type` with other predictors.
-
-
+A combined model was tried, where `birth_type` was taken as the predictor variable, but it had worse residual and p values, so I decided to go with two separate models for wild and captive lemurs. The seperate models allow us to better understand the factors affecting the lifespan of lemurs in each environment, making them easy to visualize. At the expense of, not being able to study the interaction effects of `birth_type` with other predictors.
 
 
 
@@ -258,9 +258,7 @@ A combined model was tried, where `birth_type` was taken as the predictor variab
 #| warning: false
 #| message: false
 #| label: fig-wild-model-coefficients
-#| fig-cap: Coefficients of the wild model
-
-wild_model <- readRDS("../models/wild_model.rds")
+#| fig-cap: Significant coefficients (p-value < 0.07) with their 95% credible intervals for the wild model.
 
 # Coefficients for the wild model
 coefficients <- broom::tidy(wild_model, conf.int = TRUE)
@@ -287,9 +285,7 @@ ggplot(coefficients, aes(x = estimate, y = term)) +
 #| warning: false
 #| message: false
 #| label: fig-captive-model-coefficients
-#| fig-cap: Coefficients of the captive model
-
-captive_model <- readRDS("../models/captive_model.rds")
+#| fig-cap: Significant coefficients (p-value < 0.05) with their 95% credible intervals for the captive model.
 
 # Coefficients for the captive model
 coefficients <- broom::tidy(captive_model, conf.int = TRUE)
@@ -315,10 +311,18 @@ ggplot(coefficients, aes(x = estimate, y = term)) +
 @fig-wild-model-coefficients and @fig-captive-model-coefficients shows the coefficients and their 95% credible intervals for the predictor variables in the respective wild and captive generalized linear regression models. A 95% credible interval indicates a 95% chance that the true parameter value falls within the interval, based on the observed data and model assumptions. Each point represents the estimated coefficient for a predictor, and the horizontal lines show the credible interval around it. Coefficients to the right of zero suggest a positive relationship with the outcome variable, meaning that as the predictor increases, the outcome also increases. Coefficients to the left of zero suggest a negative relationship, meaning that as the predictor increases, the outcome decreases.
 
 ## Wild Lemurs
-Few species in the wild have significant effect on the age, these include `VV`, `SAN`, `RUF`, `RUB`, `MAD` and `CAT`. For sex, as expected in wild, males have a higher lifespan than females. We had to jump over p-value of 0.07 to get the significant results, as we had limited data in case of wild.
+Few species in the wild have significant effect on the age, these include `VV`, `SAN`, `RUF`, `RUB`, `MAD` and `CAT`. `SAN`, `RUF` and `RUB` have a negative effect on age, while `VV`, `MAD` and `CAT` have a positive effect.
+
+For sex, in wild, males have a higher lifespan than females. Higher lifespan of males suggest that the more number of females observed in the wild in @fig-sex-plots might have other underlying cause than just females living longer, which can be a good area of research for Duke Lemur Center.
+
+Note that we had to increase our threshold of p-value to 0.07 to get the significant results, as we had limited data in case of wild.
 
 ## Captive Lemurs
-Few species have a negative effect on age, these include `MUR`, `MOH`, `MAD`, `GG`, `COQ` and `AR`.  In case of captivity, sex is not a major factor in age, as its confidence interval is nearly centered at 0. Overall, species differences are prominent, while birth month effects appear less consistent, mostly centered around 0. Except December and September seem to be negatively affecting the age of lemurs in captivity, while November positively. 
+Few species have a negative effect on age, these include `MUR`, `MOH`, `MAD`, `GG`, `COQ` and `AR`. I did not find any specific species with positive effect on age in captivity. This is a good sign as it shows that the conservation efforts are working for most of the species in captivity.
+
+In case of captivity, sex is not a major factor in age, as its confidence interval is nearly centered at 0.  Another good sign towards conservation effects. 
+
+Birth month effects appear less consistent, mostly centered around 0. Except December and September that seem to be negatively affecting the age of lemurs in captivity, while November slightly positively. 
 
 ## Effect of Sex on Age
 ```{r}
@@ -326,7 +330,7 @@ Few species have a negative effect on age, these include `MUR`, `MOH`, `MAD`, `G
 #| warning: false
 #| message: false
 #| label: fig-sex-effects
-#| fig-cap: Comparison of Average Predicted Ages of Lemurs by Sex of Wild and Captive Lemurs
+#| fig-cap: Comparison of average predicted ages of wild and captive lemurs across sexes. Males live longer in both wild and captive environments, but the difference is more pronounced in captivity.
 
 # Summarize data for plotting
 plot_data <- predictions %>%
@@ -362,7 +366,7 @@ plotted
 ```
 
 
-From the @fig-sex-effects, lemurs in captive have a higher average predicted age than those in the wild across all age ranges. And in the captive, we see males living longer on average than females, while in the wild, the difference is less pronounced. This can be due to the controlled environment in captivity, which provides consistent food, medical care, and protection from predators, thus increasing longevity. In the wild, the challenges of predation, disease, and fluctuating resources contribute to shorter lifespans.
+From the @fig-sex-effects, lemurs in captive have a higher average predicted age than those in the wild across sexes. And in the captive, we see males living longer on average than females, while in the wild, the difference is less pronounced. This can be due to the controlled environment in captivity, which provides consistent food, medical care, and protection from predators, thus increasing longevity. In the wild, the challenges of predation, disease, and fluctuating resources contribute to shorter lifespans.
 
 
 ## Effect of Month Born on Age
@@ -371,7 +375,7 @@ From the @fig-sex-effects, lemurs in captive have a higher average predicted age
 #| warning: false
 #| message: false
 #| label: fig-month-born-effects
-#| fig-cap: Comparison of Average Predicted Ages of Lemurs by Age Range, Birth Month, and Prediction Type (Wild vs. Captive)
+#| fig-cap: Comparison of average predicted ages of wild and captive lemurs across different months born. 
 
 # Summarize the data by month
 month_plot_data <- predictions %>%
@@ -397,7 +401,6 @@ month_plot <- ggplot(month_plot_data, aes(x = month_born, y = avg_age, fill = pr
     x = "Month Born",
     y = "Average Predicted Age",
     fill = "Type of Lemurs",
-    title = "Average Predicted Ages by Month Born"
   ) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
@@ -405,7 +408,7 @@ month_plot <- ggplot(month_plot_data, aes(x = month_born, y = avg_age, fill = pr
 month_plot
 ```
 
-For months in @fig-month-born-effects, we see captive lemurs outlive wild lemurs most of the months except August, January, March, Novemeber and September. It is worth exploring the reasons behind these differences by Duke Lemur Center, as they can provide insights into the impact of seasonal factors on lemur lifespan.
+For months in @fig-month-born-effects, we see captive lemurs outlive wild lemurs most of the months except August, January, March, Novemeber and September. It is worth exploring the reasons behind these differences by Duke Lemur Center, as they can provide insights into the impact of seasonal factors on lemur lifespan. 
 
 ## Effect of Species on Age
 ```{r}
@@ -413,7 +416,7 @@ For months in @fig-month-born-effects, we see captive lemurs outlive wild lemurs
 #| warning: false
 #| message: false
 #| label: fig-species-effects
-#| fig-cap: Comparison of Average Predicted Ages of Lemurs by Age Range, Species, and Prediction Type (Wild vs. Captive)
+#| fig-cap: Comparison of average predicted ages of wild and captive lemurs across different species. Captive lemurs generally show a higher predicted age than their wild counterparts for most species.
 
 # Summarize the data by species
 species_plot_data <- predictions %>%
@@ -439,7 +442,6 @@ species_plot <- ggplot(species_plot_data, aes(x = species, y = avg_age, fill = p
     x = "Species",
     y = "Average Predicted Age",
     fill = "Type of Lemurs",
-    title = "Average Predicted Ages by Species"
   ) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
@@ -450,27 +452,45 @@ species_plot
 Once again in species as seen in @fig-species-effects, we see captive lemurs living longer than wild ones in most of them, except `ALB`, `COR`, `MAC` and `MON`. Why these species are living longer in wild, can be a good area of research for Duke Lemur Center.
 
 
-# Discussion
+# Discussion {#sec-discussion}
 
 This paper investigates the lifespan of lemurs across wild and captive environments, utilizing data from the Duke Lemur Center (DLC). Generalized Linear Models (GLMs) with Gaussian distribution are used to analyze how factors such as sex, species, genus, and birth month impact lemur longevity. Separate models are developed for wild-born and captive-born lemurs to account for environmental differences. The study identifies patterns of increased longevity in captive lemurs and emphasizes species-specific conservation strategies.
 
 ## Key Findings 
 One key insight is that captivity significantly increases lemur lifespan. Controlled environments provide consistent access to food, medical care, and protection from predators, reducing environmental stresses that contribute to shorter lifespans in the wild. This finding underscores the importance of captivity as a conservation tool for endangered species like lemurs.
 
-Species-specific differences in lifespan emerge as a critical factor. Certain species thrive in captivity due to tailored conservation practices, while others exhibit shorter lifespans, suggesting room for improvement. Additionally, the diminished influence of sex on lifespan in captivity contrasts with its pronounced effects in the wild, revealing the role of environmental factors in mediating biological differences.
+Species-specific differences in lifespan emerge as a critical factor. Most of the species thrive in captivity due to tailored conservation practices, while some including `ALB`, `COR`, `MAC`, and `MON` perform better in the wild. Understanding the reasons behind these variations can inform targeted conservation efforts to improve outcomes.
+
+Even though no specific trend was observed for birth month, lemurs born in August and November tend to live longer in the wild than in captivity. It is worth exploring the underlying cause for this. 
+
+Additionally, the greater influence of sex on lifespan in captivity contrasts with its less pronounced effects in the wild opens up avenues for further research and mitigating any short comings in our conservation efforts.
 
 ## Drawbacks of the Study
-While the study provides valuable insights, it has limitations. First, the dataset is skewed towards captive lemurs, limiting the robustness of wild lifespan analysis. Second, the exclusion of interactions between birth type and other predictors in the combined model reduces the depth of insights. Lastly, some predictors, like birth month, have inconsistent or weak effects, indicating potential noise in the data or the need for more refined models.
+While the study provides valuable insights, it has its limitations. First, the dataset is skewed towards captive lemurs, limiting the robustness of wild lifespan analysis. 
+
+Second, the exclusion of interactions between birth type and other predictors in the combined model reduces the depth of insights. 
+
+Third, some predictors, like birth month, have inconsistent or weak effects, indicating potential noise in the data or the need for more refined models. 
+
+Finally, the ages of lemurs below one year were excluded, which may have impacted the analysis of early-life mortality and its effects on lifespan.
 
 ## Future Directions
 Future research should focus on:
-1. Expanding datasets to include more wild lemurs for balanced comparisons.
-2. Exploring interactions between predictors (e.g., birth type and species) to uncover complex relationships.
-3. Investigating why some species perform better in the wild than in captivity, which could inform more effective conservation strategies.
-4. Examining seasonal effects and birth month impacts further to identify environmental triggers influencing lifespan.
-5. Using advanced modeling techniques like Bayesian models or neural networks for more nuanced predictions.
 
-By addressing these areas, conservationists can develop targeted strategies to enhance the survival of lemurs both in the wild and in captivity.
+
+1. Expanding datasets to include more wild lemurs for balanced comparisons.
+
+2. Exploring interactions between predictors (e.g., birth type and species) to uncover complex relationships.
+
+3. Investigating why some species perform better in the wild than in captivity, which could inform more effective conservation strategies.
+
+4. Examining seasonal effects and birth month impacts further to identify environmental triggers influencing lifespan.
+
+5. Studying the infant mortality rate and its impact on overall lemur lifespan.
+
+6. Using advanced modeling techniques like Bayesian models or neural networks for more nuanced predictions.
+
+By addressing these areas, conservationists can develop targeted strategies to enhance the survival of lemurs both in the wild and in captivity. Such studies help us understand what are we doing right in conservation efforts, and where should we focus next. 
 
 
 # Appendix {#sec-appendix} 
@@ -508,11 +528,7 @@ This systematic cleaning ensures the dataset is consistent, reliable, and ready 
 #| warning: false
 #| message: false
 #| label: tbl-wild
-#| tbl-cap: Analysis dataset for Wild Lemurs
-library(knitr)
-
-wild_data <- read_parquet("../data/analysis_data/wild.parquet")
-captive_data <- read_parquet("../data/analysis_data/captive.parquet")
+#| tbl-cap: Analysis dataset for wild lemurs
 
 # Glimpse of the anaysis dataset
 head(wild_data) %>%
@@ -525,7 +541,7 @@ head(wild_data) %>%
 #| warning: false
 #| message: false
 #| label: tbl-captive
-#| tbl-cap: Analysis dataset for Captive Lemurs
+#| tbl-cap: Analysis dataset for captive lemurs
 
 head(captive_data) %>%
   kable(digits = 2)
@@ -555,13 +571,13 @@ coefficients |> kable(digits = 2)
 #| warning: false
 #| message: false
 #| label: tbl-captive-model-coefficients
+
 #| tbl-cap: Summary of the model for captive lemurs
 
 # Extract coefficients
 coefficients <- broom::tidy(captive_model, conf.int = TRUE)
 coefficients |> kable(digits = 2)
 ```
-
 
 # Posterior Predictive Checks {#sec-appendix-ppc}
 
@@ -573,14 +589,14 @@ As show in @fig-residual-plots, the residual plots for both captive and wild mod
 #| warning: false
 #| message: false
 #| label: fig-residual-plots
-#| fig-cap: Residual plots for the wild and captive models
+#| fig-cap: Residual plots for the wild (on left) and captive (on right) models. Both the plots indicate that the residuals are randomly distributed around zero, with no discernible patterns or heteroscedasticity.
 # Create residual plot for wild model
 wild_plot <- ggplot(data = data.frame(Fitted = wild_model$fitted.values, 
                                       Residuals = residuals(wild_model)),
                     aes(x = Fitted, y = Residuals)) +
   geom_point() +
   geom_hline(yintercept = 0, color = "red", linetype = "dashed") +
-  labs(title = "Residual Plot for Wild Model", x = "Fitted Values", y = "Residuals") +
+  labs(x = "Fitted Values", y = "Residuals") +
   theme_minimal()
 
 # Create residual plot for captive model
@@ -589,7 +605,7 @@ captive_plot <- ggplot(data = data.frame(Fitted = captive_model$fitted.values,
                        aes(x = Fitted, y = Residuals)) +
   geom_point() +
   geom_hline(yintercept = 0, color = "red", linetype = "dashed") +
-  labs(title = "Residual Plot for Captive Model", x = "Fitted Values", y = "Residuals") +
+  labs(x = "Fitted Values", y = "Residuals") +
   theme_minimal()
 
 wild_plot + captive_plot
@@ -598,20 +614,19 @@ wild_plot + captive_plot
 
 
 ## QQ Plots
-As show in @fig-qq-plots, the QQ plots for both captive and wild models show that the standardized residuals closely follow the expected normal distribution line. The points are mostly aligned along the line, indicating that the residuals are normally distributed. This suggests that the model assumptions of normality are met, and the models are appropriate for the data.
+As show in @fig-qq-plots, the QQ plots for both captive and wild models show that the standardized residuals closely follow the expected normal distribution line. The QQ plot for wild lemurs show slight deviations at the tails, but overall, the points are aligned along the line. Overall, the points are mostly aligned along the line, indicating that the residuals are normally distributed. This suggests that the model assumptions of normality are met, and the models are appropriate for the data.
 ```{r}
 #| echo: false
 #| warning: false
 #| message: false
 #| label: fig-qq-plots
-#| fig-cap: QQ plots for the wild and captive models
+#| fig-cap: QQ plots of standardized residuals vs the expected normal distribution for the wild (on left) and captive (on right) models. The points closely follow the expected normal distribution line, indicating that the residuals are normally distributed.
 
 # Create QQ plot for wild model
 wild_qq <- ggplot(data = data.frame(Standardized_Residuals = rstandard(wild_model)),
                   aes(sample = Standardized_Residuals)) +
   stat_qq() +
   stat_qq_line() +
-  labs(title = "QQ Plot for Wild Model") +
   theme_minimal()
 
 # Create QQ plot for captive model
@@ -619,11 +634,11 @@ captive_qq <- ggplot(data = data.frame(Standardized_Residuals = rstandard(captiv
                      aes(sample = Standardized_Residuals)) +
   stat_qq() +
   stat_qq_line() +
-  labs(title = "QQ Plot for Captive Model") +
   theme_minimal()
 
 wild_qq + captive_qq
 ```
+
 #  Species of Lemurs {#sec-appendix-species}
 The following are the species of lemurs that are present in the dataset:
 

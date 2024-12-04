@@ -1,4 +1,5 @@
 - TODO: Correct figure captions
+- TODO: Correct figure locations in appendix
 
 # Predicting a Lemur's Lifespan in Wild and Captivity
 
