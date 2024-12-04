@@ -13,7 +13,10 @@ packages <- c(
   "knitr",
   "ggplot2",
   "arrow",
-  "rstanarm"
+  "rstanarm",
+  "testthat",
+  "kableExtra",
+  "patchwork"
 )
 
 # Install packages if they are not already installed

@@ -5,7 +5,7 @@
 # Date: 18 November 2024
 # Contact: khushaal.nandwani@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: None
+# Pre-requisites: Run 04b-test-actual-data.r
 
 ## Workspace setup ##
 library(arrow)

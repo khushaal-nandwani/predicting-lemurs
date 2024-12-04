@@ -4,7 +4,7 @@
 # Date: 18 April 2024
 # Contact: khushaal.nandwani@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: Run 04-data-analysis.r
+# Pre-requisites: Run 05-data-analysis.r
 
 ## Workspace setup ##
 library(tidyverse)

@@ -4,7 +4,7 @@
 # Date: 18 November 2024
 # Contact: khushaal.nandwani@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: None
+# Pre-requisites: Rnu 00-install-packages.r
 
 ## Workspace Setup ##
 library(tidyverse)

@@ -1,3 +1,11 @@
+#### Preamble ####
+# Purpose: Downloads the data file from the internet
+# Author: Khushaal Nandwani
+# Date: 18 November 2024
+# Contact: khushaal.nandwani@mail.utoronto.ca
+# License: MIT
+# Pre-requisites: None
+
 url <- "https://raw.githubusercontent.com/tacookson/data/master/duke-lemur-center/animals.txt"
 
 destination_dir <- "data/raw_data"

@@ -1,0 +1,1201 @@
+"animal_id","species","sex","birth_type","litter_size","mother_father_same","age","month_born"
+1,"Red-fronted brown lemur","M","wild",3,0,6.05809160355362,8
+2,"Northern greater galago","F","captive",1,0,8.91452471395184,5
+3,"Eulemur hybrid","M","wild",5,1,7.63587835242649,11
+4,"Mohol bushbaby","M","captive",1,1,11.8150820260434,4
+5,"Mohol bushbaby","F","wild",5,1,10.1019725873191,11
+6,"Collared brown lemur","F","wild",1,1,5.81324378895289,7
+7,"Eulemur hybrid","M","captive",2,0,10.2945213925281,11
+8,"Red-fronted brown lemur","F","captive",4,0,12.1645878346687,8
+9,"Black lemur","F","wild",4,0,5.06022534398953,6
+10,"Black lemur","M","wild",4,1,5.18790255903125,6
+11,"Black lemur","M","wild",4,1,7.47407042546267,4
+12,"Black lemur","F","captive",5,0,7.19740644012376,7
+13,"Common brown lemur","F","wild",5,1,7.4842072016482,4
+14,"Black lemur","M","wild",5,0,7.65112370255053,3
+15,"Collared brown lemur","M","captive",4,1,8.713799969057,7
+16,"Mohol bushbaby","F","captive",1,1,8.91921052791588,12
+17,"Mohol bushbaby","M","wild",3,0,5.19322789540332,6
+18,"Red-fronted brown lemur","M","wild",4,1,7.57639852104436,12
+19,"Northern greater galago","F","wild",3,1,5.91016207517925,3
+20,"Common brown lemur","F","wild",1,0,10.1520180568032,6
+21,"Mohol bushbaby","M","wild",4,0,6.85445876258362,1
+22,"Red-fronted brown lemur","F","wild",3,1,10.5982354319355,7
+23,"Eastern lesser bamboo lemur","M","captive",2,1,7.36553968521552,2
+24,"Black lemur","F","captive",1,1,13.2693331646216,2
+25,"Collared brown lemur","F","wild",1,1,6.06292384399101,8
+26,"Collared brown lemur","M","wild",5,0,10.6395510051656,4
+27,"Eulemur hybrid","M","wild",4,1,6.98514801466778,11
+28,"Collared brown lemur","M","wild",4,0,4.39144419672489,9
+29,"Mohol bushbaby","M","wild",3,0,6.8632409549857,8
+30,"Black lemur","F","captive",5,1,9.62735208259151,2
+31,"Red-fronted brown lemur","M","captive",1,0,8.65120589669212,5
+32,"Eulemur hybrid","M","captive",1,1,10.468648824302,8
+33,"Eulemur hybrid","F","captive",2,0,9.13471101183772,12
+34,"Northern greater galago","F","captive",3,0,6.90491877234796,2
+35,"Eulemur hybrid","M","wild",1,1,6.89512898695829,2
+36,"Mohol bushbaby","M","wild",2,1,7.03705210803755,7
+37,"Common brown lemur","F","wild",1,0,10.7040613274769,12
+38,"Northern greater galago","F","captive",2,0,8.79243602778886,12
+39,"Collared brown lemur","F","wild",1,1,5.88262755363713,1
+40,"Mohol bushbaby","F","wild",1,1,7.24202440793556,3
+41,"Common brown lemur","F","wild",2,1,6.34717122427635,11
+42,"Collared brown lemur","M","captive",1,0,9.43622419351071,7
+43,"Red-fronted brown lemur","M","wild",4,1,9.27540392780359,9
+44,"Collared brown lemur","M","wild",4,1,5.2119757519332,2
+45,"Northern greater galago","M","wild",4,0,6.03395986928919,4
+46,"Mohol bushbaby","F","wild",3,0,7.79182861021483,12
+47,"Eulemur hybrid","F","wild",1,0,6.39412390516666,6
+48,"Collared brown lemur","F","captive",5,1,9.83991713271198,9
+49,"Eulemur hybrid","M","captive",2,1,10.8758952921298,7
+50,"Black lemur","M","wild",1,1,4.63651019620726,7
+51,"Eulemur hybrid","F","captive",4,0,10.4530088636285,2
+52,"Eastern lesser bamboo lemur","M","wild",4,0,9.18637626411866,8
+53,"Mohol bushbaby","F","captive",1,0,8.69007033416778,7
+54,"Red-fronted brown lemur","F","captive",2,0,11.5011724308734,12
+55,"Eastern lesser bamboo lemur","M","captive",4,1,6.8481008789106,10
+56,"Collared brown lemur","F","captive",2,0,10.6603500818507,10
+57,"Black lemur","F","captive",4,1,6.57431836908093,3
+58,"Northern greater galago","F","captive",2,1,6.36133817391578,12
+59,"Eastern lesser bamboo lemur","F","captive",4,1,7.11050818614393,4
+60,"Red-fronted brown lemur","M","captive",1,1,6.30055715969351,3
+61,"Eastern lesser bamboo lemur","F","captive",1,0,7.06827477088817,8
+62,"Collared brown lemur","M","captive",3,1,10.2016531159628,7
+63,"Mohol bushbaby","F","captive",3,0,9.91682895175014,6
+64,"Collared brown lemur","M","captive",3,0,8.63745523771143,7
+65,"Eulemur hybrid","F","wild",4,1,5.21326371587261,2
+66,"Eulemur hybrid","F","captive",1,0,9.20387250273035,5
+67,"Mohol bushbaby","F","wild",3,0,7.1700689125453,11
+68,"Collared brown lemur","F","captive",4,0,9.72920273051587,12
+69,"Black lemur","M","wild",4,1,8.01581995571048,12
+70,"Collared brown lemur","F","wild",1,1,5.13036076752975,2
+71,"Collared brown lemur","F","wild",2,1,3.6730249798467,11
+72,"Eastern lesser bamboo lemur","M","wild",1,1,5.8140686265809,5
+73,"Eastern lesser bamboo lemur","F","captive",5,0,11.7761121443747,5
+74,"Northern greater galago","F","wild",5,1,5.75472032162549,1
+75,"Collared brown lemur","M","wild",1,0,8.73673674526946,10
+76,"Collared brown lemur","M","captive",2,0,7.49970261256658,10
+77,"Mohol bushbaby","M","wild",2,0,9.24278332118432,3
+78,"Red-fronted brown lemur","F","wild",3,1,5.51292620902772,4
+79,"Collared brown lemur","F","wild",2,1,8.11720118008244,9
+80,"Black lemur","M","wild",2,0,7.45845239392038,7
+81,"Mohol bushbaby","M","captive",5,1,9.04342148952322,10
+82,"Common brown lemur","F","captive",3,0,7.8738971963448,7
+83,"Black lemur","M","captive",4,1,12.6757911692939,9
+84,"Mohol bushbaby","F","captive",1,1,9.8336149881628,6
+85,"Common brown lemur","F","captive",2,0,5.29919391399241,5
+86,"Eulemur hybrid","F","captive",1,0,7.39016894009604,6
+87,"Northern greater galago","M","wild",5,1,7.18122605306626,7
+88,"Red-fronted brown lemur","F","wild",5,0,7.09675020577957,12
+89,"Black lemur","F","captive",5,1,6.47486507059969,2
+90,"Common brown lemur","F","captive",4,1,8.01462385723219,11
+91,"Mohol bushbaby","M","captive",4,1,7.12701928075712,8
+92,"Eastern lesser bamboo lemur","F","wild",1,0,3.91228614047409,3
+93,"Red-fronted brown lemur","M","wild",2,1,5.79913948962604,8
+94,"Mohol bushbaby","F","captive",2,0,6.99780386354127,5
+95,"Mohol bushbaby","M","captive",4,1,6.6949452941032,5
+96,"Mohol bushbaby","F","wild",1,0,8.81530308978352,7
+97,"Eastern lesser bamboo lemur","F","wild",5,1,7.40843843462122,1
+98,"Eastern lesser bamboo lemur","F","wild",2,1,3.97639814709485,2
+99,"Eulemur hybrid","M","wild",4,0,8.60201003124882,11
+100,"Northern greater galago","M","captive",4,0,9.67042655658032,12
+101,"Red-fronted brown lemur","F","wild",5,1,8.08306476713045,10
+102,"Eulemur hybrid","M","captive",3,1,7.6911587191712,10
+103,"Black lemur","F","captive",5,0,13.2255411200705,4
+104,"Northern greater galago","M","captive",3,1,8.38261832947202,10
+105,"Red-fronted brown lemur","F","wild",1,0,7.42422916933817,1
+106,"Eulemur hybrid","F","wild",5,0,4.65159670862777,8
+107,"Common brown lemur","M","captive",1,1,11.5029683278112,10
+108,"Eulemur hybrid","F","captive",3,1,6.70997536439738,6
+109,"Collared brown lemur","M","captive",1,0,5.77579972619826,8
+110,"Eastern lesser bamboo lemur","M","captive",2,1,5.45398294507519,10
+111,"Northern greater galago","M","wild",2,0,8.50334474100814,6
+112,"Black lemur","F","captive",3,1,10.7404465910608,8
+113,"Collared brown lemur","M","captive",1,0,7.73905292778633,1
+114,"Collared brown lemur","F","captive",3,0,7.40467027669125,7
+115,"Common brown lemur","M","wild",5,0,8.71973220223421,8
+116,"Eastern lesser bamboo lemur","M","captive",2,1,8.55687541321081,11
+117,"Northern greater galago","F","wild",4,1,7.48311487166221,11
+118,"Eastern lesser bamboo lemur","F","wild",4,0,9.31424942020798,8
+119,"Black lemur","F","wild",1,1,6.45194357439488,2
+120,"Common brown lemur","M","captive",5,1,9.71435849259067,1
+121,"Eastern lesser bamboo lemur","F","captive",3,1,11.4277320972343,7
+122,"Northern greater galago","F","captive",4,1,10.9347700352626,9
+123,"Common brown lemur","M","captive",3,0,6.15205963508571,4
+124,"Eastern lesser bamboo lemur","M","captive",5,1,9.4448586424357,8
+125,"Common brown lemur","F","captive",1,0,10.6387270027229,9
+126,"Black lemur","F","captive",3,1,6.50503672887458,10
+127,"Eulemur hybrid","F","captive",4,1,10.102212168749,1
+128,"Common brown lemur","F","captive",3,0,9.22460989065178,6
+129,"Red-fronted brown lemur","F","wild",1,1,9.02233403069224,9
+130,"Black lemur","M","wild",3,0,6.68657767451009,3
+131,"Common brown lemur","F","wild",1,1,4.9949195420504,8
+132,"Red-fronted brown lemur","M","wild",4,1,5.13973747951837,8
+133,"Mohol bushbaby","F","captive",4,1,5.17566333888303,3
+134,"Mohol bushbaby","F","captive",4,1,8.70107099961036,10
+135,"Common brown lemur","M","captive",1,0,10.4619070245369,4
+136,"Eulemur hybrid","M","captive",1,1,10.1593683062467,6
+137,"Collared brown lemur","M","wild",4,1,9.307686984047,7
+138,"Red-fronted brown lemur","F","captive",1,1,5.71302704629431,9
+139,"Collared brown lemur","M","captive",4,0,5.53171146954296,10
+140,"Eastern lesser bamboo lemur","M","captive",2,1,7.67621639789949,12
+141,"Black lemur","F","wild",4,1,3.52759970696522,12
+142,"Common brown lemur","M","captive",1,1,8.1897549764081,4
+143,"Eulemur hybrid","M","captive",1,1,7.59428710114942,12
+144,"Eulemur hybrid","F","captive",4,0,7.93663768771867,5
+145,"Collared brown lemur","F","captive",4,1,9.29670077577194,1
+146,"Eulemur hybrid","M","captive",1,1,9.33415998835019,11
+147,"Collared brown lemur","M","captive",1,1,9.80352041163044,2
+148,"Eulemur hybrid","F","wild",4,0,3.31010439731628,1
+149,"Northern greater galago","M","wild",3,0,7.61431763185907,1
+150,"Eulemur hybrid","F","wild",5,0,7.00056206089861,5
+151,"Eastern lesser bamboo lemur","M","wild",2,0,10.5080632292104,6
+152,"Common brown lemur","M","captive",4,0,7.92929250348122,4
+153,"Red-fronted brown lemur","M","wild",4,0,5.83296929202037,4
+154,"Mohol bushbaby","M","captive",5,0,11.6380349227609,5
+155,"Eulemur hybrid","F","captive",5,0,7.9398286477531,11
+156,"Eulemur hybrid","M","captive",3,0,10.512879604301,5
+157,"Mohol bushbaby","M","wild",5,0,5.11052979243115,2
+158,"Eulemur hybrid","F","wild",1,1,3.46933083889381,7
+159,"Eulemur hybrid","M","wild",4,0,5.4006220561109,2
+160,"Eastern lesser bamboo lemur","M","wild",4,1,4.45788811610063,12
+161,"Red-fronted brown lemur","F","captive",1,1,9.58936191718697,2
+162,"Red-fronted brown lemur","F","captive",4,1,11.6935616817102,3
+163,"Collared brown lemur","F","wild",2,1,6.26770360955193,2
+164,"Northern greater galago","M","wild",1,1,9.36701770919354,5
+165,"Collared brown lemur","F","wild",3,0,8.8654421455149,6
+166,"Common brown lemur","F","wild",1,1,4.0722990081105,12
+167,"Black lemur","F","captive",5,0,10.1687222127522,1
+168,"Red-fronted brown lemur","F","wild",4,1,7.95115948470093,11
+169,"Eulemur hybrid","M","captive",4,1,7.14193360620046,5
+170,"Northern greater galago","M","wild",5,0,7.5706650509304,4
+171,"Mohol bushbaby","M","captive",3,1,7.66727675683381,10
+172,"Collared brown lemur","M","wild",1,0,7.79139931111461,12
+173,"Northern greater galago","F","wild",2,0,8.42748375304121,12
+174,"Northern greater galago","F","captive",2,1,5.79694787077166,8
+175,"Northern greater galago","F","wild",3,1,5.59694638477658,3
+176,"Collared brown lemur","F","captive",4,0,11.2498024457672,7
+177,"Eastern lesser bamboo lemur","M","wild",2,1,4.21007189205452,10
+178,"Black lemur","F","captive",2,0,8.19058557850859,6
+179,"Mohol bushbaby","M","wild",1,0,7.27131597489646,6
+180,"Red-fronted brown lemur","M","wild",3,1,7.45442329916843,5
+181,"Eastern lesser bamboo lemur","F","captive",2,1,9.17041890599286,1
+182,"Common brown lemur","M","captive",2,0,7.3184525687654,6
+183,"Common brown lemur","M","captive",4,0,8.53207581441007,8
+184,"Mohol bushbaby","F","wild",1,0,5.71435856255552,3
+185,"Northern greater galago","F","captive",5,0,11.2625913435372,2
+186,"Collared brown lemur","M","wild",4,1,5.92875585995989,12
+187,"Collared brown lemur","M","wild",3,1,6.85587230961456,4
+188,"Red-fronted brown lemur","M","wild",1,0,5.98246063510067,6
+189,"Common brown lemur","M","wild",2,1,7.02726517852787,9
+190,"Mohol bushbaby","M","captive",2,1,7.06623596031988,5
+191,"Eastern lesser bamboo lemur","M","captive",2,0,13.1846453698182,9
+192,"Black lemur","M","wild",5,0,7.02696254800569,10
+193,"Red-fronted brown lemur","M","captive",2,0,9.40708172296436,1
+194,"Northern greater galago","M","wild",2,0,4.57334345345797,7
+195,"Eulemur hybrid","M","captive",4,0,13.9061265090827,10
+196,"Red-fronted brown lemur","F","wild",5,1,5.97758780547811,1
+197,"Collared brown lemur","F","captive",5,1,11.5287626555596,3
+198,"Black lemur","M","wild",2,0,7.64213651515537,4
+199,"Collared brown lemur","F","wild",2,1,9.98880863006436,1
+200,"Mohol bushbaby","M","captive",4,1,8.39081173731744,10
+201,"Mohol bushbaby","F","captive",5,1,12.863224275301,8
+202,"Northern greater galago","F","wild",4,0,6.76673495589818,6
+203,"Common brown lemur","F","wild",3,1,5.21252961022302,8
+204,"Red-fronted brown lemur","F","captive",3,1,7.53740820767153,1
+205,"Eastern lesser bamboo lemur","M","wild",3,0,6.84607744054746,1
+206,"Black lemur","M","captive",4,0,11.1001782112176,9
+207,"Red-fronted brown lemur","F","captive",4,1,6.94779870412292,11
+208,"Common brown lemur","M","captive",4,1,10.196494139496,5
+209,"Common brown lemur","F","captive",1,1,8.51869302418977,3
+210,"Common brown lemur","M","wild",2,0,7.55608923460399,6
+211,"Eastern lesser bamboo lemur","F","captive",3,1,8.35536682976537,10
+212,"Mohol bushbaby","F","captive",2,1,10.1366371213503,6
+213,"Collared brown lemur","M","captive",5,0,9.32896346334209,2
+214,"Black lemur","M","captive",4,0,11.1939455768458,11
+215,"Mohol bushbaby","F","wild",5,0,5.68244560357949,2
+216,"Eulemur hybrid","F","wild",5,1,7.5600534347088,12
+217,"Eulemur hybrid","M","captive",2,0,7.4003326629184,4
+218,"Mohol bushbaby","F","captive",5,1,13.3740450047018,9
+219,"Collared brown lemur","F","wild",1,1,7.08487362804738,5
+220,"Eastern lesser bamboo lemur","F","captive",3,1,9.73881896013753,10
+221,"Eulemur hybrid","F","wild",3,1,7.80238726940205,8
+222,"Common brown lemur","F","wild",2,1,7.42254394735088,10
+223,"Red-fronted brown lemur","F","wild",5,0,5.94839188433059,6
+224,"Collared brown lemur","M","captive",1,1,10.2998729105696,1
+225,"Collared brown lemur","M","wild",1,0,6.70989518785435,10
+226,"Eastern lesser bamboo lemur","M","captive",1,0,8.46068958351375,11
+227,"Eulemur hybrid","F","wild",1,0,5.07546209604872,12
+228,"Northern greater galago","M","wild",2,0,8.57645186056337,4
+229,"Northern greater galago","M","wild",1,0,5.7108608723,2
+230,"Black lemur","F","wild",2,1,8.45414414947563,6
+231,"Northern greater galago","F","wild",2,1,5.77944110233304,3
+232,"Northern greater galago","M","wild",3,1,3.17971887783406,9
+233,"Common brown lemur","F","captive",1,0,7.10974981050058,2
+234,"Black lemur","M","captive",2,0,8.88456879500561,1
+235,"Red-fronted brown lemur","M","wild",5,0,4.22214413443355,12
+236,"Black lemur","M","wild",1,1,9.32815020889271,3
+237,"Northern greater galago","M","wild",3,0,6.22666384878716,1
+238,"Eulemur hybrid","F","wild",2,0,11.475748142714,12
+239,"Collared brown lemur","M","wild",4,1,6.99423063240249,6
+240,"Mohol bushbaby","F","captive",4,0,7.44794080166404,6
+241,"Eulemur hybrid","F","captive",1,1,9.74709366962445,7
+242,"Eulemur hybrid","M","wild",5,1,9.09089876213171,4
+243,"Eulemur hybrid","F","captive",3,0,7.9893166702019,5
+244,"Northern greater galago","F","wild",5,0,12.7349574590904,6
+245,"Eulemur hybrid","F","captive",3,0,10.7505302776722,8
+246,"Eastern lesser bamboo lemur","M","wild",1,0,9.66706215937324,7
+247,"Northern greater galago","F","wild",5,0,2.20050150302639,6
+248,"Mohol bushbaby","F","wild",4,0,4.0783224231388,6
+249,"Eastern lesser bamboo lemur","M","wild",4,1,6.76295906068811,10
+250,"Collared brown lemur","F","wild",5,1,5.85358122177291,8
+251,"Northern greater galago","M","wild",4,0,4.3588726707399,1
+252,"Eastern lesser bamboo lemur","F","wild",5,1,6.05274753837156,6
+253,"Black lemur","F","captive",3,0,13.18485757715,4
+254,"Mohol bushbaby","M","captive",5,0,10.3773885281284,7
+255,"Collared brown lemur","M","wild",1,0,10.4283865923943,4
+256,"Black lemur","F","captive",4,1,7.47046908484911,12
+257,"Eulemur hybrid","F","wild",4,0,5.70019752157936,11
+258,"Red-fronted brown lemur","M","wild",1,0,5.90504001874553,5
+259,"Common brown lemur","M","captive",2,1,6.97715397945602,1
+260,"Red-fronted brown lemur","F","wild",2,1,8.926839584582,1
+261,"Eastern lesser bamboo lemur","M","wild",2,0,6.05821313775149,6
+262,"Black lemur","M","captive",4,0,11.1816903979017,6
+263,"Red-fronted brown lemur","F","captive",2,1,9.9775188915858,9
+264,"Common brown lemur","F","wild",2,0,8.693513242397,5
+265,"Northern greater galago","F","captive",2,0,7.27016746824878,9
+266,"Red-fronted brown lemur","F","captive",3,1,12.2603750383751,10
+267,"Red-fronted brown lemur","M","captive",1,1,13.9247110752105,10
+268,"Eastern lesser bamboo lemur","M","captive",1,0,11.7697991765927,12
+269,"Eulemur hybrid","M","wild",1,0,6.86739469746658,8
+270,"Eastern lesser bamboo lemur","F","captive",1,0,8.12538999727262,5
+271,"Collared brown lemur","F","captive",3,0,10.2179637082119,2
+272,"Northern greater galago","M","wild",5,1,3.8173107652677,4
+273,"Red-fronted brown lemur","M","captive",2,0,9.16561030609991,1
+274,"Mohol bushbaby","F","captive",4,1,7.44189972817889,10
+275,"Eulemur hybrid","F","captive",4,1,9.76008668318135,5
+276,"Collared brown lemur","F","wild",5,1,7.35478867672153,5
+277,"Black lemur","M","wild",5,0,7.37998053635705,2
+278,"Collared brown lemur","F","wild",1,1,7.39290852482194,7
+279,"Eulemur hybrid","M","wild",4,1,2.65980225796597,8
+280,"Common brown lemur","F","wild",5,0,8.83717915111248,8
+281,"Collared brown lemur","M","captive",4,0,11.1192044432026,10
+282,"Eulemur hybrid","M","captive",3,0,9.48034882084695,8
+283,"Mohol bushbaby","F","captive",3,1,5.86270390090631,1
+284,"Red-fronted brown lemur","M","wild",5,1,3.19255709021338,4
+285,"Mohol bushbaby","F","captive",5,1,9.20108278921597,5
+286,"Eastern lesser bamboo lemur","F","wild",4,0,2.74211013344708,10
+287,"Eastern lesser bamboo lemur","F","captive",5,1,8.38748580954174,9
+288,"Northern greater galago","F","wild",3,0,8.49854336640935,4
+289,"Red-fronted brown lemur","F","wild",2,0,4.99814325699925,1
+290,"Collared brown lemur","F","wild",5,0,8.6810551615107,10
+291,"Eulemur hybrid","F","wild",1,0,5.07101481853752,3
+292,"Eulemur hybrid","M","captive",3,0,10.7485033606477,4
+293,"Collared brown lemur","M","wild",2,1,3.19160308423886,7
+294,"Collared brown lemur","M","captive",1,1,7.07598445318422,9
+295,"Collared brown lemur","M","captive",5,1,8.64289309097198,7
+296,"Common brown lemur","M","captive",4,1,8.84911005550325,7
+297,"Eulemur hybrid","F","captive",2,0,10.251453334577,3
+298,"Eastern lesser bamboo lemur","F","captive",2,0,6.06443446473009,3
+299,"Eulemur hybrid","F","wild",5,0,5.88416137048451,7
+300,"Eastern lesser bamboo lemur","M","captive",1,1,8.86541396794034,8
+301,"Red-fronted brown lemur","F","wild",1,0,10.6275192748769,3
+302,"Eastern lesser bamboo lemur","M","wild",5,0,3.06402654906785,11
+303,"Mohol bushbaby","F","wild",4,1,9.13238204303545,5
+304,"Red-fronted brown lemur","F","wild",2,1,7.9524503111789,3
+305,"Northern greater galago","F","captive",5,1,10.3345579442311,5
+306,"Black lemur","M","wild",1,0,7.44506171214775,8
+307,"Mohol bushbaby","F","captive",5,1,6.67820986405652,9
+308,"Black lemur","F","captive",2,1,12.4374260575121,4
+309,"Red-fronted brown lemur","F","captive",1,1,8.71792747161571,3
+310,"Eastern lesser bamboo lemur","F","wild",4,1,10.3814558265138,9
+311,"Eastern lesser bamboo lemur","M","captive",3,1,13.120054566014,11
+312,"Eulemur hybrid","F","wild",3,1,8.63603813067071,8
+313,"Common brown lemur","F","wild",4,0,7.59109672765694,10
+314,"Black lemur","F","captive",2,0,6.54134391758331,2
+315,"Black lemur","M","wild",3,1,6.24921308866256,7
+316,"Red-fronted brown lemur","F","wild",3,0,8.51396455714965,1
+317,"Northern greater galago","M","wild",1,0,7.15539681933907,11
+318,"Black lemur","M","wild",1,0,6.72637374229445,3
+319,"Red-fronted brown lemur","M","captive",2,1,7.232640704969,4
+320,"Black lemur","M","captive",2,1,10.1803413063491,3
+321,"Eulemur hybrid","F","captive",3,1,11.3155647710725,4
+322,"Mohol bushbaby","M","captive",4,1,7.12967824539938,7
+323,"Red-fronted brown lemur","F","captive",3,0,8.45850518985026,2
+324,"Common brown lemur","M","captive",3,0,5.34579594582711,8
+325,"Red-fronted brown lemur","M","captive",1,1,7.43699933030758,11
+326,"Eastern lesser bamboo lemur","M","captive",1,1,8.7521305291716,1
+327,"Eulemur hybrid","F","wild",4,0,12.6897670212835,6
+328,"Eulemur hybrid","M","wild",1,0,8.14479997861707,8
+329,"Collared brown lemur","F","captive",5,1,5.21917486001774,12
+330,"Northern greater galago","F","captive",2,1,9.77979109203171,5
+331,"Common brown lemur","M","wild",3,0,7.10109310655039,2
+332,"Black lemur","M","wild",5,0,6.05802749945313,10
+333,"Northern greater galago","M","wild",3,0,7.94459812847947,9
+334,"Eulemur hybrid","M","captive",2,0,11.030447174305,8
+335,"Common brown lemur","M","wild",2,0,5.27211137869951,11
+336,"Eastern lesser bamboo lemur","F","wild",2,1,3.35649125319004,6
+337,"Mohol bushbaby","M","wild",3,1,8.3798828579528,4
+338,"Eulemur hybrid","F","captive",4,0,7.94083530683203,5
+339,"Red-fronted brown lemur","F","captive",1,1,9.72139136373834,3
+340,"Eulemur hybrid","F","wild",3,0,2.48945452970945,12
+341,"Northern greater galago","M","wild",2,1,5.93776697793044,3
+342,"Eulemur hybrid","M","captive",2,1,12.2765609332107,10
+343,"Mohol bushbaby","F","captive",4,1,6.42305105228912,3
+344,"Eulemur hybrid","M","wild",5,0,10.9830495722531,1
+345,"Eastern lesser bamboo lemur","M","captive",3,0,8.1573973052744,5
+346,"Collared brown lemur","F","captive",3,1,8.77790749611242,8
+347,"Eastern lesser bamboo lemur","F","captive",3,0,11.0297948966621,11
+348,"Eastern lesser bamboo lemur","M","wild",3,1,5.29283115586237,8
+349,"Northern greater galago","F","wild",2,1,10.4199188680155,6
+350,"Common brown lemur","F","captive",4,1,11.3817930735255,11
+351,"Collared brown lemur","F","wild",3,1,3.09800353030958,1
+352,"Mohol bushbaby","M","wild",1,1,7.80465931977446,12
+353,"Common brown lemur","F","wild",4,1,6.53129669511237,7
+354,"Eulemur hybrid","M","wild",4,1,5.30256631560911,6
+355,"Eulemur hybrid","M","wild",4,1,11.1866233439983,8
+356,"Red-fronted brown lemur","F","captive",3,0,6.95529880014678,12
+357,"Red-fronted brown lemur","M","wild",1,0,7.15245750646663,4
+358,"Common brown lemur","F","captive",2,1,10.1914686642076,10
+359,"Collared brown lemur","M","wild",5,1,9.82500999351975,2
+360,"Collared brown lemur","F","captive",5,1,7.91128154373502,12
+361,"Northern greater galago","M","captive",1,1,5.04895206020144,7
+362,"Collared brown lemur","M","captive",1,0,8.38803848128494,12
+363,"Collared brown lemur","M","captive",2,1,9.66462446844081,6
+364,"Collared brown lemur","F","wild",1,1,4.85792940479723,11
+365,"Eastern lesser bamboo lemur","F","wild",5,0,7.67410840393436,5
+366,"Common brown lemur","M","wild",5,1,5.54256441279715,6
+367,"Eulemur hybrid","M","wild",1,0,7.67987742642937,2
+368,"Red-fronted brown lemur","M","wild",4,0,5.99202896549625,5
+369,"Common brown lemur","M","captive",1,0,9.73103856144614,9
+370,"Northern greater galago","F","wild",1,0,5.70033912567732,8
+371,"Eulemur hybrid","M","wild",1,0,6.7975196586848,12
+372,"Eulemur hybrid","F","wild",4,0,9.24178970665724,8
+373,"Collared brown lemur","F","wild",2,1,5.08410560300936,8
+374,"Mohol bushbaby","F","wild",3,1,11.4733964046921,12
+375,"Red-fronted brown lemur","F","wild",2,0,8.09728729547705,6
+376,"Eulemur hybrid","F","wild",2,1,7.4485703946999,9
+377,"Northern greater galago","M","captive",5,1,11.4119728562156,4
+378,"Common brown lemur","F","wild",5,0,7.86736962260152,1
+379,"Red-fronted brown lemur","M","wild",5,0,7.24768993032119,4
+380,"Black lemur","M","wild",2,1,5.80053544782931,3
+381,"Red-fronted brown lemur","M","wild",3,0,8.12354002088976,5
+382,"Black lemur","F","wild",1,0,7.43221299067204,11
+383,"Northern greater galago","F","wild",1,1,2.55554362512761,1
+384,"Mohol bushbaby","F","captive",2,1,8.86388475572722,11
+385,"Common brown lemur","F","captive",2,1,4.07937910691541,4
+386,"Eulemur hybrid","M","captive",3,1,9.90259296883296,9
+387,"Collared brown lemur","F","captive",4,0,10.3566028006312,5
+388,"Northern greater galago","F","wild",5,0,5.82900413188737,7
+389,"Eastern lesser bamboo lemur","F","captive",5,1,8.57218796017984,6
+390,"Common brown lemur","F","captive",4,0,10.3059994871268,6
+391,"Eulemur hybrid","F","wild",5,1,6.94193432270234,8
+392,"Black lemur","M","captive",1,0,10.3207338109264,7
+393,"Northern greater galago","F","captive",3,1,8.35286879352834,2
+394,"Northern greater galago","M","wild",4,1,7.25056836054958,7
+395,"Northern greater galago","M","captive",4,0,8.94750460615295,3
+396,"Eastern lesser bamboo lemur","M","wild",4,0,3.40320942647788,2
+397,"Black lemur","M","wild",4,0,6.36407389892185,5
+398,"Common brown lemur","M","captive",4,0,10.2767024312906,8
+399,"Collared brown lemur","M","captive",2,1,8.68794715072047,4
+400,"Collared brown lemur","F","captive",5,1,9.51820635326909,7
+401,"Red-fronted brown lemur","M","captive",1,0,9.35608476145175,10
+402,"Black lemur","F","captive",4,1,6.93096196052522,6
+403,"Black lemur","M","captive",1,0,8.81676603448597,8
+404,"Eulemur hybrid","M","captive",5,0,9.60556077236319,5
+405,"Common brown lemur","M","wild",2,1,5.63925195742146,6
+406,"Collared brown lemur","M","wild",4,1,6.58980270523491,12
+407,"Mohol bushbaby","F","captive",1,1,9.55952425803646,7
+408,"Collared brown lemur","F","wild",3,1,7.09858048116587,7
+409,"Common brown lemur","M","wild",5,1,4.27852188385084,4
+410,"Eulemur hybrid","F","captive",3,0,7.13621847492258,12
+411,"Eastern lesser bamboo lemur","M","wild",4,0,5.51191139398472,7
+412,"Red-fronted brown lemur","F","captive",5,1,4.88601798595888,8
+413,"Collared brown lemur","M","wild",5,0,11.3216473336236,7
+414,"Eulemur hybrid","F","captive",5,0,9.51413485143938,12
+415,"Collared brown lemur","F","wild",5,0,4.62297438599792,6
+416,"Collared brown lemur","M","captive",4,0,10.743068489242,11
+417,"Eastern lesser bamboo lemur","M","captive",2,1,9.22874011961294,3
+418,"Red-fronted brown lemur","M","captive",3,1,3.11196986152746,3
+419,"Collared brown lemur","M","wild",3,1,10.6001429694417,1
+420,"Eastern lesser bamboo lemur","M","captive",2,0,7.92253456791734,3
+421,"Common brown lemur","F","captive",3,0,8.80506125853148,1
+422,"Mohol bushbaby","F","captive",4,0,8.90756625756974,4
+423,"Black lemur","M","wild",3,1,9.64422847941812,8
+424,"Collared brown lemur","M","captive",4,0,10.1059381288862,5
+425,"Black lemur","F","wild",1,0,9.34414864787016,2
+426,"Black lemur","M","captive",5,0,7.90336505282195,12
+427,"Collared brown lemur","M","captive",3,0,8.79252404063359,8
+428,"Common brown lemur","M","wild",4,1,6.10305997231958,2
+429,"Common brown lemur","M","captive",1,0,6.74676252182386,8
+430,"Eulemur hybrid","F","captive",4,0,9.39924719249514,5
+431,"Mohol bushbaby","M","wild",3,1,7.55634769245273,4
+432,"Eastern lesser bamboo lemur","F","captive",5,1,11.7942231835839,10
+433,"Mohol bushbaby","M","wild",4,1,5.50709437331602,12
+434,"Collared brown lemur","F","wild",1,0,7.58138559094421,4
+435,"Eastern lesser bamboo lemur","M","wild",4,0,12.9272856217833,10
+436,"Northern greater galago","M","captive",2,1,9.19544871652459,6
+437,"Common brown lemur","F","wild",4,1,10.0731257973772,6
+438,"Black lemur","M","wild",5,0,6.88694234392328,9
+439,"Eastern lesser bamboo lemur","M","captive",1,1,8.36865480854629,7
+440,"Common brown lemur","M","wild",3,1,8.53098033370616,8
+441,"Eulemur hybrid","F","wild",4,1,8.22861903684339,6
+442,"Mohol bushbaby","F","wild",4,1,5.12341883481812,2
+443,"Eulemur hybrid","M","captive",1,0,6.13294442162358,11
+444,"Black lemur","F","captive",5,0,8.19870675418288,3
+445,"Eulemur hybrid","M","captive",4,0,8.8678366419557,10
+446,"Mohol bushbaby","F","wild",2,0,7.56068004637081,8
+447,"Collared brown lemur","M","captive",3,1,6.52496544647071,6
+448,"Eulemur hybrid","M","captive",3,1,7.19344004084193,9
+449,"Black lemur","F","wild",4,1,4.79346600450974,11
+450,"Black lemur","F","wild",2,1,6.70411898615364,11
+451,"Eastern lesser bamboo lemur","M","captive",1,0,12.9276971343839,2
+452,"Northern greater galago","F","captive",4,1,8.18525509558678,8
+453,"Eulemur hybrid","M","wild",5,1,9.14522581807937,8
+454,"Black lemur","F","wild",4,0,8.83299520270302,12
+455,"Mohol bushbaby","F","captive",3,1,10.3158422784718,7
+456,"Collared brown lemur","F","wild",2,1,5.78827907774603,8
+457,"Mohol bushbaby","F","captive",3,1,9.55920142878064,1
+458,"Northern greater galago","M","wild",1,1,5.68444367210849,6
+459,"Collared brown lemur","F","wild",3,1,7.24347313585667,12
+460,"Common brown lemur","M","captive",2,0,6.63055520860177,12
+461,"Collared brown lemur","F","wild",4,1,11.1591138127076,2
+462,"Mohol bushbaby","M","wild",1,1,2.260971942336,7
+463,"Collared brown lemur","F","wild",3,0,7.5279457799021,7
+464,"Mohol bushbaby","F","captive",3,0,8.44586983338781,4
+465,"Eastern lesser bamboo lemur","M","wild",5,1,4.27302181879805,12
+466,"Collared brown lemur","F","captive",5,0,9.51637932780161,8
+467,"Black lemur","F","captive",4,0,8.53519499011679,9
+468,"Eastern lesser bamboo lemur","F","wild",3,0,7.67604792262432,9
+469,"Eulemur hybrid","F","captive",4,0,10.2985708380253,1
+470,"Eulemur hybrid","M","captive",3,0,9.02023204169069,10
+471,"Eastern lesser bamboo lemur","M","wild",3,1,7.44417381264162,7
+472,"Black lemur","F","wild",3,0,6.09220455944906,9
+473,"Northern greater galago","M","wild",3,0,6.78188598348928,5
+474,"Mohol bushbaby","M","captive",3,0,8.05395045235396,3
+475,"Eulemur hybrid","M","captive",2,0,7.37358589018047,6
+476,"Red-fronted brown lemur","M","wild",2,0,5.65230309864897,6
+477,"Black lemur","M","captive",3,0,9.66428251067972,7
+478,"Mohol bushbaby","F","wild",2,0,9.67463420771263,6
+479,"Collared brown lemur","F","wild",1,1,7.64145681940845,5
+480,"Northern greater galago","F","captive",5,0,7.10934169329576,2
+481,"Collared brown lemur","M","captive",2,0,11.0688442772901,12
+482,"Mohol bushbaby","M","captive",4,1,9.30084140792696,12
+483,"Mohol bushbaby","M","captive",2,0,5.73811228716117,2
+484,"Mohol bushbaby","M","wild",4,1,6.09605526327916,1
+485,"Common brown lemur","M","captive",2,1,10.9642565898993,9
+486,"Red-fronted brown lemur","M","wild",4,0,4.71054881184007,7
+487,"Collared brown lemur","M","captive",5,1,8.29740252839478,10
+488,"Collared brown lemur","M","captive",3,1,10.2042124276859,3
+489,"Northern greater galago","M","captive",2,1,7.74263799492289,4
+490,"Eulemur hybrid","F","wild",5,0,8.55423617699169,11
+491,"Northern greater galago","M","wild",4,0,6.32865174809384,5
+492,"Collared brown lemur","F","captive",2,0,7.15241388006843,9
+493,"Common brown lemur","F","captive",4,0,10.2052647574055,8
+494,"Mohol bushbaby","M","wild",4,1,9.83198332397385,10
+495,"Red-fronted brown lemur","F","captive",4,0,4.49175545494325,10
+496,"Common brown lemur","M","captive",3,0,6.88413244916253,12
+497,"Eulemur hybrid","M","wild",2,0,8.55751989048271,5
+498,"Common brown lemur","F","captive",3,0,9.47612999558314,8
+499,"Collared brown lemur","M","captive",2,0,7.09315295971386,11
+500,"Red-fronted brown lemur","F","wild",3,0,7.94852335523771,12
+501,"Eastern lesser bamboo lemur","F","wild",4,1,4.29194501938868,2
+502,"Eastern lesser bamboo lemur","M","captive",3,1,9.81541712692777,9
+503,"Red-fronted brown lemur","M","wild",3,0,7.91401774364709,2
+504,"Collared brown lemur","M","wild",2,0,7.37734541491168,10
+505,"Northern greater galago","F","wild",5,1,10.1939911100145,12
+506,"Common brown lemur","M","wild",2,1,4.99857030387783,1
+507,"Eastern lesser bamboo lemur","M","wild",5,1,9.29257883027257,5
+508,"Collared brown lemur","F","captive",5,0,5.78158710650171,7
+509,"Black lemur","M","captive",4,1,3.17361654006498,5
+510,"Northern greater galago","M","captive",5,1,11.0784467010145,3
+511,"Northern greater galago","M","wild",4,1,6.68264310682018,1
+512,"Eulemur hybrid","F","captive",2,0,8.30039428642794,4
+513,"Common brown lemur","F","captive",4,0,12.7596651339217,2
+514,"Eastern lesser bamboo lemur","M","captive",5,0,6.0847901872635,12
+515,"Mohol bushbaby","F","wild",1,0,5.29883427408007,9
+516,"Black lemur","F","wild",5,1,7.24620858996888,3
+517,"Eulemur hybrid","M","wild",3,1,12.090910913006,4
+518,"Eulemur hybrid","M","captive",4,0,10.4705765784622,7
+519,"Northern greater galago","M","wild",4,0,7.15691441519752,4
+520,"Common brown lemur","F","wild",3,1,9.33630620893014,9
+521,"Northern greater galago","M","wild",3,0,8.08190713501153,1
+522,"Eulemur hybrid","F","wild",4,0,7.89167765327081,7
+523,"Common brown lemur","F","wild",2,1,7.64624614749812,12
+524,"Common brown lemur","M","captive",5,0,10.9325476871557,11
+525,"Black lemur","F","wild",5,0,4.44451177398265,11
+526,"Eastern lesser bamboo lemur","M","captive",3,1,6.10416162470697,10
+527,"Collared brown lemur","F","wild",3,1,6.69413940546164,2
+528,"Eastern lesser bamboo lemur","M","wild",4,0,5.32052761367377,2
+529,"Common brown lemur","F","wild",2,1,4.14147347110961,7
+530,"Common brown lemur","M","wild",4,1,5.30297298861018,5
+531,"Red-fronted brown lemur","F","wild",4,1,5.3067776233062,1
+532,"Collared brown lemur","M","wild",1,0,7.88322839371253,4
+533,"Eastern lesser bamboo lemur","M","wild",2,0,7.27474449588482,9
+534,"Mohol bushbaby","M","wild",5,0,7.22826043238125,1
+535,"Northern greater galago","F","wild",2,0,8.97164758812454,8
+536,"Common brown lemur","F","captive",5,0,8.10889605546553,10
+537,"Collared brown lemur","M","wild",4,1,12.3987697799834,9
+538,"Eulemur hybrid","M","wild",1,1,5.29042439856133,5
+539,"Northern greater galago","F","wild",3,1,9.04346622595643,5
+540,"Collared brown lemur","M","wild",2,1,6.35121805291185,2
+541,"Black lemur","F","wild",1,0,5.78053892000633,7
+542,"Black lemur","F","captive",2,0,12.3349350341904,8
+543,"Black lemur","F","captive",4,0,10.1210983606315,4
+544,"Mohol bushbaby","F","wild",5,1,8.4263810438026,12
+545,"Common brown lemur","F","captive",5,1,7.77065522554738,12
+546,"Mohol bushbaby","F","wild",4,1,3.02273635633061,6
+547,"Northern greater galago","M","wild",4,1,8.80242046508229,3
+548,"Collared brown lemur","F","wild",2,0,5.7250179557785,7
+549,"Eulemur hybrid","M","wild",4,0,6.30674887632309,11
+550,"Eastern lesser bamboo lemur","M","wild",3,0,11.794439208379,3
+551,"Mohol bushbaby","M","wild",4,1,7.47807142425895,6
+552,"Eastern lesser bamboo lemur","F","wild",4,1,8.35299041494867,1
+553,"Red-fronted brown lemur","F","wild",5,1,3.99106957722469,5
+554,"Collared brown lemur","M","wild",4,1,3.5372283035141,12
+555,"Red-fronted brown lemur","F","wild",5,0,10.9607893542583,5
+556,"Northern greater galago","F","captive",4,1,4.67828605352447,7
+557,"Northern greater galago","F","wild",2,1,7.55348668913287,5
+558,"Eulemur hybrid","M","wild",3,0,13.5093168126565,2
+559,"Red-fronted brown lemur","M","wild",2,0,7.38572357503594,1
+560,"Eastern lesser bamboo lemur","M","wild",1,0,10.7825413917281,4
+561,"Eastern lesser bamboo lemur","M","wild",5,0,6.43791825592594,4
+562,"Eastern lesser bamboo lemur","M","captive",5,1,13.3774574878526,9
+563,"Collared brown lemur","M","wild",1,1,8.82439818675513,6
+564,"Eastern lesser bamboo lemur","M","wild",1,0,6.66971663893483,10
+565,"Eastern lesser bamboo lemur","M","wild",2,1,4.76298118929513,1
+566,"Northern greater galago","F","captive",3,1,7.33382984037088,3
+567,"Collared brown lemur","F","captive",4,0,8.07790467281996,5
+568,"Northern greater galago","M","captive",2,1,6.60270247305145,1
+569,"Black lemur","M","captive",1,0,9.55839041108352,12
+570,"Common brown lemur","F","captive",3,0,8.82681989414952,2
+571,"Common brown lemur","M","captive",2,0,9.31871721752062,1
+572,"Mohol bushbaby","F","wild",1,1,10.4526435867246,3
+573,"Black lemur","M","captive",1,0,11.2405967528578,6
+574,"Black lemur","F","wild",1,1,4.11407008318674,7
+575,"Northern greater galago","M","captive",5,0,8.39796303117712,9
+576,"Eulemur hybrid","M","captive",4,1,8.41217884053869,5
+577,"Black lemur","M","wild",4,0,7.29720728779588,12
+578,"Northern greater galago","M","wild",3,1,10.3853890004402,3
+579,"Eulemur hybrid","F","wild",1,1,6.92260385636486,5
+580,"Collared brown lemur","M","captive",5,1,7.97683119255757,4
+581,"Eulemur hybrid","M","wild",4,0,4.84920406339237,6
+582,"Common brown lemur","F","captive",2,0,9.58541517305176,9
+583,"Mohol bushbaby","F","captive",3,1,7.98360840666481,5
+584,"Northern greater galago","F","captive",5,0,12.4557115929988,6
+585,"Northern greater galago","F","wild",5,1,3.34102557739528,10
+586,"Red-fronted brown lemur","M","captive",5,0,12.4075586677004,12
+587,"Mohol bushbaby","M","wild",3,1,9.55664098325164,1
+588,"Mohol bushbaby","M","captive",2,1,9.90636289907676,1
+589,"Black lemur","M","wild",2,1,4.95167051819851,6
+590,"Eastern lesser bamboo lemur","M","captive",5,1,11.7118293348283,7
+591,"Mohol bushbaby","M","captive",1,1,9.45815444912968,10
+592,"Common brown lemur","F","captive",2,0,7.22999226219456,8
+593,"Collared brown lemur","M","captive",5,1,6.29647681770513,9
+594,"Eulemur hybrid","F","wild",2,1,6.29685672118752,6
+595,"Collared brown lemur","F","wild",5,0,8.78929276878895,1
+596,"Common brown lemur","F","wild",2,1,8.50375679006765,4
+597,"Collared brown lemur","F","wild",5,1,9.1286338478101,6
+598,"Mohol bushbaby","M","captive",2,0,10.1949317542039,6
+599,"Red-fronted brown lemur","F","captive",4,1,9.33747193017177,5
+600,"Mohol bushbaby","F","captive",2,1,9.24263099446972,8
+601,"Collared brown lemur","M","captive",1,1,10.6807514049442,2
+602,"Northern greater galago","M","captive",4,1,9.73330587409966,6
+603,"Mohol bushbaby","M","wild",1,1,8.12620667018897,4
+604,"Red-fronted brown lemur","M","captive",3,0,7.73347718701787,5
+605,"Eastern lesser bamboo lemur","F","wild",1,1,5.001883061729,12
+606,"Eulemur hybrid","M","wild",4,0,8.01649330060248,5
+607,"Black lemur","M","wild",4,1,7.98723158409284,5
+608,"Northern greater galago","F","wild",2,1,7.65925709147861,10
+609,"Collared brown lemur","M","captive",2,0,8.20942376089085,7
+610,"Black lemur","F","wild",5,1,10.8065348983793,11
+611,"Black lemur","M","wild",4,1,6.91620534796817,12
+612,"Eulemur hybrid","F","captive",5,0,7.64219772961312,12
+613,"Common brown lemur","M","captive",4,1,10.7514414510203,4
+614,"Red-fronted brown lemur","F","wild",4,1,5.30552001540118,12
+615,"Mohol bushbaby","M","captive",1,0,11.2315087983383,5
+616,"Black lemur","F","wild",4,1,8.05294804248502,10
+617,"Northern greater galago","M","wild",5,1,9.24214896468088,9
+618,"Common brown lemur","F","wild",1,1,2.85437902674235,3
+619,"Eastern lesser bamboo lemur","F","wild",4,1,11.698352840638,3
+620,"Eastern lesser bamboo lemur","M","wild",1,1,6.88480075367759,9
+621,"Red-fronted brown lemur","F","captive",3,0,10.7829041050612,4
+622,"Common brown lemur","F","wild",3,0,7.01977208252943,4
+623,"Northern greater galago","M","wild",4,0,4.16291909866378,12
+624,"Collared brown lemur","M","captive",3,0,9.51010147533834,1
+625,"Mohol bushbaby","M","captive",4,1,11.0098108467655,9
+626,"Black lemur","F","captive",5,0,8.30671621956931,2
+627,"Mohol bushbaby","F","wild",1,0,6.78754890654699,7
+628,"Eulemur hybrid","M","wild",2,0,4.67770773260616,12
+629,"Collared brown lemur","F","captive",5,0,4.96825765231364,4
+630,"Collared brown lemur","F","wild",3,0,7.97523801590446,1
+631,"Common brown lemur","F","wild",1,1,8.96014653399579,12
+632,"Common brown lemur","F","captive",2,0,9.40436260898938,10
+633,"Eulemur hybrid","M","wild",1,1,2.73748563509141,7
+634,"Northern greater galago","F","captive",1,0,12.2882377317954,5
+635,"Eulemur hybrid","F","wild",3,0,10.299838815644,12
+636,"Northern greater galago","M","captive",1,0,10.1767731948109,10
+637,"Common brown lemur","F","wild",2,1,7.63852949831914,1
+638,"Northern greater galago","F","wild",5,1,11.3781540448244,9
+639,"Common brown lemur","F","captive",4,1,9.82836382926482,5
+640,"Black lemur","F","wild",1,0,9.35285469254068,4
+641,"Red-fronted brown lemur","M","captive",1,1,10.1367484774421,10
+642,"Northern greater galago","M","captive",2,1,5.68162180031832,5
+643,"Common brown lemur","M","captive",2,0,11.2592334520778,6
+644,"Black lemur","M","wild",4,1,5.64975348984425,11
+645,"Black lemur","M","wild",1,0,8.12092776149344,12
+646,"Collared brown lemur","M","wild",4,1,5.75801031147133,3
+647,"Black lemur","M","wild",4,1,7.11072628644605,10
+648,"Black lemur","M","captive",2,1,10.9062984664757,7
+649,"Collared brown lemur","F","wild",2,0,4.53816943677109,10
+650,"Northern greater galago","M","captive",2,1,9.58036307924554,3
+651,"Eulemur hybrid","M","captive",1,1,8.80599609387839,1
+652,"Mohol bushbaby","F","captive",5,0,9.22550450053291,5
+653,"Red-fronted brown lemur","M","captive",1,0,13.0116777117483,1
+654,"Mohol bushbaby","M","wild",4,1,6.55675527638955,12
+655,"Northern greater galago","M","wild",2,0,6.53714369366445,6
+656,"Eastern lesser bamboo lemur","M","captive",4,1,11.0400590269004,3
+657,"Common brown lemur","F","captive",2,0,7.8481290496318,2
+658,"Eulemur hybrid","F","captive",1,1,8.21729994676126,6
+659,"Northern greater galago","F","wild",4,0,6.35779099184349,5
+660,"Common brown lemur","M","captive",3,0,10.7858711301538,7
+661,"Black lemur","F","wild",3,1,7.5209201879445,9
+662,"Common brown lemur","F","wild",2,0,7.96376711203808,6
+663,"Red-fronted brown lemur","F","wild",2,0,9.82884130120786,12
+664,"Common brown lemur","M","wild",4,0,8.17903465528503,11
+665,"Collared brown lemur","F","wild",4,0,6.4465632730306,2
+666,"Red-fronted brown lemur","M","wild",4,0,6.3530324979307,2
+667,"Eulemur hybrid","F","captive",5,1,9.5433093913372,4
+668,"Eulemur hybrid","M","captive",1,0,9.39365091908183,2
+669,"Common brown lemur","F","captive",2,0,10.1500758993944,12
+670,"Red-fronted brown lemur","M","wild",3,0,6.32161927315505,7
+671,"Eulemur hybrid","F","captive",5,1,11.5516573616394,12
+672,"Eastern lesser bamboo lemur","M","captive",1,1,11.6070995235668,2
+673,"Mohol bushbaby","M","captive",1,0,11.4134550842564,6
+674,"Common brown lemur","F","wild",2,0,9.31565393051492,8
+675,"Northern greater galago","F","captive",1,0,9.91304696217034,7
+676,"Common brown lemur","F","wild",3,0,8.78063581119069,10
+677,"Eastern lesser bamboo lemur","M","wild",1,0,10.9908119434528,1
+678,"Eulemur hybrid","M","wild",3,1,4.75337980715088,2
+679,"Common brown lemur","F","captive",1,1,9.61605263407735,3
+680,"Common brown lemur","F","captive",4,0,8.83188438161667,9
+681,"Northern greater galago","F","wild",2,0,11.1458728219331,10
+682,"Eulemur hybrid","M","captive",1,1,10.8383096107207,12
+683,"Collared brown lemur","F","captive",4,0,6.73979677323351,3
+684,"Black lemur","M","captive",3,1,9.48799020058203,5
+685,"Eastern lesser bamboo lemur","M","wild",4,0,6.73286899997913,8
+686,"Collared brown lemur","F","wild",1,0,7.3413593769797,8
+687,"Eulemur hybrid","F","captive",4,1,8.19825402007776,9
+688,"Eulemur hybrid","M","wild",3,0,9.4573375761687,6
+689,"Northern greater galago","M","wild",3,1,7.9811838863539,8
+690,"Black lemur","F","captive",5,0,9.76017649172178,8
+691,"Eastern lesser bamboo lemur","F","wild",5,1,9.49672588908499,5
+692,"Eulemur hybrid","M","wild",3,1,12.9483463719345,12
+693,"Northern greater galago","F","captive",3,0,6.5318733302444,1
+694,"Northern greater galago","F","wild",4,0,7.10665330982074,11
+695,"Eastern lesser bamboo lemur","M","captive",5,0,9.72016630297555,12
+696,"Red-fronted brown lemur","F","wild",1,1,3.358306171262,5
+697,"Mohol bushbaby","F","wild",3,1,7.20382266085059,7
+698,"Mohol bushbaby","F","wild",3,0,7.55325924546068,1
+699,"Eulemur hybrid","F","wild",1,0,6.40134708053811,12
+700,"Black lemur","F","wild",4,1,7.67643650349719,2
+701,"Black lemur","M","captive",4,1,7.71457879425603,10
+702,"Red-fronted brown lemur","M","wild",4,1,7.30427226741585,9
+703,"Black lemur","M","wild",2,1,4.52729149031868,2
+704,"Eastern lesser bamboo lemur","M","wild",5,1,5.76599022337122,7
+705,"Collared brown lemur","M","captive",2,1,9.42329350468462,1
+706,"Eulemur hybrid","M","captive",4,1,7.77750688749043,12
+707,"Black lemur","F","captive",2,1,8.6042971695889,10
+708,"Northern greater galago","M","wild",3,1,7.33262139843856,5
+709,"Mohol bushbaby","F","wild",5,0,5.92956101750391,6
+710,"Eulemur hybrid","M","captive",3,0,7.70060654875931,9
+711,"Northern greater galago","F","captive",4,1,10.6310074680588,4
+712,"Common brown lemur","F","captive",2,0,11.3113357209871,6
+713,"Northern greater galago","F","wild",3,0,6.50310559525441,1
+714,"Black lemur","F","wild",4,1,8.15032866333358,3
+715,"Red-fronted brown lemur","F","captive",5,1,6.39296901271191,3
+716,"Eulemur hybrid","F","wild",5,1,6.88271880002277,1
+717,"Northern greater galago","F","captive",1,1,5.79988682477659,9
+718,"Common brown lemur","M","captive",4,1,8.34073984947308,4
+719,"Eastern lesser bamboo lemur","M","captive",4,1,9.80951674657337,6
+720,"Red-fronted brown lemur","F","wild",3,1,5.86582090532993,4
+721,"Black lemur","M","wild",2,1,8.14285755443587,5
+722,"Collared brown lemur","M","wild",5,0,8.34609051161096,4
+723,"Eastern lesser bamboo lemur","M","captive",4,1,11.9404056762042,2
+724,"Collared brown lemur","M","wild",1,1,5.31887770723549,3
+725,"Eastern lesser bamboo lemur","M","wild",2,1,8.4930973488255,4
+726,"Black lemur","M","captive",5,0,9.23857500156876,1
+727,"Eastern lesser bamboo lemur","M","wild",1,0,8.06770582980984,8
+728,"Eastern lesser bamboo lemur","M","captive",3,1,12.8812768386814,3
+729,"Black lemur","F","wild",2,0,7.1307044081564,11
+730,"Eulemur hybrid","F","wild",5,1,7.08526653199453,7
+731,"Mohol bushbaby","M","wild",4,0,8.27946823436365,10
+732,"Mohol bushbaby","F","captive",1,1,12.147575608593,8
+733,"Collared brown lemur","F","captive",5,1,8.77359892830641,4
+734,"Northern greater galago","M","captive",2,0,7.1975153790655,12
+735,"Common brown lemur","F","captive",3,0,10.2733736031044,3
+736,"Mohol bushbaby","M","captive",3,0,7.71049709949814,12
+737,"Collared brown lemur","F","wild",4,1,11.0612466483933,10
+738,"Northern greater galago","M","captive",2,1,4.59983973274124,9
+739,"Eulemur hybrid","M","wild",4,0,10.9053075224524,4
+740,"Common brown lemur","F","captive",5,0,9.05413654245974,6
+741,"Black lemur","M","captive",4,1,13.7451200870858,1
+742,"Mohol bushbaby","F","captive",2,0,9.96821061653526,3
+743,"Red-fronted brown lemur","M","captive",3,1,5.64256144663481,10
+744,"Common brown lemur","F","captive",4,0,10.5244034825468,6
+745,"Eulemur hybrid","F","captive",3,0,9.0996731820143,5
+746,"Black lemur","F","captive",2,1,11.762051925524,2
+747,"Eulemur hybrid","M","wild",2,0,5.80221032991015,6
+748,"Collared brown lemur","F","captive",2,1,7.53987587862305,8
+749,"Common brown lemur","M","wild",1,0,9.29733011742504,6
+750,"Red-fronted brown lemur","F","wild",2,1,7.68876741414006,12
+751,"Northern greater galago","M","captive",5,0,12.2858262533309,3
+752,"Eastern lesser bamboo lemur","F","captive",1,1,5.65072831485302,5
+753,"Eulemur hybrid","F","wild",4,1,2.6049706256527,2
+754,"Common brown lemur","F","wild",1,1,5.38465787695115,10
+755,"Northern greater galago","M","wild",1,1,7.15509301005774,5
+756,"Northern greater galago","M","wild",5,0,5.7124381037924,3
+757,"Northern greater galago","F","wild",1,0,7.49309355412426,7
+758,"Mohol bushbaby","F","wild",2,0,10.2876381186473,8
+759,"Northern greater galago","M","wild",2,0,6.87519939781126,7
+760,"Red-fronted brown lemur","M","captive",2,1,9.3037367275527,11
+761,"Black lemur","M","captive",2,0,13.2994088865654,6
+762,"Mohol bushbaby","F","wild",2,0,6.1408776159449,6
+763,"Red-fronted brown lemur","F","wild",4,1,6.02463747684699,2
+764,"Collared brown lemur","F","wild",2,0,5.19256994243279,9
+765,"Collared brown lemur","M","wild",3,0,5.31156390968043,9
+766,"Eastern lesser bamboo lemur","M","captive",3,0,9.67300477952094,9
+767,"Black lemur","M","wild",1,1,8.74744736083861,8
+768,"Common brown lemur","M","wild",1,0,5.25493103857381,1
+769,"Black lemur","F","wild",3,1,7.88601706392265,11
+770,"Eastern lesser bamboo lemur","F","captive",4,1,8.99784141726093,3
+771,"Black lemur","M","captive",3,1,10.8349592011441,6
+772,"Black lemur","M","captive",3,1,7.68599174159292,6
+773,"Northern greater galago","F","captive",3,1,10.6313991731628,4
+774,"Eulemur hybrid","M","wild",4,0,7.57309881594802,2
+775,"Eulemur hybrid","F","captive",3,1,9.23773322299838,5
+776,"Collared brown lemur","F","captive",5,0,8.46796537177839,12
+777,"Black lemur","M","wild",4,1,7.11109663695198,1
+778,"Black lemur","F","captive",3,1,6.81822160159412,2
+779,"Red-fronted brown lemur","F","wild",1,1,8.41832803269386,1
+780,"Black lemur","F","wild",1,1,4.79185610568523,10
+781,"Northern greater galago","M","wild",5,0,7.67733273002033,3
+782,"Black lemur","F","captive",2,1,7.66533060198806,2
+783,"Northern greater galago","M","wild",4,0,3.97791954352049,2
+784,"Collared brown lemur","F","captive",1,1,12.1328297091863,2
+785,"Eastern lesser bamboo lemur","M","wild",2,1,7.29004601890473,4
+786,"Eastern lesser bamboo lemur","M","captive",1,0,9.15979292108453,1
+787,"Collared brown lemur","M","wild",5,1,8.41185861847548,5
+788,"Black lemur","F","captive",2,0,7.24412170107206,8
+789,"Eastern lesser bamboo lemur","M","captive",5,0,10.2119085801831,6
+790,"Red-fronted brown lemur","M","wild",1,0,6.59408209047178,1
+791,"Black lemur","M","wild",2,1,11.4814794998065,4
+792,"Eulemur hybrid","F","wild",1,1,7.72407520738322,9
+793,"Eulemur hybrid","F","captive",3,1,8.9604277071004,10
+794,"Northern greater galago","F","captive",1,1,10.7664499121052,11
+795,"Common brown lemur","M","wild",5,0,5.23622465238705,2
+796,"Eastern lesser bamboo lemur","M","captive",5,1,9.45701477471989,3
+797,"Red-fronted brown lemur","M","captive",2,1,9.97848181837943,5
+798,"Collared brown lemur","M","captive",1,1,8.87899589732765,5
+799,"Eulemur hybrid","F","wild",2,1,9.22317513350487,5
+800,"Eastern lesser bamboo lemur","F","captive",4,0,6.65406548822182,5
+801,"Common brown lemur","M","captive",5,0,9.89019577235615,1
+802,"Red-fronted brown lemur","M","wild",2,1,10.2435951731411,3
+803,"Red-fronted brown lemur","M","captive",4,1,9.12911105636662,4
+804,"Common brown lemur","F","captive",2,0,9.55415931871353,10
+805,"Northern greater galago","M","wild",1,0,10.927361852255,4
+806,"Common brown lemur","M","wild",1,1,6.6752411377449,11
+807,"Northern greater galago","M","wild",4,0,3.99317645354449,3
+808,"Northern greater galago","M","wild",3,0,3.72531075568703,10
+809,"Eulemur hybrid","F","wild",2,0,5.45244786588409,5
+810,"Eastern lesser bamboo lemur","F","wild",4,1,9.21720907844096,3
+811,"Black lemur","F","captive",3,1,9.80331285922047,11
+812,"Black lemur","F","captive",3,1,8.65476669782816,6
+813,"Common brown lemur","M","wild",4,1,8.58046864800984,12
+814,"Collared brown lemur","M","captive",5,1,11.009258608071,8
+815,"Eulemur hybrid","M","wild",3,1,6.52007311538407,2
+816,"Eastern lesser bamboo lemur","F","wild",2,1,3.93574220862462,8
+817,"Mohol bushbaby","F","captive",4,0,8.44455266018078,3
+818,"Eastern lesser bamboo lemur","F","captive",5,0,8.68825275325137,2
+819,"Eulemur hybrid","F","captive",4,1,6.46101266388344,3
+820,"Eulemur hybrid","M","captive",1,1,7.86432439816332,2
+821,"Collared brown lemur","M","captive",4,0,10.161557347936,1
+822,"Eulemur hybrid","F","wild",2,0,10.6938733924462,6
+823,"Mohol bushbaby","M","captive",5,1,8.47211695614592,1
+824,"Eastern lesser bamboo lemur","F","captive",3,0,8.50759739237844,3
+825,"Collared brown lemur","M","wild",3,1,6.16470634947277,3
+826,"Eulemur hybrid","M","wild",3,1,8.82975793420527,5
+827,"Red-fronted brown lemur","M","wild",3,0,2.62585787792781,9
+828,"Common brown lemur","F","captive",3,1,10.2121819604413,9
+829,"Northern greater galago","M","captive",5,0,6.90091712574597,3
+830,"Northern greater galago","F","wild",5,1,7.8966684269093,3
+831,"Eastern lesser bamboo lemur","F","wild",2,0,4.62157444181361,6
+832,"Collared brown lemur","M","wild",1,0,6.90240593772624,6
+833,"Collared brown lemur","F","captive",2,1,10.3355636297652,4
+834,"Eulemur hybrid","F","captive",2,1,7.66204689393755,8
+835,"Mohol bushbaby","F","wild",1,0,4.7993509968539,12
+836,"Collared brown lemur","M","wild",3,1,8.09400818240212,2
+837,"Black lemur","M","captive",3,0,12.0815471398889,8
+838,"Mohol bushbaby","F","captive",3,0,10.1115308427127,9
+839,"Eulemur hybrid","F","captive",3,1,10.303994432291,9
+840,"Common brown lemur","F","wild",4,0,8.94423636096095,8
+841,"Common brown lemur","M","wild",2,1,4.53310812236188,6
+842,"Common brown lemur","M","captive",1,1,7.705819777941,3
+843,"Collared brown lemur","M","wild",5,1,5.775734037318,10
+844,"Eulemur hybrid","M","captive",4,0,9.3663127168554,9
+845,"Northern greater galago","F","captive",1,1,12.3125805919014,1
+846,"Eulemur hybrid","F","captive",5,1,9.45576871095718,7
+847,"Eastern lesser bamboo lemur","M","wild",1,1,8.14825669846276,9
+848,"Mohol bushbaby","F","captive",2,0,9.40857482379266,8
+849,"Common brown lemur","M","wild",5,1,3.60393477113803,8
+850,"Northern greater galago","F","wild",1,1,6.90163823030851,9
+851,"Black lemur","M","captive",5,0,8.65115139853693,5
+852,"Common brown lemur","M","captive",2,0,9.30725934215883,2
+853,"Red-fronted brown lemur","F","wild",3,1,9.32828022970444,6
+854,"Common brown lemur","F","wild",3,1,3.79579224417955,8
+855,"Eastern lesser bamboo lemur","M","captive",3,1,11.4634426101536,4
+856,"Northern greater galago","M","wild",1,0,6.21589751769498,2
+857,"Mohol bushbaby","M","wild",2,1,6.09103114436809,8
+858,"Mohol bushbaby","M","captive",4,0,9.85169693763006,3
+859,"Eastern lesser bamboo lemur","F","wild",3,1,7.79919238038026,12
+860,"Collared brown lemur","M","captive",5,1,9.3658362057696,6
+861,"Eulemur hybrid","M","captive",5,0,9.16713303405653,8
+862,"Common brown lemur","F","captive",1,1,9.15007154252373,6
+863,"Collared brown lemur","M","wild",5,0,4.72702407534176,6
+864,"Mohol bushbaby","M","captive",5,0,6.68151133502156,5
+865,"Eulemur hybrid","M","wild",5,0,7.49626000839469,4
+866,"Mohol bushbaby","F","captive",2,0,7.92648779794283,1
+867,"Northern greater galago","M","captive",4,0,7.70411169321583,4
+868,"Northern greater galago","F","wild",3,1,7.01654429913819,10
+869,"Common brown lemur","F","captive",2,1,6.69585396282979,11
+870,"Red-fronted brown lemur","M","captive",5,0,8.1599899204364,4
+871,"Black lemur","F","wild",2,0,5.39530485384088,3
+872,"Red-fronted brown lemur","M","wild",3,0,9.3319927471159,3
+873,"Collared brown lemur","F","wild",4,0,7.96246825122378,3
+874,"Black lemur","M","wild",3,0,6.85785322423591,5
+875,"Eulemur hybrid","M","wild",3,1,5.97916735596372,1
+876,"Black lemur","M","wild",4,0,5.780305994358,7
+877,"Black lemur","F","captive",1,1,8.69394138364279,9
+878,"Black lemur","M","wild",4,1,7.65960303160491,5
+879,"Red-fronted brown lemur","F","wild",5,1,5.6661953051522,3
+880,"Collared brown lemur","F","captive",3,0,8.55920097606044,11
+881,"Black lemur","F","wild",1,0,5.36936125922927,3
+882,"Red-fronted brown lemur","M","captive",1,0,6.8297758737157,12
+883,"Eastern lesser bamboo lemur","F","captive",3,1,12.0800423832767,12
+884,"Eastern lesser bamboo lemur","F","wild",4,1,7.51858120496443,2
+885,"Eastern lesser bamboo lemur","M","captive",4,0,8.76388382773343,12
+886,"Red-fronted brown lemur","M","wild",2,0,7.95555127448347,8
+887,"Common brown lemur","F","wild",5,1,7.99708301506372,8
+888,"Red-fronted brown lemur","M","captive",5,0,9.15083742621654,7
+889,"Northern greater galago","M","wild",4,0,7.87305078914415,8
+890,"Red-fronted brown lemur","M","wild",4,0,2.90382004813903,8
+891,"Red-fronted brown lemur","F","wild",2,0,6.67323845980887,6
+892,"Northern greater galago","F","wild",3,1,8.64377628079957,9
+893,"Eulemur hybrid","M","wild",4,1,8.61194720020626,10
+894,"Eastern lesser bamboo lemur","M","wild",3,0,8.01286383945989,10
+895,"Mohol bushbaby","M","wild",2,0,8.4737233056877,10
+896,"Red-fronted brown lemur","M","captive",5,1,8.2112970023623,10
+897,"Mohol bushbaby","F","wild",3,0,12.0099713873176,7
+898,"Mohol bushbaby","M","captive",1,0,10.3254006808809,3
+899,"Common brown lemur","F","captive",2,0,10.8268361476797,5
+900,"Red-fronted brown lemur","F","captive",5,0,8.74422133497018,2
+901,"Eulemur hybrid","F","wild",3,1,6.22333851389934,8
+902,"Eulemur hybrid","M","wild",5,0,6.07672268554377,3
+903,"Collared brown lemur","F","wild",3,0,5.40259195825763,4
+904,"Collared brown lemur","M","captive",5,1,9.08851483141064,4
+905,"Eulemur hybrid","F","captive",3,0,10.1746956747742,8
+906,"Northern greater galago","M","captive",3,1,6.81066955659913,5
+907,"Northern greater galago","F","wild",4,0,6.4132432789785,4
+908,"Collared brown lemur","F","captive",5,0,9.48266316781642,5
+909,"Collared brown lemur","F","captive",5,0,7.2109375155839,1
+910,"Eastern lesser bamboo lemur","M","wild",3,0,10.3886896378076,9
+911,"Black lemur","F","captive",2,0,11.2583180693482,12
+912,"Red-fronted brown lemur","M","captive",1,0,8.39138698377692,3
+913,"Collared brown lemur","M","captive",4,0,11.0331671562656,5
+914,"Mohol bushbaby","F","wild",2,0,7.17376214253011,3
+915,"Northern greater galago","M","wild",2,1,9.24171774292826,7
+916,"Eulemur hybrid","M","captive",5,1,10.4827075600397,11
+917,"Common brown lemur","F","captive",4,1,6.22330827248116,6
+918,"Black lemur","M","wild",4,1,3.64560091207429,5
+919,"Mohol bushbaby","F","captive",5,0,12.0120031990223,6
+920,"Red-fronted brown lemur","F","wild",2,1,6.22391590137986,3
+921,"Eulemur hybrid","F","wild",5,1,6.22588139161054,6
+922,"Common brown lemur","M","captive",1,0,7.50580804372234,12
+923,"Northern greater galago","M","captive",3,0,12.1925710802093,5
+924,"Black lemur","M","captive",1,1,9.9282617316716,2
+925,"Collared brown lemur","M","captive",3,0,11.2471841268192,3
+926,"Red-fronted brown lemur","F","wild",1,0,9.20302756876683,6
+927,"Eulemur hybrid","M","captive",1,1,8.0339272267944,6
+928,"Northern greater galago","M","captive",5,1,10.1391067522504,7
+929,"Collared brown lemur","F","captive",2,0,6.90794981711,3
+930,"Black lemur","M","wild",2,0,9.46203105194493,7
+931,"Black lemur","F","wild",5,0,7.24748823436802,9
+932,"Northern greater galago","F","wild",2,0,6.77078268724633,11
+933,"Black lemur","M","captive",2,1,11.8926533515145,4
+934,"Eastern lesser bamboo lemur","F","captive",5,1,10.7203218009893,10
+935,"Black lemur","M","wild",5,0,5.39035460744818,4
+936,"Common brown lemur","M","wild",2,1,7.73428306577001,6
+937,"Eulemur hybrid","F","wild",3,0,8.23318397028348,4
+938,"Eulemur hybrid","F","captive",2,0,6.99225389456609,10
+939,"Mohol bushbaby","F","captive",1,0,8.78525872531677,8
+940,"Eastern lesser bamboo lemur","F","captive",1,1,8.18880428722632,7
+941,"Common brown lemur","F","captive",5,1,8.82278373530316,2
+942,"Common brown lemur","M","captive",1,1,10.6468604750445,6
+943,"Collared brown lemur","F","wild",2,0,5.50972174879214,1
+944,"Northern greater galago","F","wild",3,1,7.06407297794238,11
+945,"Northern greater galago","M","captive",2,0,6.98737080953091,3
+946,"Black lemur","F","wild",4,0,4.55105826616718,11
+947,"Eulemur hybrid","M","captive",4,0,8.97412742530248,9
+948,"Common brown lemur","F","wild",4,0,9.35725225660769,2
+949,"Red-fronted brown lemur","F","wild",1,0,10.3544189667896,8
+950,"Black lemur","M","wild",3,1,10.9132408355887,8
+951,"Red-fronted brown lemur","M","wild",4,0,8.73146353599326,12
+952,"Northern greater galago","F","wild",3,0,5.43503786642723,7
+953,"Eastern lesser bamboo lemur","F","captive",2,1,7.81986753258173,1
+954,"Black lemur","F","wild",1,0,4.52754009274986,1
+955,"Mohol bushbaby","M","captive",4,1,7.47161381652055,6
+956,"Common brown lemur","M","wild",2,1,7.2120020875442,11
+957,"Red-fronted brown lemur","F","wild",4,1,7.43811835876671,7
+958,"Eastern lesser bamboo lemur","F","captive",3,0,10.1135113994083,9
+959,"Red-fronted brown lemur","F","wild",5,1,8.27994557200123,1
+960,"Eulemur hybrid","M","captive",2,1,7.93478407791894,3
+961,"Eastern lesser bamboo lemur","M","wild",1,0,7.26585271609051,7
+962,"Collared brown lemur","M","wild",3,1,6.88697554572185,12
+963,"Collared brown lemur","F","captive",1,1,6.48316579558293,11
+964,"Collared brown lemur","M","captive",2,0,10.2513848173563,8
+965,"Eulemur hybrid","F","wild",2,1,9.74534400856713,6
+966,"Black lemur","M","wild",2,0,5.87873767825597,10
+967,"Common brown lemur","M","wild",3,0,8.5719312828931,2
+968,"Black lemur","M","captive",4,1,5.24813756636238,10
+969,"Eastern lesser bamboo lemur","F","wild",3,0,6.81634170943775,10
+970,"Eastern lesser bamboo lemur","M","wild",2,0,8.83043426651908,10
+971,"Common brown lemur","F","wild",5,1,6.07126352026372,3
+972,"Common brown lemur","F","wild",3,0,6.93036116605574,5
+973,"Collared brown lemur","F","wild",4,0,12.2766208297965,5
+974,"Mohol bushbaby","F","captive",5,1,8.13915796277269,2
+975,"Red-fronted brown lemur","F","wild",2,1,3.96829221760957,12
+976,"Collared brown lemur","F","wild",4,1,8.64603657071627,7
+977,"Eulemur hybrid","F","captive",2,1,5.67063719665072,10
+978,"Northern greater galago","F","wild",3,0,4.95332334924152,10
+979,"Common brown lemur","F","wild",5,1,8.37149385255167,12
+980,"Eulemur hybrid","F","wild",1,0,4.55765108709365,3
+981,"Red-fronted brown lemur","F","wild",3,0,8.99968256577897,5
+982,"Common brown lemur","M","wild",5,0,5.79508689044415,4
+983,"Red-fronted brown lemur","M","wild",1,0,6.3105476519108,5
+984,"Red-fronted brown lemur","M","wild",4,1,3.37994909453364,6
+985,"Common brown lemur","M","wild",4,0,2.34917591617354,5
+986,"Black lemur","M","captive",1,0,10.8880115526876,2
+987,"Eastern lesser bamboo lemur","F","wild",3,1,5.62220553960022,5
+988,"Mohol bushbaby","M","captive",2,0,8.73564526619118,6
+989,"Black lemur","M","captive",3,0,9.93807901488585,12
+990,"Red-fronted brown lemur","F","wild",5,1,9.76200270450077,9
+991,"Collared brown lemur","M","wild",4,0,4.75186979433445,9
+992,"Eulemur hybrid","F","wild",5,0,5.7351521302601,1
+993,"Collared brown lemur","F","wild",4,1,7.47430981817182,12
+994,"Common brown lemur","F","wild",5,1,6.74199984323685,9
+995,"Common brown lemur","F","wild",4,0,7.13798922864705,3
+996,"Eastern lesser bamboo lemur","M","wild",2,0,4.8585945982406,4
+997,"Black lemur","M","wild",4,1,6.36843946155443,6
+998,"Red-fronted brown lemur","F","wild",3,1,2.67492843400279,3
+999,"Red-fronted brown lemur","F","wild",3,0,8.06087077607748,1
+1000,"Eastern lesser bamboo lemur","M","captive",4,0,9.9555392371187,2
+1001,"Northern greater galago","F","captive",4,0,5.79746204387756,11
+1002,"Northern greater galago","M","captive",1,1,12.1380255711311,6
+1003,"Red-fronted brown lemur","M","captive",3,1,8.26352155060891,6
+1004,"Collared brown lemur","M","captive",5,0,9.60393087724442,7
+1005,"Eastern lesser bamboo lemur","M","wild",4,1,6.14419004782455,2
+1006,"Mohol bushbaby","M","wild",5,1,11.1033624748544,4
+1007,"Eulemur hybrid","M","wild",2,1,5.43763234894513,12
+1008,"Black lemur","F","captive",4,0,9.12772608623705,9
+1009,"Mohol bushbaby","F","captive",4,0,10.478432583032,1
+1010,"Black lemur","M","captive",3,0,9.01351765476812,5
+1011,"Common brown lemur","F","wild",3,0,4.06669227387153,6
+1012,"Northern greater galago","M","captive",3,0,14.971644876291,10
+1013,"Red-fronted brown lemur","F","wild",1,0,4.8665963703829,7
+1014,"Common brown lemur","F","wild",4,1,7.44909682313843,8
+1015,"Northern greater galago","F","wild",1,1,6.0928153143697,9
+1016,"Eulemur hybrid","M","wild",3,0,6.84343828305953,9
+1017,"Eulemur hybrid","F","captive",2,0,7.43909227378337,5
+1018,"Eastern lesser bamboo lemur","M","wild",1,0,5.74875209784524,6
+1019,"Eulemur hybrid","M","wild",5,1,6.66753502205956,10
+1020,"Eulemur hybrid","M","captive",3,0,8.16916255496187,10
+1021,"Eulemur hybrid","F","wild",5,1,4.86113377241073,2
+1022,"Collared brown lemur","F","wild",3,1,6.5165589169298,7
+1023,"Mohol bushbaby","F","captive",5,1,10.384152576863,11
+1024,"Eulemur hybrid","M","captive",4,0,9.90298680005739,10
+1025,"Mohol bushbaby","F","wild",1,1,2.66753243148913,9
+1026,"Common brown lemur","F","captive",4,0,7.89680909657096,6
+1027,"Common brown lemur","M","wild",3,1,6.99249351188671,2
+1028,"Eulemur hybrid","F","captive",4,1,10.0883899893077,5
+1029,"Collared brown lemur","F","wild",1,0,4.48618159374996,12
+1030,"Collared brown lemur","M","captive",1,0,10.7536667916993,4
+1031,"Eulemur hybrid","F","captive",2,0,8.81383383924189,12
+1032,"Black lemur","M","captive",5,0,8.76657103000408,7
+1033,"Eulemur hybrid","M","wild",2,0,6.63261173861809,7
+1034,"Eulemur hybrid","M","wild",3,1,7.41958867210663,5
+1035,"Eulemur hybrid","F","captive",5,0,4.38300661322514,2
+1036,"Eastern lesser bamboo lemur","M","wild",1,0,7.83210574394753,11
+1037,"Collared brown lemur","F","captive",1,0,9.02845365998121,11
+1038,"Collared brown lemur","M","captive",3,0,10.5367336983999,8
+1039,"Red-fronted brown lemur","M","captive",2,0,11.404783995187,1
+1040,"Eastern lesser bamboo lemur","M","wild",1,1,9.2975274350071,10
+1041,"Mohol bushbaby","F","captive",2,0,8.41710764114387,11
+1042,"Black lemur","M","wild",4,1,10.5965419703017,5
+1043,"Eastern lesser bamboo lemur","F","captive",1,1,13.6367581678598,6
+1044,"Mohol bushbaby","M","captive",5,1,8.20218252776733,5
+1045,"Red-fronted brown lemur","F","wild",3,1,2.64906409509619,11
+1046,"Collared brown lemur","F","captive",1,0,9.44928399579711,10
+1047,"Northern greater galago","M","wild",5,1,5.986605979511,2
+1048,"Black lemur","M","captive",4,1,12.2491862663171,8
+1049,"Mohol bushbaby","M","captive",2,1,11.0985971143275,7
+1050,"Black lemur","M","captive",1,1,12.1010580424322,10
+1051,"Common brown lemur","M","captive",5,1,8.71377517743243,8
+1052,"Eastern lesser bamboo lemur","M","captive",4,1,4.91303087388916,11
+1053,"Mohol bushbaby","M","wild",3,1,1.96450067530271,11
+1054,"Red-fronted brown lemur","F","wild",2,1,4.93089988336291,3
+1055,"Eastern lesser bamboo lemur","F","wild",2,1,4.41971774416148,9
+1056,"Red-fronted brown lemur","F","wild",2,1,8.5112116504472,11
+1057,"Eulemur hybrid","F","wild",1,0,8.7871250774849,2
+1058,"Northern greater galago","M","captive",4,0,8.14109488370317,3
+1059,"Eulemur hybrid","M","captive",4,0,11.0693929383806,3
+1060,"Common brown lemur","M","wild",4,1,7.17183599140243,7
+1061,"Collared brown lemur","M","captive",4,0,6.9841820448205,8
+1062,"Eulemur hybrid","F","wild",4,1,8.94226930134437,12
+1063,"Northern greater galago","M","wild",5,0,8.05768146384093,5
+1064,"Eulemur hybrid","M","captive",1,0,8.0213310686454,10
+1065,"Mohol bushbaby","F","captive",2,1,8.02385206263708,8
+1066,"Mohol bushbaby","F","captive",2,0,12.3609847590244,1
+1067,"Black lemur","F","wild",5,1,4.0829154669408,6
+1068,"Collared brown lemur","M","wild",5,0,8.45000710638095,10
+1069,"Eulemur hybrid","F","wild",1,1,6.77268094604497,7
+1070,"Red-fronted brown lemur","F","wild",3,1,4.77436858087421,11
+1071,"Red-fronted brown lemur","F","captive",3,1,9.75456284680079,6
+1072,"Black lemur","M","wild",4,0,8.78010481542501,2
+1073,"Common brown lemur","F","captive",2,0,10.0618961797314,11
+1074,"Northern greater galago","F","captive",4,0,8.32071539072267,5
+1075,"Mohol bushbaby","F","captive",5,1,10.1797809717083,11
+1076,"Northern greater galago","M","captive",4,1,10.1089363834921,1
+1077,"Northern greater galago","F","captive",3,1,10.9874108364876,2
+1078,"Eastern lesser bamboo lemur","M","captive",3,1,9.02474926504391,1
+1079,"Northern greater galago","M","wild",2,1,8.48036493055971,3
+1080,"Eastern lesser bamboo lemur","M","wild",1,1,5.85440384272686,7
+1081,"Mohol bushbaby","F","wild",1,1,6.85932195479115,2
+1082,"Eastern lesser bamboo lemur","F","wild",4,0,10.739541751065,4
+1083,"Eastern lesser bamboo lemur","M","captive",1,1,10.260720098863,9
+1084,"Common brown lemur","M","wild",3,0,2.05131321162927,4
+1085,"Eastern lesser bamboo lemur","M","wild",1,1,5.03490291072161,7
+1086,"Red-fronted brown lemur","F","captive",2,0,11.1576493778037,11
+1087,"Common brown lemur","F","wild",2,0,7.45114737791658,8
+1088,"Common brown lemur","F","captive",3,0,9.14255077484137,7
+1089,"Black lemur","M","captive",3,0,9.59539791441141,6
+1090,"Mohol bushbaby","F","wild",4,1,8.55392175097384,2
+1091,"Mohol bushbaby","F","wild",4,0,10.8980369277286,7
+1092,"Red-fronted brown lemur","M","wild",1,0,5.50982750670661,3
+1093,"Eastern lesser bamboo lemur","F","captive",5,1,8.23776208325899,6
+1094,"Eastern lesser bamboo lemur","M","wild",5,1,3.45312075869637,11
+1095,"Mohol bushbaby","M","wild",2,0,9.01817178736521,12
+1096,"Northern greater galago","M","wild",5,0,4.42911484224709,12
+1097,"Red-fronted brown lemur","F","captive",4,0,9.23644316667674,2
+1098,"Eulemur hybrid","F","wild",5,0,3.39734137151356,2
+1099,"Common brown lemur","M","wild",1,0,7.83926540340664,7
+1100,"Eulemur hybrid","M","captive",2,0,7.67768375425852,11
+1101,"Black lemur","F","captive",4,0,7.38085397490452,11
+1102,"Black lemur","M","wild",5,1,7.46306929149913,6
+1103,"Northern greater galago","F","wild",1,1,4.95251839126704,6
+1104,"Common brown lemur","F","wild",4,1,5.71988059799032,10
+1105,"Northern greater galago","M","wild",5,0,7.08623827391764,12
+1106,"Eulemur hybrid","M","captive",1,1,9.75604911063886,6
+1107,"Eastern lesser bamboo lemur","M","captive",4,1,11.8770892378921,10
+1108,"Red-fronted brown lemur","F","captive",5,0,11.9583814097185,4
+1109,"Eulemur hybrid","M","wild",1,1,5.49645651942597,8
+1110,"Collared brown lemur","M","wild",4,1,9.35731013970297,2
+1111,"Eulemur hybrid","M","captive",3,0,10.1899035534816,5
+1112,"Eastern lesser bamboo lemur","F","captive",3,1,9.59666583134824,6
+1113,"Red-fronted brown lemur","M","captive",5,1,6.42639460362779,5
+1114,"Red-fronted brown lemur","F","wild",4,0,6.92100275839218,2
+1115,"Common brown lemur","F","captive",1,1,8.22688768054095,11
+1116,"Red-fronted brown lemur","M","captive",1,1,9.48972615574766,6
+1117,"Northern greater galago","F","captive",1,0,8.52309928920387,9
+1118,"Eastern lesser bamboo lemur","M","captive",4,0,10.0740782666402,1
+1119,"Black lemur","F","captive",3,1,12.0943051559126,7
+1120,"Red-fronted brown lemur","F","captive",2,0,9.70380896551867,4
+1121,"Eastern lesser bamboo lemur","F","wild",1,1,7.9795405091732,1
+1122,"Mohol bushbaby","F","captive",2,1,7.77399063737884,3
+1123,"Eulemur hybrid","M","captive",3,1,9.67678879915412,3
+1124,"Common brown lemur","F","captive",3,0,4.95601148475281,7
+1125,"Northern greater galago","F","captive",2,1,7.61589229146143,11
+1126,"Collared brown lemur","M","wild",3,1,8.99508747893195,9
+1127,"Northern greater galago","F","captive",5,0,5.65779687790266,7
+1128,"Mohol bushbaby","M","wild",5,1,5.99848939021057,7
+1129,"Mohol bushbaby","F","wild",5,1,9.1634914420564,6
+1130,"Collared brown lemur","M","captive",5,1,6.12436040236563,3
+1131,"Mohol bushbaby","F","wild",5,0,5.71884998077141,8
+1132,"Common brown lemur","M","captive",1,1,11.4758294163063,9
+1133,"Black lemur","M","captive",2,0,8.48879014651505,8
+1134,"Northern greater galago","F","wild",5,0,5.80730235574504,8
+1135,"Black lemur","F","captive",1,1,5.75413807935344,7
+1136,"Red-fronted brown lemur","F","wild",2,0,7.55529774948928,11
+1137,"Black lemur","M","captive",4,1,9.22516652086835,4
+1138,"Collared brown lemur","M","captive",1,0,9.78605112560616,9
+1139,"Black lemur","F","captive",2,1,12.3909670187479,4
+1140,"Collared brown lemur","M","captive",4,0,4.41436661984477,1
+1141,"Eulemur hybrid","M","wild",3,1,9.4818381728969,7
+1142,"Eastern lesser bamboo lemur","F","wild",5,1,7.21182244558453,2
+1143,"Mohol bushbaby","F","captive",2,0,8.43242878907389,10
+1144,"Eastern lesser bamboo lemur","M","captive",4,0,9.77598596799487,1
+1145,"Red-fronted brown lemur","F","wild",3,0,4.14297955237638,9
+1146,"Black lemur","M","captive",1,1,9.07322801178213,2
+1147,"Northern greater galago","F","wild",5,0,7.01489402200677,4
+1148,"Collared brown lemur","F","captive",4,0,7.72443070433867,12
+1149,"Black lemur","F","wild",5,1,6.90930247868627,4
+1150,"Eulemur hybrid","M","wild",5,0,8.60587562125451,10
+1151,"Collared brown lemur","F","wild",4,0,4.55784345851747,10
+1152,"Collared brown lemur","F","wild",2,1,4.27989829885743,6
+1153,"Black lemur","F","captive",2,1,9.33833815416012,7
+1154,"Common brown lemur","F","wild",1,1,7.08635327102799,8
+1155,"Common brown lemur","M","captive",1,0,10.4285044266073,3
+1156,"Northern greater galago","F","wild",3,1,7.86858749564382,11
+1157,"Eastern lesser bamboo lemur","F","wild",4,1,6.89451012344761,6
+1158,"Collared brown lemur","F","captive",4,0,6.67836893255269,12
+1159,"Northern greater galago","F","captive",5,0,6.32437645686545,7
+1160,"Black lemur","F","captive",1,0,9.35601415867323,6
+1161,"Common brown lemur","F","captive",2,0,12.5512419037896,1
+1162,"Eastern lesser bamboo lemur","M","captive",1,0,9.80338871734979,9
+1163,"Common brown lemur","M","captive",2,1,11.2622551796459,9
+1164,"Common brown lemur","F","captive",3,0,11.8856325715355,6
+1165,"Common brown lemur","M","wild",1,1,8.95702378848895,12
+1166,"Eastern lesser bamboo lemur","M","captive",5,0,11.0413978139793,8
+1167,"Eastern lesser bamboo lemur","M","captive",1,0,11.5486198356629,9
+1168,"Collared brown lemur","F","wild",2,0,9.83951247609363,7
+1169,"Northern greater galago","F","wild",4,1,8.57926294723541,10
+1170,"Eulemur hybrid","F","wild",3,0,8.78128283799853,7
+1171,"Eastern lesser bamboo lemur","F","wild",3,1,6.0397620798456,5
+1172,"Mohol bushbaby","F","wild",4,1,8.2483044918683,11
+1173,"Northern greater galago","F","captive",3,1,9.26392907960319,5
+1174,"Collared brown lemur","F","captive",1,1,6.64135610217855,7
+1175,"Eulemur hybrid","F","wild",2,1,6.10590446391503,8
+1176,"Black lemur","M","captive",4,0,5.99852315862348,4
+1177,"Red-fronted brown lemur","F","captive",4,1,5.2908494911146,8
+1178,"Northern greater galago","F","wild",4,0,10.1017899626159,4
+1179,"Northern greater galago","F","captive",3,1,13.6958858395085,10
+1180,"Black lemur","M","wild",1,1,6.9305240201957,3
+1181,"Eastern lesser bamboo lemur","M","wild",2,0,6.47420662453336,9
+1182,"Common brown lemur","M","wild",4,0,4.83942554004598,4
+1183,"Common brown lemur","F","wild",4,1,6.35628918777594,1
+1184,"Northern greater galago","M","wild",4,0,5.44144164694612,11
+1185,"Mohol bushbaby","F","captive",1,0,11.2374745924884,1
+1186,"Northern greater galago","F","wild",5,0,7.53030077987342,10
+1187,"Black lemur","M","wild",4,1,6.20510507905163,5
+1188,"Northern greater galago","M","captive",4,0,9.11221544444822,2
+1189,"Eulemur hybrid","F","captive",1,1,7.33114168269356,11
+1190,"Red-fronted brown lemur","M","captive",4,0,6.8904560997248,3
+1191,"Red-fronted brown lemur","M","captive",2,0,12.8213941435777,12
+1192,"Eastern lesser bamboo lemur","F","wild",3,0,4.29489690660362,10
+1193,"Eulemur hybrid","M","captive",5,0,12.7012828215918,5
+1194,"Collared brown lemur","M","wild",5,1,10.9458110982469,11
+1195,"Common brown lemur","M","captive",3,1,10.1766328473807,7
+1196,"Black lemur","M","captive",3,0,4.10817089469627,7
+1197,"Eulemur hybrid","F","wild",5,0,6.12942999180413,6
+1198,"Red-fronted brown lemur","M","captive",1,0,4.79219649681252,12
+1199,"Collared brown lemur","M","wild",4,1,6.4058552355286,2
+1200,"Black lemur","F","wild",2,0,8.27734657130854,11

@@ -4,7 +4,8 @@
 # Date: 18 November 2024
 # Contact: khushaal.nandwani@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: The raw data file should be present in the data/raw_data folde
+# Pre-requisites: The raw data file should be present in the data/raw_data folder. 
+#                 If not, run 02-download_data.r to download it.
 
 ## Workspace Setup ##
 library(tidyverse)
