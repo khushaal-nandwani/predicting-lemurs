@@ -1,6 +1,3 @@
-- TODO: Correct figure captions
-- TODO: Correct figure locations in appendix
-
 # Predicting a Lemur's Lifespan in Wild and Captivity
 
 This repository contains the neccessary code, data and files for producing the paper "Predicting a Lemur's Lifespan in Wild and Captivity".
