@@ -7,7 +7,7 @@ The [paper](/paper/paper.pdf) is available in the paper folder. THe models creat
 The study explores the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center. It employs statistical modeling techniques to analyze the impact of variables such as sex, species, genus, and birth month on lemur longevity.
 
 ## LLM Usage
-Certain code and text was written using the help of ChatGPT 4o. Its usage can be tracked under [llm_usage.txt](other/llm_usage.txt).
+Certain code and text was written using the help of ChatGPT 4o. Its usage can be tracked under [llm_usage.txt](other/llm_usage/llm_usage.txt).
 
 # File Structure
 
@@ -18,10 +18,8 @@ The repository is structured as follows:
     - `raw_data/`: Contains the raw data used
     - `predictions/`: Contains the predictions made by the models we created.
 - `paper/`: Contains the final paper and the references file.
-- `other/`: Contains the LLM usage file.
+- `other/`: 
+    - `llm_usage/`: Contains the llm usage file.
+    - `sketches/`: Contains the sketches used for the paper.
 - `models/`: Contains the models we created.
 - `scripts/`: Contains the scripts used for the analysis, cleaning, downloading data, making predictions and creating models.
-
-
-- Update readme of backend
-- Upload sketches
