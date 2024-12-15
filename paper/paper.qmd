@@ -48,7 +48,7 @@ Lemurs are the world’s most endangered group of mammals (@citedukelemurcenter)
 
 My study uses a dataset from the DLC to analyze if and how sex, species, genus and month a lemur is born in can affect its lifespan in the wild and captivity. This study can help us understand which lemur species we are struggling to conserve in captivity and their corresponding performance in the wild. It will highlight areas where our conservation efforts have been effective.
 
-The estimand for our model is the age or the lifespan of the lemur. The predictors are `Sex`, `Species`, `Genus`, and `month_born`. 
+The estimand for our model is the age or the lifespan of the lemur in wild and captive enviornments. The predictors are `Sex`, `Species`, `Genus`, and `month_born`. 
 
 Using Generalized Linear Models (GLMs) with Gaussian distribution, factors including sex, species, genus, and birth month were evaluated to predict lemur longevity in wild and captive. To do this, the dataset was divided into wild-born and captive-born lemurs to understand the differences in lifespan between the two environments and separate models were built for each group.
 
