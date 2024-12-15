@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: [https://github.com/khushaal-nandwani/predicting-lemurs/tree/main](https://github.com/khushaal-nandwani/predicting-lemurs/tree/main)."
 date: today
 date-format: long
-abstract: "This study investigates the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis highlights that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The findings show species-specific variations in lifespan and the pronounced influence of sex differences in captivity. These insights help identify effective practices in captivity and suggest areas for improvement to optimize conservation strategies, contributing to the survival of this endangered mammalian group."
+abstract: "This study investigates the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis found that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The study also identified species-specific variations in lifespan and a pronounced influence of sex in captivity. The findings from this study can help determine what we are doing right and where we are going wrong."
 format: pdf
 number-sections: true
 toc: true
@@ -44,15 +44,15 @@ captive_model <- readRDS("../models/captive_model.rds")
 
 # Introduction 
 
-Lemurs are the world’s most endangered group of mammals (@citedukelemurcenter). Understanding the factors that influence their lifespan is crucial for guiding effective conservation efforts. The Duke Lemur Center (DLC), established in 1966, has played a pivotal role in the study and preservation of lemurs, maintaining the largest population of these species outside their native region Madagascar. Different factors can affect the longevity of lemurs in wild and captive. Longevity is important because the longer lemurs live, the more likely they are to reproduce and hence, contribute to the survival of their species.
+Lemurs are the world’s most endangered group of mammals (@citedukelemurcenter). Understanding the factors that influence their lifespan is important for guiding effective conservation efforts. The Duke Lemur Center (DLC), established in 1966, has played a pivotal role in the study and preservation of lemurs, maintaining the largest population of these species outside their native region Madagascar. Different factors can affect the longevity of lemurs in wild and captive. Longevity is important because the longer lemurs live, the more likely they are to reproduce and hence, contribute to the survival of their species.
 
-My study uses a dataset from the DLC to analyze if and how sex, species, genus and month a lemur is born in can affect its lifespan in the wild and captivity. This study can provide insights into which lemur species we are struggling to conserve in captivity and their performance in the wild. It will highlight areas where our conservation efforts have been effective.
+My study uses a dataset from the DLC to analyze if and how sex, species, genus and month a lemur is born in can affect its lifespan in the wild and captivity. This study can help us understand which lemur species we are struggling to conserve in captivity and their corresponding performance in the wild. It will highlight areas where our conservation efforts have been effective.
 
 The estimand for our model is the age or the lifespan of the lemur. The predictors are `Sex`, `Species`, `Genus`, and `month_born`. 
 
 Using Generalized Linear Models (GLMs) with Gaussian distribution, factors including sex, species, genus, and birth month were evaluated to predict lemur longevity in wild and captive. To do this, the dataset was divided into wild-born and captive-born lemurs to understand the differences in lifespan between the two environments and separate models were built for each group.
 
-The findings reveal that lemurs in captivity exhibit significantly longer lifespans. Males tend to live longer than females in both captive and wild environments, however the difference is more pronounced in captivity. Species-specific variations in lifespan were observed, with some species thriving in captivity while others perform better in the wild. Birth month effects were inconsistent, suggesting complex interactions with environmental factors.
+The findings show that lemurs in captivity exhibit significantly longer lifespans. Males tend to live longer than females in both captive and wild environments, however the difference is more pronounced in captivity. Species-specific variations in lifespan were observed, with some species thriving in captivity while others perform better in the wild. Birth month effects were inconsistent, suggesting complex interactions with environmental factors.
 
 The remainder of this paper is structured as follows: @sec-data details the data collection and processing methods. @sec-model outlines the modeling approach. @sec-results presents the results, highlighting key differences between wild and captive lemurs. The discussion in @sec-discussion contextualizes these findings, addressing limitations and proposing future directions for research. Finally, @sec-appendix is the appendix and includes additional information on data cleaning, the analysis dataset, and the model dataset. @sec-appendix-surveys includes the details of surveys and observational data. 
 
@@ -202,12 +202,12 @@ wild_plot_age + captive_plot_age
 ## Data Collection {#sec-data_collection}
 The data in these sources was acquired and processed by staff at the Duke Lemur Center (DLC). 
 
-### Data Acquisition
+### Data Acquisition {#sec-data-acquisition}
  As @3zehr points out, DLC staff collected data about the lemurs according to standard operating procedures and USDA, AZA, and IACUC guidelines. They recorded information about births, deaths, weights, enclosure moves, behaviors, and other significant events on a daily basis. Originally, this data was stored in handwritten and typed paper formats. Later, it was computerized. 
 
 In the mid-1990s, the DLC started using two databases: the Animal Record Keeping System (ARKS) and MedARKS. These databases allowed the DLC to share information with other organizations through the International Species Information System (ISIS). The DLC is currently transitioning to using the Zoological Information Management System (ZIMS). Data not stored in these databases has been stored in spreadsheets, and the DLC is working on transferring data from older records into these databases.
 
-### Data Processing
+### Data Processing {#sec-data-processing}
 The DLC used SAS software to build a database for the lemur data. Data from various sources was imported into SAS Enterprise Guide, including ARKS, MedARKS, ZIMS, and spreadsheets. They wrote programs in SAS to extract, match, and join data, calculate new variables, and format the output. They also used tools within SAS Enterprise Guide Projects for calculations and formatting. The DLC uses a unique ID to match data for individual animals, and the taxonomic name for species-related variables. The data was validated by identifying and locating missing data, standardizing codes and text, investigating outliers, and comparing known values to the database output.Data that could not be verified was excluded from the published dataset. 
 
 The DLC created two data files from the database: **the DLC Animal List**, which contains single-copy variables for each animal in the colony's history, and **the DLC Weight File**, which contains all weight measurements for each animal. We used the DLC Animal List for this analysis, which was first cleaned by @cookson_duke_lemur_center and then I clean it. The steps I took for cleaning the data can be found in @sec-appendix-data-cleaning.
@@ -253,6 +253,12 @@ I chose a Gaussian family distribution for the model because the dependent varia
 
 A combined model was tried, where `birth_type` was taken as the predictor variable, but it had worse residual and p values, so I decided to go with two separate models for wild and captive lemurs. The seperate models allow us to better understand the factors affecting the lifespan of lemurs in each environment, making them easy to visualize. At the expense of, not being able to study the interaction effects of `birth_type` with other predictors.
 
+## Model API and Frontend
+The model API code along with its instructions is available on the GitHub repository [https://github.com/khushaal-nandwani/predicting-lemurs-api](https://github.com/khushaal-nandwani/predicting-lemurs-api). Please read the Readme file in the repository for more information on how to call the API. 
+
+There is also a frontend developed for the api, where one can dynamically enter the `sex`, `genus`, `species` and `month_born` of the lemur and can get predictions for that lemur's lifespan in both wild and captive enviorments. The frontend is live at [http://3.99.183.165:5173/](http://3.99.183.165:5173/). The code for the frontend is available at [https://github.com/khushaal-nandwani/predicting-lemurs-frontend](https://github.com/khushaal-nandwani/predicting-lemurs-frontend).
+
+The API is built using FastAPI and deployed on an AWS EC2 Instance. The frontend app is made in Vue and deployed on the same EC2 Instance.
 
 
 # Results {#sec-results}
@@ -412,7 +418,7 @@ month_plot <- ggplot(month_plot_data, aes(x = month_born, y = avg_age, fill = pr
 month_plot
 ```
 
-For months in @fig-month-born-effects, we see captive lemurs outlive wild lemurs most of the months except August, January, March, Novemeber and September. It is worth exploring the reasons behind these differences by Duke Lemur Center, as they can provide insights into the impact of seasonal factors on lemur lifespan. 
+For months in @fig-month-born-effects, we see captive lemurs outlive wild lemurs most of the months except August, January, March, Novemeber and September. It is worth exploring the reasons behind these differences by Duke Lemur Center, as they can help us understand the impact of seasonal factors on lemur lifespan. 
 
 ## Effect of Species on Age
 ```{r}
@@ -461,18 +467,18 @@ Once again in species as seen in @fig-species-effects, we see captive lemurs liv
 This paper investigates the lifespan of lemurs across wild and captive environments, utilizing data from the Duke Lemur Center (DLC). Generalized Linear Models (GLMs) with Gaussian distribution are used to analyze how factors such as sex, species, genus, and birth month impact lemur longevity. Separate models are developed for wild-born and captive-born lemurs to account for environmental differences. The study identifies patterns of increased longevity in captive lemurs and emphasizes species-specific conservation strategies.
 
 ## Key Findings 
-One key insight is that captivity significantly increases lemur lifespan. Controlled environments provide consistent access to food, medical care, and protection from predators, reducing environmental stresses that contribute to shorter lifespans in the wild. This finding underscores the importance of captivity as a conservation tool for endangered species like lemurs.
+We learn that captivity significantly increases lemur lifespan. Controlled environments provide consistent access to food, medical care, and protection from predators, reducing environmental stresses that contribute to shorter lifespans in the wild. This finding underscores the importance of captivity as a conservation tool for endangered species like lemurs.
 
-Species-specific differences in lifespan emerge as a critical factor. Most of the species thrive in captivity due to tailored conservation practices, while some including `ALB`, `COR`, `MAC`, and `MON` perform better in the wild. Understanding the reasons behind these variations can inform targeted conservation efforts to improve outcomes.
+Species-specific differences in lifespan emerge as a factor. Most of the species thrive in captivity due to tailored conservation practices, while some including `ALB`, `COR`, `MAC`, and `MON` perform better in the wild. Understanding the reasons behind these variations can inform targeted conservation efforts to improve outcomes.
 
 Even though no specific trend was observed for birth month, lemurs born in August and November tend to live longer in the wild than in captivity. It is worth exploring the underlying cause for this. 
 
 Additionally, the greater influence of sex on lifespan in captivity contrasts with its less pronounced effects in the wild opens up avenues for further research and mitigating any short comings in our conservation efforts.
 
 ## Drawbacks of the Study
-While the study provides valuable insights, it has its limitations. First, the dataset is skewed towards captive lemurs, limiting the robustness of wild lifespan analysis. 
+Despite some useful findings, the study has its limitations. First, the dataset is skewed towards captive lemurs, limiting the robustness of wild lifespan analysis. 
 
-Second, the exclusion of interactions between birth type and other predictors in the combined model reduces the depth of insights. 
+Second, the exclusion of interactions between birth type and other predictors was a tradeoff worth reconsidering.
 
 Third, some predictors, like birth month, have inconsistent or weak effects, indicating potential noise in the data or the need for more refined models. 
 
@@ -492,7 +498,7 @@ Future research should focus on:
 
 5. Studying the infant mortality rate and its impact on overall lemur lifespan.
 
-6. Using advanced modeling techniques like Bayesian models or neural networks for more nuanced predictions.
+6. Using modeling techniques like Bayesian models or neural networks to improve predictive accuracy.
 
 By addressing these areas, conservationists can develop targeted strategies to enhance the survival of lemurs both in the wild and in captivity. Such studies help us understand what are we doing right in conservation efforts, and where should we focus next. 
 
@@ -508,7 +514,7 @@ The study relies on observational data collected by the Duke Lemur Center (DLC),
 
 ## Data Collection Methodology
 
-The Duke Lemur Center employed standard operating procedures to gather data, adhering to USDA, AZA, and IACUC guidelines. The original data was handwritten and later digitized into two primary databases: the Animal Record Keeping System (ARKS) and MedARKS, and subsequently the Zoological Information Management System (ZIMS). These steps ensured consistency and traceability but may have introduced biases, particularly during digitization. More on this can be found in @sec-data_collection.
+The Duke Lemur Center employed standard operating procedures to gather data, adhering to USDA, AZA, and IACUC guidelines. The original data was handwritten and later digitized into two primary databases: the Animal Record Keeping System (ARKS) and MedARKS, and subsequently the Zoological Information Management System (ZIMS). These steps ensured consistency and traceability but may have introduced biases, particularly during digitization. More on how the data was acquired can be found in @sec-data-acquisition.
 
 ## Sampling Frame
 
@@ -526,13 +532,13 @@ To address this, statistical adjustments such as weighting could be applied, tho
 
 ## Literature Context
 
-The methodologies align with best practices in ecological studies, as outlined by Zehr et al. (2014), who emphasize the importance of longitudinal tracking and database integration for species conservation. The use of generalized linear models (GLMs) aligns with approaches recommended in similar studies to account for categorical and continuous predictors.
+The methodologies align with best practices in ecological studies, as outlined by Zehr et al. (2014), who emphasize the importance of longitudinal tracking and database integration for species conservation. The use of generalized linear models (GLMs) aligns with approaches recommended in similar studies to account for categorical and continuous predictors. More on how the data was processed can be found in @sec-data-processing.
 
 ## Key Takeaways
 
-The study’s observational nature limits causal inference but provides valuable insights into factors influencing lemur longevity.
+The study’s observational nature limits causal inference but helps us understand factors influencing lemur longevity.
 Careful data cleaning and validation steps mitigate some biases, but limitations persist, particularly regarding the underrepresentation of wild populations.
-Future work could employ advanced sampling techniques or collaborative data pooling with other conservation organizations to improve generalizability.
+Future work could employ other sampling techniques or collaborative data pooling with other conservation organizations to improve generalizability.
 
 # Data Cleaning {#sec-appendix-data-cleaning}
 I took the following steps to clean the raw data and prepare it for analysis:
