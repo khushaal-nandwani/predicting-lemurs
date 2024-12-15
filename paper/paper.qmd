@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: [https://github.com/khushaal-nandwani/predicting-lemurs/tree/main](https://github.com/khushaal-nandwani/predicting-lemurs/tree/main)."
 date: today
 date-format: long
-abstract: "This study investigates the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis found that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The study also identified species-specific variations in lifespan and a pronounced influence of sex in captivity. The findings from this study can help determine what we are doing right and where we are going wrong."
+abstract: "This study investigates the lifespan of lemurs in wild and captive environments using data from the Duke Lemur Center, aiming to identify how factors such as sex, species, genus, and birth month influence longevity. Using Generalized Linear Models, the analysis found that lemurs in captivity live significantly longer than their wild counterparts, emphasizing the impact of conservation practices. The study also identified species-specific variations in lifespan and a pronounced influence of sex in captivity. The findings from this study can help determine what we are doing right and where we are going wrong in our conservation efforts for this endangered species."
 format: pdf
 number-sections: true
 toc: true
