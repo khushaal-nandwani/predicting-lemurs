@@ -10,7 +10,7 @@ abstract: "This study investigates the lifespan of lemurs in wild and captive en
 format: pdf
 number-sections: true
 toc: true
-bibliography: ref.bib
+bibliography: references.bib
 # editor:
 #   render-on-save: true
 ---
